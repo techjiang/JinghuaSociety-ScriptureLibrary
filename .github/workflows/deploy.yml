@@ -33,7 +33,10 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm ci
+        # 用 npm install 而非 npm ci：项目依赖使用 next/latest 浮动版本，
+        # 且本地 npm 11 与 CI 的 npm 10 对 peer 依赖的记录存在差异，
+        # npm install 对两者都容错。
+        run: npm install --no-audit --no-fund
 
       - name: Build site
         run: npm run docs:build
