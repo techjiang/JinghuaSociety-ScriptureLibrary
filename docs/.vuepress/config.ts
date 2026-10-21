@@ -18,7 +18,7 @@ export default defineUserConfig({
 
   head: [
     ['link', { rel: 'icon', href: isBuild ? '/JinghuaSociety-ScriptureLibrary/favicon.svg' : '/favicon.svg', type: 'image/svg+xml' }],
-    ['meta', { name: 'theme-color', content: '#2563eb' }],
+    ['meta', { name: 'theme-color', content: '#c0392b' }],
     ['meta', { name: 'author', content: '精华社' }],
   ],
 

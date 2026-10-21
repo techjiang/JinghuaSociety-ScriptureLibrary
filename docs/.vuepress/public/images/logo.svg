@@ -1,6 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" font-family="'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
-  <!-- 徽章：纯色圆角方块，无渐变 -->
-  <rect width="48" height="48" rx="10" fill="#1e40af"/>
-  <!-- 单字徽记：阁 -->
-  <text x="24" y="34" text-anchor="middle" font-size="30" font-weight="700" fill="#ffffff">阁</text>
+  <!-- 印章：朱红方印，微圆角保留现代感 -->
+  <rect width="48" height="48" rx="7" fill="#c0392b"/>
+  <!-- 印面细白线，增加印章质感 -->
+  <rect x="4.5" y="4.5" width="39" height="39" rx="4" stroke="#ffffff" stroke-opacity="0.35" stroke-width="1.5"/>
+  <!-- 单字：阁 -->
+  <text x="24" y="34" text-anchor="middle" font-size="29" font-weight="700" fill="#ffffff">阁</text>
 </svg>
