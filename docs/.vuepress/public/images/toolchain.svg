@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200" fill="none" font-family="'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="t1" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <!-- fnm -->
+  <rect x="30" y="60" width="120" height="80" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="90" y="90" text-anchor="middle" font-size="14" font-weight="700" fill="#15803d">fnm</text>
+  <text x="90" y="112" text-anchor="middle" font-size="10" fill="#16a34a">管 Node 版本</text>
+  <text x="90" y="128" text-anchor="middle" font-size="10" fill="#64748b">多项目切换不打架</text>
+  <!-- pnpm -->
+  <rect x="190" y="60" width="120" height="80" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="250" y="90" text-anchor="middle" font-size="14" font-weight="700" fill="#1e40af">pnpm</text>
+  <text x="250" y="112" text-anchor="middle" font-size="10" fill="#2563eb">管依赖包</text>
+  <text x="250" y="128" text-anchor="middle" font-size="10" fill="#64748b">快、省、严</text>
+  <!-- VS Code -->
+  <rect x="350" y="60" width="120" height="80" rx="10" fill="#fdf4ff" stroke="#a855f7" stroke-width="2"/>
+  <text x="410" y="90" text-anchor="middle" font-size="14" font-weight="700" fill="#7e22ce">VS Code</text>
+  <text x="410" y="112" text-anchor="middle" font-size="10" fill="#a21caf">管写代码</text>
+  <text x="410" y="128" text-anchor="middle" font-size="10" fill="#64748b">ESLint+Prettier</text>
+  <!-- Chrome -->
+  <rect x="510" y="60" width="100" height="80" rx="10" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+  <text x="560" y="90" text-anchor="middle" font-size="14" font-weight="700" fill="#c2410c">Chrome</text>
+  <text x="560" y="112" text-anchor="middle" font-size="10" fill="#9a3412">管调试</text>
+  <text x="560" y="128" text-anchor="middle" font-size="10" fill="#64748b">DevTools</text>
+  <!-- 箭头 -->
+  <line x1="152" y1="100" x2="184" y2="100" stroke="#2563eb" stroke-width="2" marker-end="url(#t1)"/>
+  <line x1="312" y1="100" x2="344" y2="100" stroke="#2563eb" stroke-width="2" marker-end="url(#t1)"/>
+  <line x1="472" y1="100" x2="504" y2="100" stroke="#2563eb" stroke-width="2" marker-end="url(#t1)"/>
+  <!-- 底部 -->
+  <text x="320" y="30" text-anchor="middle" font-size="13" font-weight="700" fill="#334155">前端环境四件套：各管一摊，十年不用换</text>
+  <text x="320" y="172" text-anchor="middle" font-size="11" fill="#94a3b8">Git 管版本，贯穿始终（见 Git 快速上手）</text>
+</svg>

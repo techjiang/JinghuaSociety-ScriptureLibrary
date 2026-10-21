@@ -1,0 +1,23 @@
+{
+  "name": "jinghua-scripture-library",
+  "version": "1.0.0",
+  "description": "精华社 · 藏经阁 —— 基于 VuePress Theme Plume 的知识文库",
+  "private": true,
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:dev:clean": "vuepress dev docs --clean-cache"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "next",
+    "katex": "^0.19.0",
+    "typescript": "^7.0.2",
+    "vite": "^7.3.7",
+    "vue": "^3.5.13",
+    "vuepress": "next",
+    "vuepress-theme-plume": "latest"
+  }
+}

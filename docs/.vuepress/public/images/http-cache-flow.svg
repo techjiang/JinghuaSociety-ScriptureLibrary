@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" fill="none" font-family="'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#475569"/>
+    </marker>
+  </defs>
+  <!-- 浏览器 -->
+  <rect x="20" y="110" width="110" height="60" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="75" y="145" text-anchor="middle" font-size="15" font-weight="700" fill="#1e40af">浏览器</text>
+  <!-- 本地缓存 -->
+  <rect x="190" y="20" width="120" height="50" rx="8" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="250" y="42" text-anchor="middle" font-size="13" font-weight="700" fill="#a16207">本地缓存</text>
+  <text x="250" y="60" text-anchor="middle" font-size="10" fill="#a16207">内存 / 磁盘</text>
+  <!-- 服务器 -->
+  <rect x="500" y="110" width="120" height="60" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="560" y="145" text-anchor="middle" font-size="15" font-weight="700" fill="#15803d">服务器</text>
+  <!-- 判断1：强缓存 -->
+  <rect x="190" y="110" width="120" height="60" rx="8" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <text x="250" y="135" text-anchor="middle" font-size="13" font-weight="700" fill="#1e40af">强缓存</text>
+  <text x="250" y="153" text-anchor="middle" font-size="11" fill="#64748b">max-age 还有效？</text>
+  <!-- 判断2：协商缓存 -->
+  <rect x="360" y="110" width="120" height="60" rx="8" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <text x="420" y="135" text-anchor="middle" font-size="13" font-weight="700" fill="#1e40af">协商缓存</text>
+  <text x="420" y="153" text-anchor="middle" font-size="11" fill="#64748b">ETag 还对得上？</text>
+  <!-- 连线 -->
+  <line x1="132" y1="140" x2="182" y2="140" stroke="#475569" stroke-width="2" marker-end="url(#arr2)"/>
+  <line x1="132" y1="125" x2="240" y2="75" stroke="#475569" stroke-width="2" marker-end="url(#arr2)"/>
+  <line x1="312" y1="140" x2="352" y2="140" stroke="#475569" stroke-width="2" marker-end="url(#arr2)"/>
+  <text x="332" y="130" text-anchor="middle" font-size="11" fill="#16a34a" font-weight="700">过期</text>
+  <line x1="482" y1="140" x2="492" y2="140" stroke="#475569" stroke-width="2" marker-end="url(#arr2)"/>
+  <!-- 结果标注 -->
+  <text x="250" y="200" text-anchor="middle" font-size="12" fill="#ca8a04" font-weight="700">命中 → 直接用，不发请求</text>
+  <text x="420" y="200" text-anchor="middle" font-size="12" fill="#2563eb" font-weight="700">带 If-None-Match 问服务器</text>
+  <text x="560" y="200" text-anchor="middle" font-size="12" fill="#16a34a" font-weight="700">304 用副本 / 200 下新的</text>
+  <!-- 策略提示 -->
+  <rect x="190" y="240" width="430" height="44" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="405" y="266" text-anchor="middle" font-size="12" fill="#475569">生产策略：HTML 走协商缓存（no-cache），带 hash 的静态资源走长期强缓存（max-age=1年）</text>
+</svg>

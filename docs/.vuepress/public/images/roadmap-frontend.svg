@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" fill="none" font-family="'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="r1" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <!-- 阶段盒子 -->
+  <rect x="30" y="30" width="130" height="60" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="95" y="55" text-anchor="middle" font-size="13" font-weight="700" fill="#1e40af">HTML/CSS</text>
+  <text x="95" y="75" text-anchor="middle" font-size="10" fill="#64748b">页面的骨架和皮肉</text>
+
+  <rect x="30" y="120" width="130" height="60" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="95" y="145" text-anchor="middle" font-size="13" font-weight="700" fill="#1e40af">JS 语言核心</text>
+  <text x="95" y="165" text-anchor="middle" font-size="10" fill="#64748b">语法/DOM/异步</text>
+
+  <rect x="30" y="210" width="130" height="60" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="95" y="235" text-anchor="middle" font-size="13" font-weight="700" fill="#1e40af">工程化</text>
+  <text x="95" y="255" text-anchor="middle" font-size="10" fill="#64748b">Git/npm/构建</text>
+
+  <rect x="250" y="30" width="130" height="60" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="315" y="55" text-anchor="middle" font-size="13" font-weight="700" fill="#1e3a8a">框架</text>
+  <text x="315" y="75" text-anchor="middle" font-size="10" fill="#1e40af">Vue / React 二选一</text>
+
+  <rect x="250" y="120" width="130" height="60" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="315" y="145" text-anchor="middle" font-size="13" font-weight="700" fill="#1e3a8a">TypeScript</text>
+  <text x="315" y="165" text-anchor="middle" font-size="10" fill="#1e40af">类型即文档</text>
+
+  <rect x="250" y="210" width="130" height="60" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="315" y="235" text-anchor="middle" font-size="13" font-weight="700" fill="#1e3a8a">Node.js</text>
+  <text x="315" y="255" text-anchor="middle" font-size="10" fill="#1e40af">能写接口懂 BFF</text>
+
+  <rect x="470" y="120" width="130" height="60" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="535" y="145" text-anchor="middle" font-size="13" font-weight="700" fill="#15803d">性能与部署</text>
+  <text x="535" y="165" text-anchor="middle" font-size="10" fill="#16a34a">把东西发上线</text>
+
+  <!-- 箭头 -->
+  <line x1="95" y1="95" x2="95" y2="115" stroke="#2563eb" stroke-width="2" marker-end="url(#r1)"/>
+  <line x1="95" y1="185" x2="95" y2="205" stroke="#2563eb" stroke-width="2" marker-end="url(#r1)"/>
+  <line x1="165" y1="60" x2="245" y2="60" stroke="#2563eb" stroke-width="2" marker-end="url(#r1)"/>
+  <line x1="165" y1="150" x2="245" y2="150" stroke="#2563eb" stroke-width="2" marker-end="url(#r1)"/>
+  <line x1="165" y1="240" x2="245" y2="240" stroke="#2563eb" stroke-width="2" marker-end="url(#r1)"/>
+  <line x1="385" y1="60" x2="385" y2="115" stroke="#2563eb" stroke-width="2" marker-end="url(#r1)"/>
+  <line x1="385" y1="185" x2="385" y2="205" stroke="#2563eb" stroke-width="2" marker-end="url(#r1)"/>
+  <line x1="385" y1="150" x2="465" y2="150" stroke="#2563eb" stroke-width="2" marker-end="url(#r1)"/>
+  <!-- 警告 -->
+  <rect x="470" y="210" width="140" height="60" rx="10" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="540" y="235" text-anchor="middle" font-size="13" font-weight="700" fill="#a16207">最大的坑</text>
+  <text x="540" y="255" text-anchor="middle" font-size="10" fill="#a16207">跳过 JS 直接学框架</text>
+</svg>
