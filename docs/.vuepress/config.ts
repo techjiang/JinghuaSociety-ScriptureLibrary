@@ -14,7 +14,7 @@ export default defineUserConfig({
   lang: 'zh-CN',
   base: isBuild ? '/JinghuaSociety-ScriptureLibrary/' : '/',
   title: '精华社 · 藏经阁',
-  description: '计算机、互联网与信息技术 —— 教程、技术笔记与资源整理，写给正在路上的人',
+  description: '精华社 · 藏经阁 —— 专注前端开发、后端服务、Linux 运维、数据库与计算机网络的技术笔记站。提供 Git、Docker、Nginx、JavaScript、HTTP、Redis、SQL、VuePress 等实用教程、原理笔记与学习路线，每篇文章都经过实践验证。',
 
   head: [
     ['link', { rel: 'icon', href: isBuild ? '/JinghuaSociety-ScriptureLibrary/favicon.svg' : '/favicon.svg', type: 'image/svg+xml' }],
@@ -38,9 +38,9 @@ export default defineUserConfig({
     editLink: false,
     lastUpdated: false,
 
-    // 全站水印
+    // 全站水印（已按站长要求关闭）
     watermark: {
-      enabled: true,
+      enabled: false,
       fullPage: true,
       content: '精华社 · 藏经阁',
       opacity: 0.06,
@@ -77,6 +77,12 @@ export default defineUserConfig({
         link: '/blog/',
         icon: 'material-symbols:edit-document-outline',
         activeMatch: '^/blog/',
+      },
+      {
+        text: '友链',
+        link: '/links/',
+        icon: 'material-symbols:link-rounded',
+        activeMatch: '^/links/',
       },
     ],
 

@@ -1,5 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <rect width="64" height="64" rx="14" fill="#2563eb"/>
-  <path d="M18 22l9 10-9 10" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M33 42h14" stroke="#fff" stroke-width="4.5" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="0.55" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <path d="M18 17 C18 15.4 19.2 15 20.6 15.6 L32 20.4 L32 48 L20.6 43.2 C19.2 42.6 18 42.2 18 40.6 Z" fill="#ffffff" opacity="0.95"/>
+  <path d="M46 17 C46 15.4 44.8 15 43.4 15.6 L32 20.4 L32 48 L43.4 43.2 C44.8 42.6 46 42.2 46 40.6 Z" fill="#ffffff" opacity="0.78"/>
+  <path d="M32 20.4 L32 48" stroke="#2563eb" stroke-width="1.6"/>
+  <path d="M24.5 27 L19 31.5 L24.5 36" stroke="#2563eb" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M39.5 27 L45 31.5 L39.5 36" stroke="#2563eb" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M35.5 25 L28.5 38" stroke="#2563eb" stroke-width="2.6" stroke-linecap="round"/>
 </svg>

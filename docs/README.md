@@ -6,8 +6,8 @@ config:
   - type: hero
     hero:
       name: 精华社 · 藏经阁
-      text: 计算机、互联网与信息技术的学习笔记
-      tagline: 教程 · 技术 · 资源，写给正在路上的人
+      text: 把计算机与互联网技术，讲成听得懂的人话
+      tagline: 前端 · 后端 · 运维 · 数据库，每篇都亲手跑过才写
       actions:
         - text: 开始阅读
           link: /tutorial/

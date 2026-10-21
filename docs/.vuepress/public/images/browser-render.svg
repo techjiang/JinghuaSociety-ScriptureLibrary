@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" fill="none" font-family="'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="br" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <!-- 输入 -->
+  <rect x="15" y="85" width="90" height="50" rx="8" fill="#f8fafc" stroke="#64748b" stroke-width="1.5"/>
+  <text x="60" y="106" text-anchor="middle" font-size="12" font-weight="700" fill="#334155">HTML</text>
+  <text x="60" y="122" text-anchor="middle" font-size="9" fill="#64748b">+ CSS</text>
+  <!-- 解析 -->
+  <rect x="135" y="85" width="90" height="50" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="180" y="106" text-anchor="middle" font-size="12" font-weight="700" fill="#1e40af">DOM +</text>
+  <text x="180" y="122" text-anchor="middle" font-size="12" font-weight="700" fill="#1e40af">CSSOM</text>
+  <!-- 渲染树 -->
+  <rect x="255" y="85" width="90" height="50" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="300" y="106" text-anchor="middle" font-size="12" font-weight="700" fill="#1e40af">渲染树</text>
+  <text x="300" y="122" text-anchor="middle" font-size="9" fill="#64748b">只留可见的</text>
+  <!-- 布局 -->
+  <rect x="375" y="85" width="90" height="50" rx="8" fill="#fdf4ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="420" y="106" text-anchor="middle" font-size="12" font-weight="700" fill="#7e22ce">布局</text>
+  <text x="420" y="122" text-anchor="middle" font-size="9" fill="#a21caf">算位置大小</text>
+  <!-- 绘制 -->
+  <rect x="495" y="85" width="90" height="50" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="540" y="106" text-anchor="middle" font-size="12" font-weight="700" fill="#15803d">绘制</text>
+  <text x="540" y="122" text-anchor="middle" font-size="9" fill="#16a34a">填像素</text>
+  <!-- 箭头 -->
+  <line x1="107" y1="110" x2="131" y2="110" stroke="#2563eb" stroke-width="2" marker-end="url(#br)"/>
+  <line x1="227" y1="110" x2="251" y2="110" stroke="#2563eb" stroke-width="2" marker-end="url(#br)"/>
+  <line x1="347" y1="110" x2="371" y2="110" stroke="#2563eb" stroke-width="2" marker-end="url(#br)"/>
+  <line x1="467" y1="110" x2="491" y2="110" stroke="#2563eb" stroke-width="2" marker-end="url(#br)"/>
+  <!-- 回流标注 -->
+  <path d="M375 85 C375 40 300 40 255 82" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+  <text x="315" y="38" text-anchor="middle" font-size="10" fill="#dc2626">改布局属性 → 从头算（回流）</text>
+  <!-- 重绘标注 -->
+  <path d="M495 85 C495 40 420 40 375 82" stroke="#ca8a04" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+  <text x="435" y="60" text-anchor="middle" font-size="10" fill="#ca8a04">只改颜色 → 重绘，不算布局</text>
+  <!-- 结论 -->
+  <rect x="135" y="160" width="450" height="40" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="360" y="184" text-anchor="middle" font-size="11" fill="#475569">JS 是「插队者」：执行到 document.write 或改样式时会打断流水线 —— 脚本放 body 底部是有原因的</text>
+</svg>

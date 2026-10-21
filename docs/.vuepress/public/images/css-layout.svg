@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" fill="none" font-family="'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <!-- Flex 区 -->
+  <rect x="20" y="20" width="290" height="220" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="165" y="45" text-anchor="middle" font-size="14" font-weight="700" fill="#1e40af">Flex：一维布局</text>
+  <text x="165" y="63" text-anchor="middle" font-size="10" fill="#64748b">一行或一列，子项自动分配空间</text>
+  <!-- flex 容器 -->
+  <rect x="45" y="85" width="240" height="60" rx="6" fill="#fff" stroke="#93c5fd" stroke-width="1.5"/>
+  <rect x="55" y="95" width="50" height="40" rx="4" fill="#3b82f6"/>
+  <rect x="115" y="95" width="50" height="40" rx="4" fill="#60a5fa"/>
+  <rect x="175" y="95" width="50" height="40" rx="4" fill="#93c5fd"/>
+  <rect x="235" y="95" width="40" height="40" rx="4" fill="#bfdbfe"/>
+  <text x="165" y="165" text-anchor="middle" font-size="10" fill="#475569">justify-content 管主轴排列</text>
+  <text x="165" y="182" text-anchor="middle" font-size="10" fill="#475569">align-items 管交叉轴对齐</text>
+  <text x="165" y="205" text-anchor="middle" font-size="10" fill="#94a3b8">flex: 1 = 把剩余空间全给它</text>
+
+  <!-- Grid 区 -->
+  <rect x="330" y="20" width="290" height="220" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="475" y="45" text-anchor="middle" font-size="14" font-weight="700" fill="#15803d">Grid：二维布局</text>
+  <text x="475" y="63" text-anchor="middle" font-size="10" fill="#64748b">行和列同时管，像表格一样思考</text>
+  <!-- grid 容器 -->
+  <rect x="355" y="85" width="240" height="60" rx="6" fill="#fff" stroke="#86efac" stroke-width="1.5"/>
+  <rect x="363" y="93" width="70" height="44" rx="4" fill="#16a34a"/>
+  <rect x="441" y="93" width="70" height="44" rx="4" fill="#4ade80"/>
+  <rect x="519" y="93" width="68" height="44" rx="4" fill="#86efac"/>
+  <rect x="355" y="155" width="240" height="50" rx="6" fill="#fff" stroke="#86efac" stroke-width="1.5"/>
+  <rect x="363" y="163" width="110" height="34" rx="4" fill="#22c55e"/>
+  <rect x="481" y="163" width="106" height="34" rx="4" fill="#a7f3d0"/>
+  <text x="475" y="225" text-anchor="middle" font-size="10" fill="#94a3b8">grid-template-columns 定列宽</text>
+  <text x="475" y="241" text-anchor="middle" font-size="10" fill="#94a3b8">gap 一行搞定间距，不用再算 margin</text>
+</svg>

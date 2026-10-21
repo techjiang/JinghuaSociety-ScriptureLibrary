@@ -23,6 +23,7 @@ description: 技术区 —— 原理向笔记，把一件事讲透
 | [Web 安全入门：XSS 与 CSRF](./web-security.md) | 两种最常见攻击的原理与防御 |
 | [前端性能优化清单](./web-performance.md) | 按性价比排序的优化手段，附测量方法 |
 | [Redis 十分钟入门](./redis-basics.md) | 五种数据结构、三个场景、三个坑 |
+| [浏览器渲染原理](./browser-render.md) | 从字节流到像素，讲清重排重绘 |
 
 ## 阅读建议
 
