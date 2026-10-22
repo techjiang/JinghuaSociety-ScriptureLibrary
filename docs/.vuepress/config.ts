@@ -4,18 +4,20 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 import { rssPlugin } from './plugins/rss'
 
-// GitHub Pages 项目页部署在 /JinghuaSociety-ScriptureLibrary/ 子路径下，
-// 生产构建时 base 必须是该子路径，本地开发时用根路径。
+// 已绑定自定义域名 jinghuasociety-scripturelibrary.asoe.cn，
+// 站点在该域名「根路径」下提供服务，因此 base 固定为根路径 '/'。
+// （自定义域名下不能再使用 /JinghuaSociety-ScriptureLibrary/ 子路径，
+//  否则所有 CSS/JS/图片资源都会 404，整站白屏。）
 const command = process.argv[2] ?? ''
 const isBuild = command === 'build'
-const BASE = '/JinghuaSociety-ScriptureLibrary/'
-// 页脚 HTML 里的站内链接前缀（本地开发为空，构建时带子路径）
-const LINK_PREFIX = isBuild ? '/JinghuaSociety-ScriptureLibrary' : ''
+const BASE = '/'
+// 页脚 HTML 里的站内链接前缀（根路径下为空）
+const LINK_PREFIX = ''
 
 export default defineUserConfig({
   // ==================== 站点基础信息 ====================
   lang: 'zh-CN',
-  base: isBuild ? BASE : '/',
+  base: BASE,
   title: '精华社 · 藏经阁',
   description: '藏技术菁华，见字节山河',
 
@@ -42,9 +44,8 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     // ==================== 站点级配置 ====================
-    // 注意：page.path 已包含 base 子路径，hostname 只写域名根，
-    // 否则 canonical/og:url/sitemap 会出现双子路径
-    hostname: 'https://techjiang.github.io',
+    // 站点正式域名（自定义域名）。canonical/og:url/sitemap/RSS 都用它。
+    hostname: 'https://jinghuasociety-scripturelibrary.asoe.cn',
 
     // 编译缓存，加快重复启动速度
     cache: 'filesystem',

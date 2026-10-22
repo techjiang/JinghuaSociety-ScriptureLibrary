@@ -7,7 +7,7 @@ import type { PluginFunction } from '@vuepress/core'
  * 构建结束时遍历所有页面，取最新 20 篇生成 feed.xml。
  */
 
-const HOSTNAME = 'https://techjiang.github.io'
+const HOSTNAME = 'https://jinghuasociety-scripturelibrary.asoe.cn'
 const SITE_TITLE = '精华社 · 藏经阁'
 const SITE_DESC = '藏技术菁华，见字节山河 —— 把计算机与互联网技术，讲成听得懂的人话。'
 
