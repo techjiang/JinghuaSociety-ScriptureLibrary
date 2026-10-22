@@ -11,7 +11,32 @@ description: 资源区 —— 工具、书单、网站，亲测才收录，共 4
 收录标准就一条：**自己用过，觉得好**。广告、互推、
 没打开过第二次的，不上架。共 41 篇。
 
-## 工具横评
+## 名人堂
+
+编辑私藏，闭眼装不踩雷：
+
+| 资源 | 一句话理由 |
+| --- | --- |
+| [开发者常用工具](./dev-tools.md) | 装机清单，省下三天折腾 |
+| [值得读源码的开源项目](./must-read-projects.md) | 按难度分级，别一上来啃巨无霸 |
+| [前端面试高频题库](./interview-questions.md) | 按主题归类，自带答案索引 |
+
+## 最火资源
+
+- 🔥 [VS Code 插件精选](./vscode-extensions.md) —— 按用途分类，全是自用款
+- 🔥 [技术社区与论坛](./community-list.md) —— 国内外社区的分工与逛法
+- 🔥 [密码管理与账号安全](./password-tools.md) —— 程序员账号安全清单
+
+## 推荐资源
+
+- 【资源】[官方文档索引](./official-docs-list.md) —— bookmark 这一页就够
+- 【资源】[学习路线与免费课](./learning-roadmap.md) —— 前端/后端路线图
+- 【资源】[技术 Newsletter](./newsletters.md) —— 每周一封的精选
+- 【资源】[笔记软件横评](./note-tools.md) —— Obsidian、Notion、语雀
+
+## 全部资源
+
+### 工具横评
 
 | 资源 | 内容 |
 | --- | --- |
@@ -33,7 +58,7 @@ description: 资源区 —— 工具、书单、网站，亲测才收录，共 4
 | [笔记软件横评](./note-tools.md) | Obsidian、Notion、语雀、飞书 |
 | [博客平台对比](./blog-platform-compare.md) | 自建 vs 平台的三本账 |
 
-## 学习路线
+### 学习路线
 
 | 资源 | 内容 |
 | --- | --- |
@@ -47,7 +72,7 @@ description: 资源区 —— 工具、书单、网站，亲测才收录，共 4
 | [技术播客推荐](./tech-podcasts.md) | 通勤耳朵的正确用法 |
 | [技术 YouTube 频道](./youtube-channels.md) | 前端、基础、AI 向频道 |
 
-## 书单
+### 书单
 
 | 资源 | 内容 |
 | --- | --- |
@@ -55,7 +80,7 @@ description: 资源区 —— 工具、书单、网站，亲测才收录，共 4
 | [后端与计算机基础书单](./books-backend.md) | 语言、数据库、网络、分布式 |
 | [电子书与文档资源](./ebook-resources.md) | 合法免费渠道与找书方法 |
 
-## 开源与 GitHub
+### 开源与 GitHub
 
 | 资源 | 内容 |
 | --- | --- |
@@ -64,7 +89,7 @@ description: 资源区 —— 工具、书单、网站，亲测才收录，共 4
 | [如何参与开源](./open-source-guide.md) | 从第一次 PR 开始 |
 | [GitHub 使用技巧](./github-tips.md) | 快捷键、搜索语法、gh CLI |
 
-## 设计素材
+### 设计素材
 
 | 资源 | 内容 |
 | --- | --- |

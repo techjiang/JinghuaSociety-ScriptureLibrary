@@ -10,7 +10,32 @@ description: 教程区 —— 动手向文章，一步一步照做就能跑起�
 这一区放**动手向**的文章。每一步都写出来了，照着做就能跑起来。
 写之前站长都先跑一遍，跑不通的会注明坑在哪。共 40 篇。
 
-## Git 与协作
+## 名人堂
+
+编辑私心推荐，闭眼跟着做不会错：
+
+| 文章 | 一句话理由 |
+| --- | --- |
+| [Git 团队协作指南](./git-teamwork.md) | 把「怎么一起写代码」讲透，新人第一读 |
+| [用 VuePress + Plume 搭博客](./build-blog-with-plume.md) | 本站同款，照做能起来 |
+| [Chrome DevTools 调试技巧](./chrome-devtools.md) | 六大面板 + 断点，效率翻倍 |
+
+## 最火文章
+
+- 🔥 [前端开发环境搭建](./frontend-env.md) —— 新手第一步，装对省三天
+- 🔥 [npm 与 package.json](./npm-package.md) —— 依赖管理的说明书
+- 🔥 [Docker 快速上手](./docker-start.md) —— 容器化入门，一次搞懂
+
+## 推荐文章
+
+- 【教程】[Git 快速上手](./git-quickstart.md) —— 半小时过一遍提交与分支
+- 【教程】[ES6+ 语法速成](./es6-syntax.md) —— 每天必用的现代语法
+- 【教程】[Vue 3 快速上手](./vue3-quickstart.md) —— 模板、响应式、组件半天入门
+- 【教程】[Linux 服务器基本操作](./linux-server-basic.md) —— SSH、防火墙、crontab
+
+## 全部文章
+
+### Git 与协作
 
 | 文章 | 内容 |
 | --- | --- |
@@ -18,7 +43,7 @@ description: 教程区 —— 动手向文章，一步一步照做就能跑起�
 | [Git 团队协作指南](./git-teamwork.md) | 分支模型、PR 流程、Review 礼仪 |
 | [GitHub 协作实操](./git-github-pr.md) | Fork、Clone、PR 全流程，附本站投稿步骤 |
 
-## 语言基础
+### 语言基础
 
 | 文章 | 内容 |
 | --- | --- |
@@ -28,14 +53,14 @@ description: 教程区 —— 动手向文章，一步一步照做就能跑起�
 | [DOM 操作与事件委托](./js-dom.md) | 查元素、改内容、事件委托，原生 JS 基本功 |
 | [TypeScript 入门](./ts-basics.md) | 类型注解、接口、泛型，不搞类型体操 |
 
-## 框架
+### 框架
 
 | 文章 | 内容 |
 | --- | --- |
 | [Vue 3 快速上手](./vue3-quickstart.md) | 模板、响应式、组件，半天入门 |
 | [React 快速上手](./react-quickstart.md) | JSX、useState/useEffect、一个 Todo |
 
-## CSS
+### CSS
 
 | 文章 | 内容 |
 | --- | --- |
@@ -44,7 +69,7 @@ description: 教程区 —— 动手向文章，一步一步照做就能跑起�
 | [CSS 布局模式速查](./css-flex-patterns.md) | 八种高频布局，复制就能用 |
 | [CSS 定位完全指南](./css-position.md) | 五种定位的行为、场景与坑 |
 
-## 前后端数据
+### 前后端数据
 
 | 文章 | 内容 |
 | --- | --- |
@@ -54,7 +79,7 @@ description: 教程区 —— 动手向文章，一步一步照做就能跑起�
 | [SQL 十分钟入门](./sql-basics.md) | 增删改查 + JOIN + 参数化查询 |
 | [MySQL 基础操作](./mysql-basic.md) | 建库建表、CRUD、导入导出 |
 
-## 运维部署
+### 运维部署
 
 | 文章 | 内容 |
 | --- | --- |
@@ -65,7 +90,7 @@ description: 教程区 —— 动手向文章，一步一步照做就能跑起�
 | [域名购买与 DNS 配置](./domain-dns-setup.md) | 买域名到解析到 Pages 全流程 |
 | [免费部署方案对比](./static-deploy-free.md) | Pages、Netlify、Vercel、Cloudflare |
 
-## 工程化与工具
+### 工程化与工具
 
 | 文章 | 内容 |
 | --- | --- |
@@ -80,7 +105,7 @@ description: 教程区 —— 动手向文章，一步一步照做就能跑起�
 | [环境变量与配置管理](./dotenv.md) | .env 文件、多环境配置、密钥安全 |
 | [程序调试方法论](./debugging-method.md) | 从瞎猜到定位的系统方法 |
 
-## 建站
+### 建站
 
 | 文章 | 内容 |
 | --- | --- |

@@ -32,6 +32,11 @@ config:
         details: 工具、书单、网站。只收自己真用过的，不收广告钱。
         link: /library/resources/
         linkText: 进资源区
+      - title: 日常
+        icon: material-symbols:sunny
+        details: 生活向。通勤、断网、桌面、咖啡 —— 写代码的人，也得会生活。
+        link: /library/daily/
+        linkText: 进日常区
       - title: 文章
         icon: material-symbols:edit-document-outline
         details: 随笔、读书笔记、踩坑复盘。真人真事真感受。

@@ -21,7 +21,9 @@ export default defineUserConfig({
 
   head: [
     // 导航栏 logo 与标签页图标同源，保证完全同步
-    ['link', { rel: 'icon', href: '/images/logo.svg', type: 'image/svg+xml' }],
+    // 注意：VuePress 不会给 head 里的 link href 自动加 base 前缀，
+    // 构建时必须手动带上子路径，否则 Pages 下 favicon 404
+    ['link', { rel: 'icon', href: isBuild ? `${BASE}images/logo.svg` : '/images/logo.svg', type: 'image/svg+xml' }],
     ['meta', { name: 'theme-color', content: '#c0392b' }],
     ['meta', { name: 'author', content: '精华社' }],
     // RSS 自动发现：浏览器/阅读器检测到地址栏图标即可订阅
@@ -40,7 +42,9 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     // ==================== 站点级配置 ====================
-    hostname: 'https://techjiang.github.io/JinghuaSociety-ScriptureLibrary',
+    // 注意：page.path 已包含 base 子路径，hostname 只写域名根，
+    // 否则 canonical/og:url/sitemap 会出现双子路径
+    hostname: 'https://techjiang.github.io',
 
     // 编译缓存，加快重复启动速度
     cache: 'filesystem',
@@ -88,10 +92,16 @@ export default defineUserConfig({
         activeMatch: '^/links/',
       },
       {
+        text: '关于',
+        link: '/about/',
+        icon: 'material-symbols:info-outline',
+        activeMatch: '^/about/',
+      },
+      {
         text: '阁中阁',
         icon: 'material-symbols:groups-outline',
         items: [
-          { text: '关于', link: '/about/' },
+          { text: '名人堂', link: '/hall-of-fame/' },
           { text: '加入', link: '/join/' },
           { text: '成员', link: '/members/' },
         ],
@@ -137,6 +147,13 @@ export default defineUserConfig({
             items: 'auto',
             collapsed: true,
           },
+          {
+            text: '日常',
+            icon: 'material-symbols:sunny',
+            prefix: 'daily/',
+            items: 'auto',
+            collapsed: true,
+          },
         ],
       },
       {
@@ -178,9 +195,11 @@ export default defineUserConfig({
       message:
         `<nav class="jh-footer-nav" aria-label="页脚导航">` +
         `<span class="jh-footer-nav-title">阁中阁</span>` +
-        `<a href="${LINK_PREFIX}/about/">关于</a>` +
+        `<a href="${LINK_PREFIX}/hall-of-fame/">名人堂</a>` +
         `<a href="${LINK_PREFIX}/join/">加入</a>` +
         `<a href="${LINK_PREFIX}/members/">成员</a>` +
+        `<span class="jh-footer-nav-title">关于本站</span>` +
+        `<a href="${LINK_PREFIX}/about/">关于</a>` +
         `<a href="${LINK_PREFIX}/links/">友链</a>` +
         `</nav>` +
         `<span class="jh-footer-slogan">藏技术菁华，见字节山河</span>`,
