@@ -4,9 +4,6 @@ createTime: 2026-10-22
 permalink: /library/resources/newsletters/
 description: 每周一封的技术周报与 newsletter，比刷朋友圈高效十倍
 ---
-
-# 技术 Newsletter 推荐
-
 算法推荐的信息流是「它觉得你要的」，Newsletter 是
 「我选了送你」—— 后者质量高一个量级。这份收常订的，
 中文为主，附「怎么读」的建议。

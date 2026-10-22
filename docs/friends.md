@@ -2,17 +2,15 @@
 pageLayout: friends
 title: 友情链接
 permalink: /links/
+sidebar: false
 description: 友情链接位虚位以待，欢迎交换
 list:
   - name: 虚位以待
     desc: 这个位置留给你的站点
-    avatar: null
+    avatar: 
     link: '#'
 createTime: 2026/10/21 20:06:35
 ---
-
-# 友情链接
-
 这一页放常逛的技术站点。不是广告，是**自己真的每周都打开**的地方。
 
 ## 虚位以待
@@ -29,9 +27,9 @@ createTime: 2026/10/21 20:06:35
 ## 本站信息
 
 ```text
-站点名：精华社 · 藏经阁
-地  址：https://techjiang.github.io/JinghuaSociety-ScriptureLibrary/
-简  介：看得懂、用得上的技术笔记
+名称：精华社 · 藏经阁
+地址：https://techjiang.github.io/JinghuaSociety-ScriptureLibrary/
+描述：藏技术菁华，见字节山河
 ```
 
 > 注：暂时不接商业推广和培训机构友链，见谅。

@@ -4,9 +4,6 @@ createTime: 2026-10-22
 permalink: /library/resources/vscode-extensions/
 description: 按用途分类的 VS Code 插件清单，全是自用款，附精简原则
 ---
-
-# VS Code 插件精选
-
 插件装多了，启动慢半拍、弹窗多一倍、快捷键还互相打架。
 这份清单按用途分，全是装机自用款，每个只留一个最顺手的。
 

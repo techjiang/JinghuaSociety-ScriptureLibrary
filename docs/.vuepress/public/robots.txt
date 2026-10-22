@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://techjiang.github.io/JinghuaSociety-ScriptureLibrary/sitemap.xml

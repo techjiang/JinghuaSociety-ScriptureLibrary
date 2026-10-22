@@ -2,7 +2,7 @@
 title: 文库首页
 createTime: 2026-10-21
 permalink: /library/
-description: 精华社 · 藏经阁文库 —— 教程、技术与资源，六十余篇亲测笔记
+description: 精华社 · 藏经阁文库 —— 教程、技术与资源，一百二十余篇亲测笔记
 ---
 
 # 文库
@@ -13,17 +13,18 @@ description: 精华社 · 藏经阁文库 —— 教程、技术与资源，六�
 
 | 分区 | 内容 | 篇数 |
 | --- | --- | --- |
-| [教程](/library/tutorial/) | 动手向，一步一步照做就能跑起来 | 20 篇 |
-| [技术](/library/tech/) | 原理向，把一件事讲透 | 20 篇 |
-| [资源](/library/resources/) | 工具、书单、网站，亲测才收录 | 20 篇 |
+| [教程](/library/tutorial/) | 动手向，一步一步照做就能跑起来 | 40 篇 |
+| [技术](/library/tech/) | 原理向，把一件事讲透 | 40 篇 |
+| [资源](/library/resources/) | 工具、书单、网站，亲测才收录 | 41 篇 |
 
-另有 [文章](/articles/) 一区（随笔、读书笔记、踩坑复盘），独立成博客，按时间归档。
+另有 [文章](/articles/) 一区（随笔、读书笔记、踩坑复盘，40 篇），
+独立成博客，按时间归档。
 
 ## 阅藏须知
 
 - 每篇文章的命令和代码，**都是站长亲手跑过的**，跑不通会注明坑在哪；
 - 会注明软件版本 —— 版本一换，很多经验就作废；
-- 观点仅代表站长自己，说错了欢迎来 [GitHub](https://github.com/techjiang/JinghuaSociety-ScriptureLibrary) 掰扯。
+- 观点仅代表作者本人，说错了欢迎来 [GitHub](https://github.com/techjiang/JinghuaSociety-ScriptureRepository) 掰扯。
 
 ## 更新节奏
 

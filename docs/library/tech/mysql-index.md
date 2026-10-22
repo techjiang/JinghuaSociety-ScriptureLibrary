@@ -4,9 +4,6 @@ createTime: 2026-10-22
 permalink: /library/tech/mysql-index/
 description: B+ 树、聚簇索引、最左前缀、EXPLAIN 实战与慢查询优化
 ---
-
-# MySQL 索引原理与优化
-
 「查询怎么变慢了」—— 十有八九是索引没用上，或者用错了。
 索引是 MySQL 性能优化的第一杠杆，也是面试必考。
 这篇讲原理（够用为止）加实战（EXPLAIN 怎么看、慢查询怎么救）。

@@ -4,9 +4,6 @@ createTime: 2026-10-22
 permalink: /library/resources/tech-podcasts/
 description: 通勤路上听的技术播客，中文为主，附收听建议
 ---
-
-# 技术播客推荐
-
 通勤、做饭、健身的时候，耳朵闲着也是闲着。
 技术播客是「被动输入」的好渠道 —— 听到感兴趣的话题，
 再回头深挖。这份收我常听的，中文为主。

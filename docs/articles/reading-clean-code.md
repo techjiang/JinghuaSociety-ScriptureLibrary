@@ -4,9 +4,6 @@ createTime: 2026-10-22
 permalink: /articles/reading-clean-code/
 description: 五年后重读 Clean Code，有些奉为真理的，有些已经过时了
 ---
-
-# 重读《代码整洁之道》
-
 第一次读《代码整洁之道》是工作第二年，像看到武功秘籍，
 每一条都工整地抄进笔记。今年重读，想法变了不少 ——
 有些依然是真理，有些开始可疑，有些明显过时了。

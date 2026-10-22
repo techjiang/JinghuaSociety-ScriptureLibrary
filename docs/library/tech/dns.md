@@ -4,9 +4,6 @@ createTime: 2026-10-22
 permalink: /library/tech/dns/
 description: 递归与迭代查询、记录类型、缓存与 TTL、DNS 污染的坑
 ---
-
-# DNS 解析：从域名到 IP 的完整旅程
-
 浏览器输入 `github.com`，回车，几十毫秒后页面出来了。
 这几十毫秒里 DNS 干了一件大事：把人类好记的域名，翻译成机器好找的 IP。
 这篇跟一次完整的查询，讲清流程和坑。

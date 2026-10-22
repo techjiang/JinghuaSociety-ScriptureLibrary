@@ -4,9 +4,6 @@ createTime: 2026-10-22
 permalink: /library/resources/books-frontend/
 description: 按阶段分的前端书单，每本一句话点评，不凑数
 ---
-
-# 前端书单：读过才敢推荐
-
 书单这东西，收藏一百本不如读透三本。这份是我真读完（或真啃过）
 的，按学习阶段排，每本配一句大实话。没读过的不放。
 

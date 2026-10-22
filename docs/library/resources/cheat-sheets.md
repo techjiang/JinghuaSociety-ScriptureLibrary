@@ -4,9 +4,6 @@ createTime: 2026-10-22
 permalink: /library/resources/cheat-sheets/
 description: Git、Linux、正则、HTTP 等高频速查资源，打印贴墙系列
 ---
-
-# 速查表合集
-
 有些东西天天用，但记忆总有死角。速查表就是给这些死角准备的 ——
 收藏几个靠谱的，比在脑子里存一百个模糊印象强。
 这份收「真的会反复打开」的速查资源。

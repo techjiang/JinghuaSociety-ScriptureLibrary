@@ -4,9 +4,6 @@ createTime: 2026-10-22
 permalink: /articles/second-outage/
 description: 慢查询拖垮数据库、连接池打满、服务雪崩的完整复盘
 ---
-
-# 第二次线上事故：一条 SQL 慢查询引发的连锁
-
 第一篇[事故复盘](../first-online-bug.md)讲的是
 「头像集体变默认」，这次更典型：**一条没走索引的
 慢查询，拖垮了整个数据库，引发服务雪崩**。

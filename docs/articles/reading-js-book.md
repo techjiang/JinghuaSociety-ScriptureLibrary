@@ -4,9 +4,6 @@ createTime: 2026-10-22
 permalink: /articles/reading-js-book/
 description: 上卷封神、中卷必读、下卷参考，一套书治好 JS 的「好像懂了」
 ---
-
-# 《你不知道的 JavaScript》读后感
-
 Kyle Simpson 的这套书（上中下三卷）是 JS 圈的「辟邪剑谱」——
 专门练那些「天天用但从没细看」的基本功。断断续续读完，
 说说每卷的真实含金量和阅读建议。

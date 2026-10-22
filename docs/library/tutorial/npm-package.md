@@ -4,9 +4,6 @@ createTime: 2026-10-22
 permalink: /library/tutorial/npm-package/
 description: dependencies 与 devDependencies 的区别、语义化版本、scripts 与 lock 文件
 ---
-
-# npm 与 package.json 完全指南
-
 每个前端项目都有 `package.json`，但能把里面每个字段讲清楚的人不多。
 `dependencies` 和 `devDependencies` 到底怎么分？`^1.2.3` 和 `~1.2.3`
 差在哪？`npm ci` 和 `npm install` 该用哪个？这篇一次说清。

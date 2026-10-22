@@ -4,9 +4,6 @@ createTime: 2026-10-21
 permalink: /library/tutorial/build-blog-with-plume/
 description: 从零到部署的完整过程，本站就是这么搭出来的，含踩坑记录
 ---
-
-# 用 VuePress 2 + Plume 搭一个博客
-
 这个站（精华社 · 藏经阁）本身就是用 VuePress 2 + Plume 主题搭的。
 与其空谈理论，不如把搭建过程完整记下来 —— 你照着走一遍，
 也能有一个属于自己的站。

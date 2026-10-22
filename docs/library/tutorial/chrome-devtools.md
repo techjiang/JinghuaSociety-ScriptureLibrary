@@ -4,9 +4,6 @@ createTime: 2026-10-21
 permalink: /library/tutorial/chrome-devtools/
 description:  Elements、Console、Network 三大面板的实战用法，附断点调试入门
 ---
-
-# Chrome DevTools 调试技巧
-
 很多人用 DevTools 只会两件事：看 Console 里的报错，和
 Elements 里改样式。这就好比买了把瑞士军刀只用来开瓶盖。
 这篇把常用的几招讲透，调试效率翻倍不敢说，少加班是够的。

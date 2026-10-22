@@ -4,9 +4,6 @@ createTime: 2026-10-21
 permalink: /library/tech/cors/
 description: 同源策略是什么、CORS 怎么放行、预检何时发生，附 Express/Nginx 配置
 ---
-
-# 跨域与 CORS 详解
-
 每个前端都被跨域问题毒打过：本地 `localhost:5173` 请求
 `localhost:3000` 的接口，Console 一片红，
 `Access-Control-Allow-Origin` 几个字看到想吐。这篇把它讲透：

@@ -9,13 +9,15 @@ import { rssPlugin } from './plugins/rss'
 const command = process.argv[2] ?? ''
 const isBuild = command === 'build'
 const BASE = '/JinghuaSociety-ScriptureLibrary/'
+// 页脚 HTML 里的站内链接前缀（本地开发为空，构建时带子路径）
+const LINK_PREFIX = isBuild ? '/JinghuaSociety-ScriptureLibrary' : ''
 
 export default defineUserConfig({
   // ==================== 站点基础信息 ====================
   lang: 'zh-CN',
   base: isBuild ? BASE : '/',
   title: '精华社 · 藏经阁',
-  description: '藏技术菁华，见字节山河 —— 把计算机与互联网技术，讲成听得懂的人话。',
+  description: '藏技术菁华，见字节山河',
 
   head: [
     // 导航栏 logo 与标签页图标同源，保证完全同步
@@ -84,6 +86,15 @@ export default defineUserConfig({
         link: '/links/',
         icon: 'material-symbols:link-rounded',
         activeMatch: '^/links/',
+      },
+      {
+        text: '阁中阁',
+        icon: 'material-symbols:groups-outline',
+        items: [
+          { text: '关于', link: '/about/' },
+          { text: '加入', link: '/join/' },
+          { text: '成员', link: '/members/' },
+        ],
       },
     ],
 
@@ -161,9 +172,19 @@ export default defineUserConfig({
     externalLinkIcon: true,
 
     // ==================== 页脚 ====================
+    // message/copyright 均支持 HTML（主题 v-html 渲染）
+    // 注意：HTML 里的站内链接要带 base 前缀，否则 Pages 子路径下 404
     footer: {
-      message: '计算机 · 互联网 · 信息技术',
-      copyright: 'Copyright © 2026-present 精华社 · 藏经阁',
+      message:
+        `<nav class="jh-footer-nav" aria-label="页脚导航">` +
+        `<span class="jh-footer-nav-title">阁中阁</span>` +
+        `<a href="${LINK_PREFIX}/about/">关于</a>` +
+        `<a href="${LINK_PREFIX}/join/">加入</a>` +
+        `<a href="${LINK_PREFIX}/members/">成员</a>` +
+        `<a href="${LINK_PREFIX}/links/">友链</a>` +
+        `</nav>` +
+        `<span class="jh-footer-slogan">藏技术菁华，见字节山河</span>`,
+      copyright: 'Copyright © 2026 精华社 · 藏经阁',
     },
   }),
 

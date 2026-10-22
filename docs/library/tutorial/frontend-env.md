@@ -4,9 +4,6 @@ createTime: 2026-10-21
 permalink: /library/tutorial/frontend-env/
 description: Node、pnpm、VS Code、终端的一套实用配置，新电脑半小时进入战斗状态
 ---
-
-# 前端开发环境搭建
-
 每次换了新电脑，或者重装完系统，都要把这套环境重新搭一遍。
 次数多了，索性写成清单，照着走一遍，半小时进入战斗状态。
 这篇就是那份清单。我的主力是 Windows，macOS 下有差别的地方会注明。

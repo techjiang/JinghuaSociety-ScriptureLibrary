@@ -4,9 +4,6 @@ createTime: 2026-10-21
 permalink: /library/tutorial/git-teamwork/
 description: 分支模型、PR 流程、Code Review 礼仪，一个人到一群人的协作方式
 ---
-
-# Git 团队协作指南
-
 [Git 快速上手](./git-quickstart.md) 讲的是「一个人怎么用」。
 但真实项目里 Git 是**社交工具** —— 提交怎么写、PR 怎么提、
 冲突怎么解，背后都是人和人的协作。这篇讲一群人怎么用。

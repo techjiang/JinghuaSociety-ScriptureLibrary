@@ -4,9 +4,6 @@ createTime: 2026-10-22
 permalink: /articles/reading-refactoring/
 description: 别通读！Martin Fowler 的重构是手法 catalogue，配真实案例讲怎么用
 ---
-
-# 《重构》：一本用来「查」的书
-
 《重构：改善既有代码的设计》是神作，但**大多数人的打开方式是错的** ——
 抱着通读，从「第一个重构手法」读到「第一百个」，
 读到第四个就睡着了。它是 catalogue（目录/手法集），不是小说。

@@ -4,9 +4,6 @@ createTime: 2026-10-22
 permalink: /library/tutorial/html-semantic/
 description: 语义化标签不只是 SEO——读屏软件、爬虫、未来的你自己，都靠它理解页面
 ---
-
-# HTML 语义化：让机器读懂你的页面
-
 新手写 HTML 的通病：满页 `<div>`。一个按钮用 div，一个导航用 div，
 一篇文章还是 div。不是说不能跑，但机器 —— 搜索引擎爬虫、读屏软件、
 三个月后回来改代码的你 —— 看到的就是一堆没有名字的盒子。

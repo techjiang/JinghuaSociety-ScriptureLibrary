@@ -4,9 +4,6 @@ createTime: 2026-10-21
 permalink: /library/tutorial/git-quickstart/
 description: 从安装到推送远程仓库，半小时过一遍 Git 常用操作，附站长踩过的坑
 ---
-
-# Git 快速上手
-
 Git 这东西，学会基本操作只要半小时，但很多人（包括当年的我）是「直接用」
 的 —— `git add`、`git commit`、`git push` 三板斧走天下，出了事故现场
 （误提交、误删除、冲突不敢解）才开始翻文档。这篇就是把你可能现场翻文档的

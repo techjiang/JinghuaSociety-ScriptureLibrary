@@ -4,9 +4,6 @@ createTime: 2026-10-22
 permalink: /library/tech/js-modules/
 description: CommonJS、ESM、Tree Shaking 与循环依赖，一次搞懂 import/export
 ---
-
-# JavaScript 模块化：从 script 到 ESM
-
 JS 早年没有模块系统，全靠全局变量和 `<script>` 标签顺序。
 后来出现了 CommonJS（Node 用）、AMD（浏览器用）、UMD（兼容两者的缝合怪），
 最后 ES2015 一统江湖，就是现在的 ESM（ES Module）。

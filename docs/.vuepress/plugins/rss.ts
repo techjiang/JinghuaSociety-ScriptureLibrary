@@ -41,7 +41,7 @@ export const rssPlugin: PluginFunction = () => ({
         }
       })
       .sort((a, b) => b.date.getTime() - a.date.getTime())
-      .slice(0, 20)
+      .slice(0, 50)
 
     const xml =
       `<?xml version="1.0" encoding="UTF-8"?>\n` +

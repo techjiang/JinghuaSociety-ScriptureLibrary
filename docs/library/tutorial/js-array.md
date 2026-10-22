@@ -4,9 +4,6 @@ createTime: 2026-10-22
 permalink: /library/tutorial/js-array/
 description: map/filter/reduce 三件套加易错点，用真实场景而不是 Foo/Bar 讲透
 ---
-
-# JavaScript 数组方法实战
-
 `for` 循环能干一切，但数组方法写出来更短、更不容易错。
 问题是很多人（包括几年前的我）只会 `forEach` 和 `push`，
 `reduce` 看一眼就头皮发麻。

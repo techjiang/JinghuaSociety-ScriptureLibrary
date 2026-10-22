@@ -4,9 +4,6 @@ createTime: 2026-10-22
 permalink: /library/tutorial/dotenv/
 description: .env 文件、Vite/VuePress 的环境变量、多环境配置与密钥安全
 ---
-
-# 环境变量与配置管理
-
 「我这本地好的啊」—— 一半是缓存，另一半是**配置没管好**：
 数据库地址写死在代码里，开发连本地、生产连测试库，一塌糊涂。
 这篇讲怎么用环境变量把配置管明白。

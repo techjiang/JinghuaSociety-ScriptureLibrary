@@ -4,9 +4,6 @@ createTime: 2026-10-21
 permalink: /library/tech/web-security/
 description: 两种最常见的 Web 攻击的原理与防御，写给不想被拖库的开发者
 ---
-
-# Web 安全入门：XSS 与 CSRF
-
 安全这块，平时看不见摸不着，出一次事就是大事。
 新手常接触的两种攻击是 XSS 和 CSRF —— 名字听着就职，
 其实原理都很朴素。这篇用大白话讲清楚，再给防御方案。

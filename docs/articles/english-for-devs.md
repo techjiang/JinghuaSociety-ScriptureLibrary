@@ -4,9 +4,6 @@ createTime: 2026-10-22
 permalink: /articles/english-for-devs/
 description: 从「看不懂文档」到「直接读 issue」，一套被验证过的笨办法
 ---
-
-# 程序员英语：不用天赋，只要习惯
-
 总有人说「我英语差，学技术费劲」。
 作为同样从「四级低空飞过」过来的人，
 我的体会是：**技术英语不需要天赋，

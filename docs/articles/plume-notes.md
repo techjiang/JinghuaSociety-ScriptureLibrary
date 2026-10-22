@@ -7,9 +7,6 @@ tags:
 permalink: /articles/plume-notes/
 description: 这个站用 VuePress + Plume 搭的，一周使用体验，优点缺点都说
 ---
-
-# Plume 主题用了一周，说说感受
-
 本站是用 [VuePress 2](https://vuejs.press) + [Plume 主题](https://theme-plume.vuejs.press)
 搭的，从零到上线花了一天，用了一周。写点真实体验，
 优缺点都说，给想入坑的参考。

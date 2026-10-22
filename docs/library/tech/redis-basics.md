@@ -4,9 +4,6 @@ createTime: 2026-10-21
 permalink: /library/tech/redis-basics/
 description: 五种数据结构、三个最常用场景，以及一个必须知道的坑：缓存穿透
 ---
-
-# Redis 十分钟入门
-
 Redis 是后端面试三巨头之一（Redis + MySQL + 消息队列），
 也是实际工作中用得最多的「非数据库」。它是个
 **基于内存的 KV 存储**，所以快 —— 单机每秒十万次读写。

@@ -4,9 +4,6 @@ createTime: 2026-10-22
 permalink: /library/tech/prototype/
 description: 原型、原型链、class 语法糖与继承的现代写法，面试必考但要真懂
 ---
-
-# JavaScript 原型链与继承
-
 JS 没有「类」（ES6 前），对象靠**原型**关联。这是它和
 Java/Python 最不一样的地方，也是面试重灾区。
 但实际写代码，你可能一年都碰不到一次原型 —— 直到你踩了那个坑：

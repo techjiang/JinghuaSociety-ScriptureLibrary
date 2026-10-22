@@ -4,9 +4,6 @@ createTime: 2026-10-22
 permalink: /library/tech/http-versions/
 description: 每个 HTTP 版本解决了什么问题，面试常考但值得真懂
 ---
-
-# HTTP 版本演进：从 1.0 到 3
-
 HTTP/1.1 活了二十多年，HTTP/2 普及了快十年，HTTP/3 也开始铺开。
 每个版本都是为了解决上一个版本的「疼」。按「问题→解法」的顺序讲，
 比背时间线有用。

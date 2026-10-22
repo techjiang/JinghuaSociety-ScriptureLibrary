@@ -4,9 +4,6 @@ createTime: 2026-10-22
 permalink: /library/resources/ai-coding-tools/
 description: Copilot、Cursor、Claude、ChatGPT 与国产工具的定位、价格与使用姿势
 ---
-
-# AI 编程工具横评（2026）
-
 AI 编程工具已经从「尝鲜」变成「日常」。工具一多，选择困难症也来了：
 补全用哪个？对话用哪个？国产的行不行？这篇按**使用场景**分类对比，
 附我自己的组合和「防依赖」纪律。

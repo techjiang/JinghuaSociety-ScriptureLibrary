@@ -4,9 +4,6 @@ createTime: 2026-10-22
 permalink: /library/resources/interview-resources/
 description: 八股、算法、项目包装与谈薪，一份务实的面试准备清单
 ---
-
-# 面试准备资源与策略
-
 面试是门独立「技术」：有人天天刷题挂在项目深挖，
 有人裸拿大厂 offer。差别在准备策略。这份讲资源，
 也讲「怎么准备」这个元问题。

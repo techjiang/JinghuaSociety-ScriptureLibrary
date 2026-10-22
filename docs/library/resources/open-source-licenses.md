@@ -4,9 +4,6 @@ createTime: 2026-10-21
 permalink: /library/resources/open-source-licenses/
 description: MIT、Apache、GPL 到底差在哪，给自己的项目选许可证的实用建议
 ---
-
-# 开源许可证怎么选
-
 往 GitHub 上传项目，仓库右侧那个 **License** 空着，
 总感觉差点什么。但真点下去，几十种许可证列出来，
 MIT、Apache、GPL、BSD、MPL……每个都认识，连起来就不知道选啥。
