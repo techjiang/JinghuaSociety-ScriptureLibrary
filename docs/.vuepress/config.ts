@@ -2,25 +2,39 @@ import { existsSync, readFileSync } from 'node:fs'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
+import { rssPlugin } from './plugins/rss'
 
 // GitHub Pages 项目页部署在 /JinghuaSociety-ScriptureLibrary/ 子路径下，
 // 生产构建时 base 必须是该子路径，本地开发时用根路径。
-// vuepress dev docs → argv[2] = 'dev'；vuepress build docs → argv[2] = 'build'
 const command = process.argv[2] ?? ''
 const isBuild = command === 'build'
+const BASE = '/JinghuaSociety-ScriptureLibrary/'
 
 export default defineUserConfig({
   // ==================== 站点基础信息 ====================
   lang: 'zh-CN',
-  base: isBuild ? '/JinghuaSociety-ScriptureLibrary/' : '/',
+  base: isBuild ? BASE : '/',
   title: '精华社 · 藏经阁',
-  description: '精华社 · 藏经阁 —— 专注前端开发、后端服务、Linux 运维、数据库与计算机网络的技术笔记站。提供 Git、Docker、Nginx、JavaScript、HTTP、Redis、SQL、VuePress 等实用教程、原理笔记与学习路线，每篇文章都经过实践验证。',
+  description: '藏技术菁华，见字节山河 —— 把计算机与互联网技术，讲成听得懂的人话。',
 
   head: [
-    ['link', { rel: 'icon', href: isBuild ? '/JinghuaSociety-ScriptureLibrary/favicon.svg' : '/favicon.svg', type: 'image/svg+xml' }],
+    // 导航栏 logo 与标签页图标同源，保证完全同步
+    ['link', { rel: 'icon', href: '/images/logo.svg', type: 'image/svg+xml' }],
     ['meta', { name: 'theme-color', content: '#c0392b' }],
     ['meta', { name: 'author', content: '精华社' }],
+    // RSS 自动发现：浏览器/阅读器检测到地址栏图标即可订阅
+    [
+      'link',
+      {
+        rel: 'alternate',
+        type: 'application/rss+xml',
+        title: '精华社 · 藏经阁 RSS',
+        href: isBuild ? `${BASE}feed.xml` : '/feed.xml',
+      },
+    ],
   ],
+
+  plugins: [rssPlugin],
 
   theme: plumeTheme({
     // ==================== 站点级配置 ====================
@@ -38,7 +52,7 @@ export default defineUserConfig({
     editLink: false,
     lastUpdated: false,
 
-    // 全站水印（已按站长要求关闭）
+    // 全站水印（已按要求关闭）
     watermark: {
       enabled: false,
       fullPage: true,
@@ -55,28 +69,10 @@ export default defineUserConfig({
     navbar: [
       { text: '首页', link: '/', icon: 'material-symbols:cottage-outline' },
       {
-        text: '教程',
-        link: '/tutorial/',
-        icon: 'material-symbols:school-outline',
-        activeMatch: '^/tutorial/',
-      },
-      {
-        text: '技术',
-        link: '/tech/',
-        icon: 'material-symbols:code-blocks-outline',
-        activeMatch: '^/tech/',
-      },
-      {
-        text: '资源',
-        link: '/resources/',
-        icon: 'material-symbols:folder-special-outline',
-        activeMatch: '^/resources/',
-      },
-      {
-        text: '手札',
-        link: '/blog/',
-        icon: 'material-symbols:edit-document-outline',
-        activeMatch: '^/blog/',
+        text: '文库',
+        link: '/library/',
+        icon: 'material-symbols:menu-book-outline',
+        activeMatch: '^/(library|tutorial|tech|resources|articles)',
       },
       {
         text: '友链',
@@ -94,51 +90,45 @@ export default defineUserConfig({
     navbarSocialInclude: ['github'],
 
     // ==================== 内容集合 ====================
-    // 教程、技术、资源为文档集合；手札为博客集合
+    // 教程、技术、资源、文章四个分区合并为单一文库，
+    // 侧边栏按分组折叠展示
     collections: [
       {
         type: 'doc',
-        dir: 'tutorial',
-        title: '教程',
-        sidebar: 'auto',
+        dir: 'library',
+        title: '文库',
+        link: '/library/',
         sidebarScrollbar: true,
-        sidebarCollapsed: false,
-      },
-      {
-        type: 'doc',
-        dir: 'tech',
-        title: '技术',
-        sidebar: 'auto',
-        sidebarScrollbar: true,
-        sidebarCollapsed: false,
-      },
-      {
-        type: 'doc',
-        dir: 'resources',
-        title: '资源',
-        sidebar: 'auto',
-        sidebarScrollbar: true,
-        sidebarCollapsed: false,
-      },
-      {
-        type: 'post',
-        dir: 'blog',
-        title: '手札',
-        link: '/blog/',
-        autoFrontmatter: { permalink: true },
-        postCover: 'right',
-        pagination: 10,
-        tags: true,
-        archives: true,
-        categories: true,
-        profile: {
-          avatar: '/images/avatar.svg',
-          name: '站长',
-          description: '写点技术，记点笔记，踩点坑',
-          location: '中国 · 互联网',
-          organization: '精华社',
-          layout: 'left',
-        },
+        sidebar: [
+          {
+            text: '教程',
+            icon: 'material-symbols:school-outline',
+            prefix: 'tutorial/',
+            items: 'auto',
+            collapsed: false,
+          },
+          {
+            text: '技术',
+            icon: 'material-symbols:code-blocks-outline',
+            prefix: 'tech/',
+            items: 'auto',
+            collapsed: false,
+          },
+          {
+            text: '资源',
+            icon: 'material-symbols:folder-special-outline',
+            prefix: 'resources/',
+            items: 'auto',
+            collapsed: false,
+          },
+          {
+            text: '文章',
+            icon: 'material-symbols:edit-document-outline',
+            prefix: 'articles/',
+            items: 'auto',
+            collapsed: false,
+          },
+        ],
       },
     ],
 
