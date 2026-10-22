@@ -1,7 +1,7 @@
 ---
 title: VS Code 插件精选
 createTime: 2026-10-22
-permalink: /resources/vscode-extensions/
+permalink: /library/resources/vscode-extensions/
 description: 按用途分类的 VS Code 插件清单，全是自用款，附精简原则
 ---
 

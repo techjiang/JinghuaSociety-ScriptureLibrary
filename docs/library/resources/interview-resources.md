@@ -1,7 +1,7 @@
 ---
 title: 面试准备资源与策略
 createTime: 2026-10-22
-permalink: /resources/interview-resources/
+permalink: /library/resources/interview-resources/
 description: 八股、算法、项目包装与谈薪，一份务实的面试准备清单
 ---
 

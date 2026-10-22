@@ -1,7 +1,7 @@
 ---
 title: Linux 常用命令速查
 createTime: 2026-10-21
-permalink: /tech/linux-commands/
+permalink: /library/tech/linux-commands/
 description: 文件、文本、进程、网络四大类常用命令，附组合技与踩坑提醒
 ---
 

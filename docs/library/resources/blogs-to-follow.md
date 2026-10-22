@@ -1,7 +1,7 @@
 ---
 title: 值得订阅的技术博客
 createTime: 2026-10-22
-permalink: /resources/blogs-to-follow/
+permalink: /library/resources/blogs-to-follow/
 description: 国内外高质量个人技术博客，附 RSS 订阅建议
 ---
 

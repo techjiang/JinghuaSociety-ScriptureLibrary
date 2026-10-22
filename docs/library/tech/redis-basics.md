@@ -1,7 +1,7 @@
 ---
 title: Redis 十分钟入门
 createTime: 2026-10-21
-permalink: /tech/redis-basics/
+permalink: /library/tech/redis-basics/
 description: 五种数据结构、三个最常用场景，以及一个必须知道的坑：缓存穿透
 ---
 

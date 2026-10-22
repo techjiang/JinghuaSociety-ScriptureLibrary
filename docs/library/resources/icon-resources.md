@@ -1,7 +1,7 @@
 ---
 title: 图标资源与使用方案
 createTime: 2026-10-22
-permalink: /resources/icon-resources/
+permalink: /library/resources/icon-resources/
 description: Iconify、Material Symbols、Remix Icon 与 SVG 雪碧图，附本站用法
 ---
 

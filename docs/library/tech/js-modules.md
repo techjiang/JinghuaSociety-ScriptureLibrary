@@ -1,7 +1,7 @@
 ---
 title: JavaScript 模块化：从 script 到 ESM
 createTime: 2026-10-22
-permalink: /tech/js-modules/
+permalink: /library/tech/js-modules/
 description: CommonJS、ESM、Tree Shaking 与循环依赖，一次搞懂 import/export
 ---
 

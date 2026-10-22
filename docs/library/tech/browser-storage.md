@@ -1,7 +1,7 @@
 ---
 title: 浏览器存储完全指南
 createTime: 2026-10-22
-permalink: /tech/browser-storage/
+permalink: /library/tech/browser-storage/
 description: Cookie/localStorage/sessionStorage/IndexedDB/Cache Storage 的对比与选型
 ---
 

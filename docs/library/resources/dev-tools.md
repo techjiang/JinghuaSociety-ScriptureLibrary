@@ -1,7 +1,7 @@
 ---
 title: 开发者常用工具
 createTime: 2026-10-21
-permalink: /resources/dev-tools/
+permalink: /library/resources/dev-tools/
 description: 装机必备清单，编辑器、终端、接口测试、截图录屏等，全是自用款
 ---
 

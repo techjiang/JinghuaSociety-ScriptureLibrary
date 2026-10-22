@@ -1,7 +1,7 @@
 ---
 title: Git 快速上手
 createTime: 2026-10-21
-permalink: /tutorial/git-quickstart/
+permalink: /library/tutorial/git-quickstart/
 description: 从安装到推送远程仓库，半小时过一遍 Git 常用操作，附站长踩过的坑
 ---
 

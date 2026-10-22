@@ -1,7 +1,7 @@
 ---
 title: JavaScript 数组方法实战
 createTime: 2026-10-22
-permalink: /tutorial/js-array/
+permalink: /library/tutorial/js-array/
 description: map/filter/reduce 三件套加易错点，用真实场景而不是 Foo/Bar 讲透
 ---
 

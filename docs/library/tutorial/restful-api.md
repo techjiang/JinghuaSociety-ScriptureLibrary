@@ -1,7 +1,7 @@
 ---
 title: RESTful API 设计入门
 createTime: 2026-10-22
-permalink: /tutorial/restful-api/
+permalink: /library/tutorial/restful-api/
 description: 资源建模、HTTP 方法语义、状态码、错误格式与分页，写给前后端都该懂的人
 ---
 

@@ -38,7 +38,6 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     // ==================== 站点级配置 ====================
-    // 部署域名：配置后自动生成 sitemap 与 SEO 信息
     hostname: 'https://techjiang.github.io/JinghuaSociety-ScriptureLibrary',
 
     // 编译缓存，加快重复启动速度
@@ -72,7 +71,13 @@ export default defineUserConfig({
         text: '文库',
         link: '/library/',
         icon: 'material-symbols:menu-book-outline',
-        activeMatch: '^/(library|tutorial|tech|resources|articles)',
+        activeMatch: '^/library/',
+      },
+      {
+        text: '文章',
+        link: '/articles/',
+        icon: 'material-symbols:edit-document-outline',
+        activeMatch: '^/articles/',
       },
       {
         text: '友链',
@@ -90,8 +95,8 @@ export default defineUserConfig({
     navbarSocialInclude: ['github'],
 
     // ==================== 内容集合 ====================
-    // 教程、技术、资源、文章四个分区合并为单一文库，
-    // 侧边栏按分组折叠展示
+    // 文库：教程/技术/资源三个文档分区（侧边栏默认折叠）
+    // 文章：独立博客集合（列表/标签/归档）
     collections: [
       {
         type: 'doc',
@@ -105,30 +110,43 @@ export default defineUserConfig({
             icon: 'material-symbols:school-outline',
             prefix: 'tutorial/',
             items: 'auto',
-            collapsed: false,
+            collapsed: true,
           },
           {
             text: '技术',
             icon: 'material-symbols:code-blocks-outline',
             prefix: 'tech/',
             items: 'auto',
-            collapsed: false,
+            collapsed: true,
           },
           {
             text: '资源',
             icon: 'material-symbols:folder-special-outline',
             prefix: 'resources/',
             items: 'auto',
-            collapsed: false,
-          },
-          {
-            text: '文章',
-            icon: 'material-symbols:edit-document-outline',
-            prefix: 'articles/',
-            items: 'auto',
-            collapsed: false,
+            collapsed: true,
           },
         ],
+      },
+      {
+        type: 'post',
+        dir: 'articles',
+        title: '文章',
+        link: '/articles/',
+        autoFrontmatter: { permalink: true },
+        postCover: 'right',
+        pagination: 10,
+        tags: true,
+        archives: true,
+        categories: true,
+        profile: {
+          avatar: '/images/avatar.svg',
+          name: '站长',
+          description: '写点技术，记点笔记，踩点坑',
+          location: '中国 · 互联网',
+          organization: '精华社',
+          layout: 'left',
+        },
       },
     ],
 

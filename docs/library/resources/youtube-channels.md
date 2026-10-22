@@ -1,7 +1,7 @@
 ---
 title: 技术 YouTube 频道推荐
 createTime: 2026-10-22
-permalink: /resources/youtube-channels/
+permalink: /library/resources/youtube-channels/
 description: 前端、计算机基础、AI 与科普向频道，附「看不看字幕」的建议
 ---
 

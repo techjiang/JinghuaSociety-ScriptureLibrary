@@ -1,7 +1,7 @@
 ---
 title: 异步编程实战：从回调到 async/await
 createTime: 2026-10-22
-permalink: /tutorial/js-async/
+permalink: /library/tutorial/js-async/
 description: Promise 链、async/await、并发控制与错误处理，附真实场景代码
 ---
 

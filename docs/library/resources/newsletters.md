@@ -1,7 +1,7 @@
 ---
 title: 技术 Newsletter 推荐
 createTime: 2026-10-22
-permalink: /resources/newsletters/
+permalink: /library/resources/newsletters/
 description: 每周一封的技术周报与 newsletter，比刷朋友圈高效十倍
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: npm 与 package.json 完全指南
 createTime: 2026-10-22
-permalink: /tutorial/npm-package/
+permalink: /library/tutorial/npm-package/
 description: dependencies 与 devDependencies 的区别、语义化版本、scripts 与 lock 文件
 ---
 

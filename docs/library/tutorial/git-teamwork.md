@@ -1,7 +1,7 @@
 ---
 title: Git 团队协作指南
 createTime: 2026-10-21
-permalink: /tutorial/git-teamwork/
+permalink: /library/tutorial/git-teamwork/
 description: 分支模型、PR 流程、Code Review 礼仪，一个人到一群人的协作方式
 ---
 

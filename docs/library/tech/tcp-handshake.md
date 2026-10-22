@@ -1,7 +1,7 @@
 ---
 title: TCP 三次握手与四次挥手
 createTime: 2026-10-21
-permalink: /tech/tcp-handshake/
+permalink: /library/tech/tcp-handshake/
 description: 把「为什么是三次握手」讲透，附一个抓包实践方法
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Shell 脚本入门：半小时自动化
 createTime: 2026-10-22
-permalink: /tutorial/shell-script/
+permalink: /library/tutorial/shell-script/
 description: 变量、条件、循环、函数加五个实用脚本，运维和本地自动化都靠它
 ---
 

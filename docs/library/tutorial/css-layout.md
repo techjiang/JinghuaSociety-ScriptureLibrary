@@ -1,7 +1,7 @@
 ---
 title: CSS Flex 与 Grid 布局指南
 createTime: 2026-10-21
-permalink: /tutorial/css-layout/
+permalink: /library/tutorial/css-layout/
 description: 一维用 Flex，二维用 Grid，覆盖九成日常布局，附对齐速查表
 ---
 

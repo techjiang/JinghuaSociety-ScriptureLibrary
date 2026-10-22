@@ -1,7 +1,7 @@
 ---
 title: HTML 语义化：让机器读懂你的页面
 createTime: 2026-10-22
-permalink: /tutorial/html-semantic/
+permalink: /library/tutorial/html-semantic/
 description: 语义化标签不只是 SEO——读屏软件、爬虫、未来的你自己，都靠它理解页面
 ---
 

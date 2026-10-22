@@ -1,7 +1,7 @@
 ---
 title: DNS 解析：从域名到 IP 的完整旅程
 createTime: 2026-10-22
-permalink: /tech/dns/
+permalink: /library/tech/dns/
 description: 递归与迭代查询、记录类型、缓存与 TTL、DNS 污染的坑
 ---
 

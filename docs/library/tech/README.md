@@ -1,7 +1,7 @@
 ---
 title: 技术
 createTime: 2026-10-21
-permalink: /tech/
+permalink: /library/tech/
 description: 技术区 —— 原理向笔记，把一件事讲透
 ---
 

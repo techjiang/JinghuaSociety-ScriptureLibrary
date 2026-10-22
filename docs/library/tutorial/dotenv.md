@@ -1,7 +1,7 @@
 ---
 title: 环境变量与配置管理
 createTime: 2026-10-22
-permalink: /tutorial/dotenv/
+permalink: /library/tutorial/dotenv/
 description: .env 文件、Vite/VuePress 的环境变量、多环境配置与密钥安全
 ---
 

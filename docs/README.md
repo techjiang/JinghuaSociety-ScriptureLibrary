@@ -9,10 +9,10 @@ config:
       text: 藏技术菁华，见字节山河
       tagline: 把代码读慢，把原理讲清 —— 每篇都亲手跑过
       actions:
-        - text: 进阁阅卷
+        - text: 开始
           link: /library/
           theme: brand
-        - text: 随手翻翻
+        - text: 文章
           link: /articles/
           theme: alt
   - type: features
@@ -35,6 +35,11 @@ config:
       - title: RSS 订阅
         icon: material-symbols:rss-feed-rounded
         details: 地址栏图标一键订阅。更新了推给你，不用常来看。
+  - type: posts
+    postListView: false
+    limit: 5
+    title: 最新文章
+    prefix: /articles/
   - type: image-text
     image: /images/about.svg
     title: 关于本站

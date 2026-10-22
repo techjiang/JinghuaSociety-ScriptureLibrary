@@ -1,7 +1,7 @@
 ---
 title: Chrome DevTools 调试技巧
 createTime: 2026-10-21
-permalink: /tutorial/chrome-devtools/
+permalink: /library/tutorial/chrome-devtools/
 description:  Elements、Console、Network 三大面板的实战用法，附断点调试入门
 ---
 

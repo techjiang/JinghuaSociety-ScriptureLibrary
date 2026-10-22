@@ -1,7 +1,7 @@
 ---
 title: 前端书单：读过才敢推荐
 createTime: 2026-10-22
-permalink: /resources/books-frontend/
+permalink: /library/resources/books-frontend/
 description: 按阶段分的前端书单，每本一句话点评，不凑数
 ---
 

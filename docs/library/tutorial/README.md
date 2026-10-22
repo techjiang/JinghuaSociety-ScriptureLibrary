@@ -1,7 +1,7 @@
 ---
 title: 教程
 createTime: 2026-10-21
-permalink: /tutorial/
+permalink: /library/tutorial/
 description: 教程区 —— 动手向文章，一步一步照做就能跑起来
 ---
 

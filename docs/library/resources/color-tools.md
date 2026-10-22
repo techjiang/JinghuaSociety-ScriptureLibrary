@@ -1,7 +1,7 @@
 ---
 title: 配色工具与方案
 createTime: 2026-10-22
-permalink: /resources/color-tools/
+permalink: /library/resources/color-tools/
 description: 配色生成器、渐变色、对比度检查与一套不会出错的配色方法
 ---
 

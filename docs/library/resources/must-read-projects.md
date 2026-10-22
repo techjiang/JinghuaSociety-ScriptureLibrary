@@ -1,7 +1,7 @@
 ---
 title: 值得读源码的开源项目
 createTime: 2026-10-22
-permalink: /resources/must-read-projects/
+permalink: /library/resources/must-read-projects/
 description: 按难度分级的源码阅读清单，从 Vue 3 到 Nginx，附阅读方法
 ---
 

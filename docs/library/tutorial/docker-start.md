@@ -1,7 +1,7 @@
 ---
 title: Docker 快速上手
 createTime: 2026-10-21
-permalink: /tutorial/docker-start/
+permalink: /library/tutorial/docker-start/
 description: 镜像、容器、Dockerfile 与 compose 入门，专治「我这明明能跑」
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 学习路线与免费资源
 createTime: 2026-10-21
-permalink: /resources/learning-roadmap/
+permalink: /library/resources/learning-roadmap/
 description: 前端/后端学习路线，附亲测有效的免费课程与文档，不推荐付费课
 ---
 

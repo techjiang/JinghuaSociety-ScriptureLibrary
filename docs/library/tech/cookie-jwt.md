@@ -1,7 +1,7 @@
 ---
 title: Cookie、Session 与 JWT：登录态的三条路
 createTime: 2026-10-22
-permalink: /tech/cookie-jwt/
+permalink: /library/tech/cookie-jwt/
 description: 三种保持登录状态的方案对比、安全设置与选型建议
 ---
 

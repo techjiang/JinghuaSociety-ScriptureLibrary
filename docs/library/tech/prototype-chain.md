@@ -1,7 +1,7 @@
 ---
 title: JavaScript 原型链与继承
 createTime: 2026-10-22
-permalink: /tech/prototype/
+permalink: /library/tech/prototype/
 description: 原型、原型链、class 语法糖与继承的现代写法，面试必考但要真懂
 ---
 

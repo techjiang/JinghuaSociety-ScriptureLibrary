@@ -1,7 +1,7 @@
 ---
 title: HTTPS 与 TLS：一次握手的全过程
 createTime: 2026-10-22
-permalink: /tech/https-tls/
+permalink: /library/tech/https-tls/
 description: 对称加密、非对称加密、证书链与 TLS 1.3 握手，讲清 HTTPS 为什么安全
 ---
 

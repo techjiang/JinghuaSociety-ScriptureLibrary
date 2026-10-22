@@ -1,7 +1,7 @@
 ---
 title: JavaScript 事件循环
 createTime: 2026-10-21
-permalink: /tech/js-event-loop/
+permalink: /library/tech/js-event-loop/
 description: 调用栈、任务队列、微任务，把 setTimeout 和 Promise 的执行顺序讲透
 ---
 

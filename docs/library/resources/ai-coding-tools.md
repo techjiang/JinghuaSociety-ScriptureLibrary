@@ -1,7 +1,7 @@
 ---
 title: AI 编程工具横评（2026）
 createTime: 2026-10-22
-permalink: /resources/ai-coding-tools/
+permalink: /library/resources/ai-coding-tools/
 description: Copilot、Cursor、Claude、ChatGPT 与国产工具的定位、价格与使用姿势
 ---
 

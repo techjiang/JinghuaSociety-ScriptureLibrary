@@ -1,7 +1,7 @@
 ---
 title: Markdown 写作指南
 createTime: 2026-10-21
-permalink: /tutorial/markdown-guide/
+permalink: /library/tutorial/markdown-guide/
 description: 常用语法速查加一套个人写作工作流，写给要写文档和博客的人
 ---
 

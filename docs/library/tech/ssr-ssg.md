@@ -1,7 +1,7 @@
 ---
 title: SPA、SSR、SSG：渲染方式怎么选
 createTime: 2026-10-22
-permalink: /tech/ssr-ssg/
+permalink: /library/tech/ssr-ssg/
 description: 三种渲染模式的原理、优劣与选型，附本站为什么选纯静态
 ---
 

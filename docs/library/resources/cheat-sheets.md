@@ -1,7 +1,7 @@
 ---
 title: 速查表合集
 createTime: 2026-10-22
-permalink: /resources/cheat-sheets/
+permalink: /library/resources/cheat-sheets/
 description: Git、Linux、正则、HTTP 等高频速查资源，打印贴墙系列
 ---
 

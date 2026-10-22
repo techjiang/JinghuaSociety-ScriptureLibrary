@@ -1,7 +1,7 @@
 ---
 title: MySQL 索引原理与优化
 createTime: 2026-10-22
-permalink: /tech/mysql-index/
+permalink: /library/tech/mysql-index/
 description: B+ 树、聚簇索引、最左前缀、EXPLAIN 实战与慢查询优化
 ---
 

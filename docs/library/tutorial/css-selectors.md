@@ -1,7 +1,7 @@
 ---
 title: CSS 选择器与优先级完全指南
 createTime: 2026-10-22
-permalink: /tutorial/css-selectors/
+permalink: /library/tutorial/css-selectors/
 description: 从基础选择器到 :has()，附优先级计算表和一份踩坑清单
 ---
 

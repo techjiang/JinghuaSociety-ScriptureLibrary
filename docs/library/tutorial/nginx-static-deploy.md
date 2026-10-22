@@ -1,7 +1,7 @@
 ---
 title: Nginx 部署静态站点
 createTime: 2026-10-21
-permalink: /tutorial/nginx-static-deploy/
+permalink: /library/tutorial/nginx-static-deploy/
 description: 从安装到配置缓存、Gzip、HTTPS，把手里的静态站点真正发上线
 ---
 

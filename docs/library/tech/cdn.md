@@ -1,7 +1,7 @@
 ---
 title: CDN 原理：为什么你的资源秒开
 createTime: 2026-10-22
-permalink: /tech/cdn/
+permalink: /library/tech/cdn/
 description: 边缘节点、回源、缓存刷新与安全防护，兼谈本站为什么暂时不用
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: HTTP 缓存详解
 createTime: 2026-10-21
-permalink: /tech/http-cache/
+permalink: /library/tech/http-cache/
 description: 强缓存、协商缓存、缓存位置，以及一套生产可用的缓存策略
 ---
 

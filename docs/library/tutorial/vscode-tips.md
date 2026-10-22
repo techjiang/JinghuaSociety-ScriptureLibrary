@@ -1,7 +1,7 @@
 ---
 title: VS Code 高效使用技巧
 createTime: 2026-10-22
-permalink: /tutorial/vscode-tips/
+permalink: /library/tutorial/vscode-tips/
 description: 快捷键、多光标、命令面板、调试与设置同步，每天省半小时
 ---
 

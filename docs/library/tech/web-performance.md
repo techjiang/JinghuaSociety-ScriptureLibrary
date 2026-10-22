@@ -1,7 +1,7 @@
 ---
 title: 前端性能优化清单
 createTime: 2026-10-21
-permalink: /tech/web-performance/
+permalink: /library/tech/web-performance/
 description: 按性价比排序的性能优化手段，从白嫖级到工程级，附测量方法
 ---
 

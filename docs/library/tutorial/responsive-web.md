@@ -1,7 +1,7 @@
 ---
 title: 响应式网页设计实战
 createTime: 2026-10-22
-permalink: /tutorial/responsive-web/
+permalink: /library/tutorial/responsive-web/
 description: 视口、流式布局、媒体查询、响应式图片与移动端适配的完整方案
 ---
 

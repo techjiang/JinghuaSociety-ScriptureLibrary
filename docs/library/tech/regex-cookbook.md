@@ -1,7 +1,7 @@
 ---
 title: 正则表达式食谱
 createTime: 2026-10-21
-permalink: /tech/regex-cookbook/
+permalink: /library/tech/regex-cookbook/
 description: 常用模式速查、分组替换技巧，外加一个性能大坑
 ---
 

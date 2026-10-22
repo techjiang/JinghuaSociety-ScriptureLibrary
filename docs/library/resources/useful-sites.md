@@ -1,7 +1,7 @@
 ---
 title: 常用网站导航
 createTime: 2026-10-21
-permalink: /resources/useful-sites/
+permalink: /library/resources/useful-sites/
 description: 按用途分类的常逛网站，查文档、刷题、看资讯、找工具
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: HTTP 版本演进：从 1.0 到 3
 createTime: 2026-10-22
-permalink: /tech/http-versions/
+permalink: /library/tech/http-versions/
 description: 每个 HTTP 版本解决了什么问题，面试常考但值得真懂
 ---
 

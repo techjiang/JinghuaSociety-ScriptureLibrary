@@ -1,7 +1,7 @@
 ---
 title: SQL 十分钟入门
 createTime: 2026-10-21
-permalink: /tutorial/sql-basics/
+permalink: /library/tutorial/sql-basics/
 description: 只会增删改查也能干活——一篇够用的 SQL 速成，附练习环境
 ---
 

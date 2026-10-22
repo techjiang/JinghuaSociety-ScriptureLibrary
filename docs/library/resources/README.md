@@ -1,7 +1,7 @@
 ---
 title: 资源
 createTime: 2026-10-21
-permalink: /resources/
+permalink: /library/resources/
 description: 资源区 —— 工具、学习路线与网站导航，亲测才收录
 ---
 

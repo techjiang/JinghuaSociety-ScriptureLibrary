@@ -1,7 +1,7 @@
 ---
 title: 用 VuePress 2 + Plume 搭一个博客
 createTime: 2026-10-21
-permalink: /tutorial/build-blog-with-plume/
+permalink: /library/tutorial/build-blog-with-plume/
 description: 从零到部署的完整过程，本站就是这么搭出来的，含踩坑记录
 ---
 

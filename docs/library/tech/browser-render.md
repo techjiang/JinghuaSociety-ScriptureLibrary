@@ -1,7 +1,7 @@
 ---
 title: 浏览器是怎么把页面渲染出来的
 createTime: 2026-10-21
-permalink: /tech/browser-render/
+permalink: /library/tech/browser-render/
 description: 从 HTML 字节流到像素的完整旅程，讲清重排重绘，以及 CSS 该放哪
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 免费图片与素材资源
 createTime: 2026-10-22
-permalink: /resources/image-assets/
+permalink: /library/resources/image-assets/
 description: 免费图库、背景、插画与压缩工具，配一份图片使用规范
 ---
 

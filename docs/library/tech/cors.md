@@ -1,7 +1,7 @@
 ---
 title: 跨域与 CORS 详解
 createTime: 2026-10-21
-permalink: /tech/cors/
+permalink: /library/tech/cors/
 description: 同源策略是什么、CORS 怎么放行、预检何时发生，附 Express/Nginx 配置
 ---
 

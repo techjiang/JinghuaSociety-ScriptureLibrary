@@ -1,7 +1,7 @@
 ---
 title: 技术播客推荐
 createTime: 2026-10-22
-permalink: /resources/tech-podcasts/
+permalink: /library/resources/tech-podcasts/
 description: 通勤路上听的技术播客，中文为主，附收听建议
 ---
 

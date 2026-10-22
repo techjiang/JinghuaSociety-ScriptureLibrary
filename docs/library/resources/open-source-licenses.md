@@ -1,7 +1,7 @@
 ---
 title: 开源许可证怎么选
 createTime: 2026-10-21
-permalink: /resources/open-source-licenses/
+permalink: /library/resources/open-source-licenses/
 description: MIT、Apache、GPL 到底差在哪，给自己的项目选许可证的实用建议
 ---
 

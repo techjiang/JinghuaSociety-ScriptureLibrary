@@ -1,7 +1,7 @@
 ---
 title: 前端开发环境搭建
 createTime: 2026-10-21
-permalink: /tutorial/frontend-env/
+permalink: /library/tutorial/frontend-env/
 description: Node、pnpm、VS Code、终端的一套实用配置，新电脑半小时进入战斗状态
 ---
 

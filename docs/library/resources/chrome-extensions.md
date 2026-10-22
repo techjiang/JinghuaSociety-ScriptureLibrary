@@ -1,7 +1,7 @@
 ---
 title: Chrome 扩展推荐：开发者向
 createTime: 2026-10-22
-permalink: /resources/chrome-extensions/
+permalink: /library/resources/chrome-extensions/
 description: 前端调试、效率工具与隐私保护，开发者真正会装的扩展清单
 ---
 

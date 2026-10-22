@@ -1,7 +1,7 @@
 ---
 title: 免费商用字体资源
 createTime: 2026-10-22
-permalink: /resources/free-fonts/
+permalink: /library/resources/free-fonts/
 description: 中文免费字体、英文字体站点与授权常识，别再乱用微软雅黑了
 ---
 

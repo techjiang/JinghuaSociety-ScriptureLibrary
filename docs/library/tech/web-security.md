@@ -1,7 +1,7 @@
 ---
 title: Web 安全入门：XSS 与 CSRF
 createTime: 2026-10-21
-permalink: /tech/web-security/
+permalink: /library/tech/web-security/
 description: 两种最常见的 Web 攻击的原理与防御，写给不想被拖库的开发者
 ---
 
