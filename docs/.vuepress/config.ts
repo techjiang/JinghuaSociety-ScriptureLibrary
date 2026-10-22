@@ -11,8 +11,6 @@ import { rssPlugin } from './plugins/rss'
 const command = process.argv[2] ?? ''
 const isBuild = command === 'build'
 const BASE = '/'
-// 页脚 HTML 里的站内链接前缀（根路径下为空）
-const LINK_PREFIX = ''
 
 export default defineUserConfig({
   // ==================== 站点基础信息 ====================
@@ -209,17 +207,7 @@ export default defineUserConfig({
     // message/copyright 均支持 HTML（主题 v-html 渲染）
     // 注意：HTML 里的站内链接要带 base 前缀，否则 Pages 子路径下 404
     footer: {
-      message:
-        `<nav class="jh-footer-nav" aria-label="页脚导航">` +
-        `<span class="jh-footer-nav-title">阁中阁</span>` +
-        `<a href="${LINK_PREFIX}/hall-of-fame/">名人堂</a>` +
-        `<a href="${LINK_PREFIX}/join/">加入</a>` +
-        `<a href="${LINK_PREFIX}/members/">成员</a>` +
-        `<span class="jh-footer-nav-title">关于本站</span>` +
-        `<a href="${LINK_PREFIX}/about/">关于</a>` +
-        `<a href="${LINK_PREFIX}/links/">友链</a>` +
-        `</nav>` +
-        `<span class="jh-footer-slogan">藏技术菁华，见字节山河</span>`,
+      message: `<span class="jh-footer-slogan">藏技术菁华，见字节山河</span>`,
       copyright: 'Copyright © 2026 精华社 · 藏经阁',
     },
   }),

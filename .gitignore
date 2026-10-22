@@ -22,3 +22,7 @@ Thumbs.db
 !.vscode/extensions.json
 .idea
 .playwright-cli
+
+# 本地临时文件（含 token，勿提交）
+.ghtoken
+push-api.mjs
