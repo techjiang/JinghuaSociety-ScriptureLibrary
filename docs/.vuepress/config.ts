@@ -116,6 +116,22 @@ export default defineUserConfig({
     ],
     navbarSocialInclude: ['github'],
 
+    // ==================== 全站公告（Plume 内置 bulletin）====================
+    // 默认所有页面展示；关闭后由 localStorage 记住（lifetime: 'once'）。
+    // 想换文案时改 id 即可重新弹出。布局可选 top-left/top-right/bottom-left/bottom-right/center。
+    bulletin: {
+      id: 'v2-20261022',
+      title: '📢 藏经阁全新升级',
+      content:
+        '新增「<b>日常</b>」分类与「<b>名人堂</b>」，欢迎来 ' +
+        '<a href="/join/">投稿</a>，一起把技术讲成人话。',
+      layout: 'bottom-right',
+      border: true,
+      lifetime: 'once',
+    },
+    bulletinLabel: '公告',
+    closeLabel: '关闭',
+
     // ==================== 内容集合 ====================
     // 文库：教程/技术/资源三个文档分区（侧边栏默认折叠）
     // 文章：独立博客集合（列表/标签/归档）
