@@ -25,6 +25,12 @@ export interface FeaturedLinkSite {
   /** 分组类别，用于成员列表展示 */
   category: string
   /**
+   * 站点图标/头像地址（建议 1:1，如 favicon、logo）。
+   * 成员瓷砖为正方形，图片以 cover 方式裁切填充；
+   * 不填则回退显示站点名首字。
+   */
+  icon?: string
+  /**
    * 是否为示例占位。提交 PR 时请替换为真实成员，或删除该条。
    * /go 随机跳转时会自动跳过示例成员。
    */
@@ -37,6 +43,7 @@ export const featuredLinks: FeaturedLinkSite[] = [
     url: 'https://jinghuasociety-scripturelibrary.asoe.cn/',
     desc: '藏技术菁华，见字节山河。把计算机与互联网技术，讲成人话。',
     category: '技术',
+    icon: '/images/logo.svg',
   },
   {
     name: '示例站点 A',

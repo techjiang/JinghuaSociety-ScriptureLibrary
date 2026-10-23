@@ -30,3 +30,56 @@
     margin-bottom: -2rem;
   }
 }
+
+/* ============================================================
+   首页特性卡片：更紧凑 + 品牌色图标 + 悬停反馈
+   选择器均比主题的 scoped 规则（.xxx[data-v-xxx]，约 0,2,0）优先级更高
+   ============================================================ */
+.vp-home .vp-home-features .vp-home-feature {
+  border-radius: 14px;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease;
+}
+
+.vp-home .vp-home-features .vp-home-feature:hover {
+  transform: translateY(-4px);
+  border-color: var(--vp-c-brand-1, #c0392b);
+  box-shadow: 0 12px 28px -10px rgb(0 0 0 / 20%);
+}
+
+/* 图标盒：品牌色淡底 + 品牌色图标；悬停整块反色 */
+.vp-home .vp-home-features .vp-home-feature .icon {
+  border-radius: 12px;
+  background-color: var(--vp-c-brand-soft, rgb(192 57 43 / 10%));
+  color: var(--vp-c-brand-1, #c0392b);
+  transition:
+    background-color 0.18s ease,
+    color 0.18s ease;
+}
+
+.vp-home .vp-home-features .vp-home-feature:hover .icon {
+  background-color: var(--vp-c-brand-1, #c0392b);
+  color: #fff;
+}
+
+/* 收紧内边距与行距，减少卡片内部空白、降低高度 */
+.vp-home .vp-home-features .vp-home-feature .box {
+  padding: 20px;
+}
+
+.vp-home .vp-home-features .vp-home-feature .details {
+  font-size: 13.5px;
+  line-height: 22px;
+}
+
+/* 链接箭头悬停右移 */
+.vp-home .vp-home-features .vp-home-feature .link-text-icon {
+  transition: transform 0.18s ease;
+}
+
+.vp-home .vp-home-features .vp-home-feature:hover .link-text-icon {
+  transform: translateX(4px);
+}
+

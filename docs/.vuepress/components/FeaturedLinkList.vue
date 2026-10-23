@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { featuredLinks } from '../featured-links'
 import type { FeaturedLinkSite } from '../featured-links'
 
@@ -13,24 +13,48 @@ const grouped = computed<[string, FeaturedLinkSite[]][]>(() => {
   }
   return Array.from(map.entries())
 })
+
+// 图片加载失败时回退为首字显示
+const brokenIcons = ref<Set<string>>(new Set())
+const onImgError = (url: string) => {
+  brokenIcons.value.add(url)
+}
+const showImg = (s: FeaturedLinkSite) => !!s.icon && !brokenIcons.value.has(s.icon)
 </script>
 
 <template>
   <div class="fl-list">
     <div v-for="[cat, sites] in grouped" :key="cat" class="fl-group">
-      <h3 class="fl-group__title">{{ cat }}</h3>
-      <ul class="fl-group__items">
-        <li
+      <h3 class="fl-group__title">
+        {{ cat }}
+        <span class="fl-group__count">{{ sites.length }}</span>
+      </h3>
+
+      <div class="fl-grid">
+        <a
           v-for="s in sites"
           :key="s.url"
-          class="fl-item"
-          :class="{ 'fl-item--example': s.example }"
+          class="fl-tile"
+          :class="{ 'fl-tile--example': s.example }"
+          :href="s.url"
+          target="_blank"
+          rel="noopener"
+          :title="`${s.name} — ${s.desc}`"
         >
-          <a :href="s.url" target="_blank" rel="noopener">{{ s.name }}</a>
-          <span v-if="s.example" class="fl-tag">示例</span>
-          <p class="fl-item__desc">{{ s.desc }}</p>
-        </li>
-      </ul>
+          <span class="fl-tile__box">
+            <img
+              v-if="showImg(s)"
+              :src="s.icon"
+              :alt="s.name"
+              loading="lazy"
+              @error="onImgError(s.icon!)"
+            />
+            <span v-else class="fl-tile__char">{{ s.name.charAt(0) }}</span>
+          </span>
+          <span class="fl-tile__name">{{ s.name }}</span>
+          <span v-if="s.example" class="fl-tile__tag">示例</span>
+        </a>
+      </div>
     </div>
   </div>
 </template>
@@ -38,46 +62,98 @@ const grouped = computed<[string, FeaturedLinkSite[]][]>(() => {
 <style scoped>
 .fl-list {
   display: grid;
-  gap: 24px;
-  margin-top: 12px;
+  gap: 26px;
+  margin-top: 10px;
 }
 .fl-group__title {
-  font-size: 1.05rem;
-  border-left: 3px solid var(--vp-c-brand-1, #c0392b);
-  padding-left: 10px;
-  margin: 0 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+  margin: 0 0 14px;
+  color: var(--vp-c-text-1, #213547);
 }
-.fl-group__items {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: grid;
-  gap: 10px;
-}
-.fl-item {
-  padding: 10px 14px;
-  border: 1px solid var(--vp-c-divider, #e2e2e2);
-  border-radius: 8px;
-}
-.fl-item a {
+.fl-group__count {
+  font-size: 0.72rem;
   font-weight: 600;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: var(--vp-c-bg-soft, #f6f6f7);
+  border: 1px solid var(--vp-c-divider, #e2e2e3);
+  color: var(--vp-c-text-2, #6b7280);
+}
+
+/* ---------- 成员瓷砖：小正方形网格 ---------- */
+.fl-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
+  gap: 20px 16px;
+}
+.fl-tile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+.fl-tile__box {
+  width: 76px;
+  height: 76px;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--vp-c-bg-soft, #f6f6f7);
+  border: 1px solid var(--vp-c-divider, #e2e2e3);
+  transition:
+    transform 0.18s ease,
+    border-color 0.18s ease,
+    box-shadow 0.18s ease;
+}
+.fl-tile:hover .fl-tile__box {
+  transform: translateY(-5px);
+  border-color: var(--vp-c-brand-1, #c0392b);
+  box-shadow: 0 12px 26px -10px rgb(0 0 0 / 25%);
+}
+.fl-tile__box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.fl-tile__char {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1;
   color: var(--vp-c-brand-1, #c0392b);
 }
-.fl-item__desc {
-  margin: 4px 0 0;
-  color: var(--vp-c-text-2, #6b7280);
-  font-size: 0.9rem;
+.fl-tile__name {
+  max-width: 100%;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  color: var(--vp-c-text-1, #213547);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
-.fl-item--example {
-  opacity: 0.6;
+.fl-tile:hover .fl-tile__name {
+  color: var(--vp-c-brand-1, #c0392b);
 }
-.fl-tag {
-  display: inline-block;
-  margin-left: 8px;
-  font-size: 0.7rem;
-  background: var(--vp-c-bg-soft, #f0f0f0);
-  border-radius: 4px;
+.fl-tile__tag {
+  position: absolute;
+  top: -8px;
+  right: 0;
+  font-size: 10px;
   padding: 1px 6px;
+  border-radius: 4px;
+  background: var(--vp-c-bg, #fff);
+  border: 1px solid var(--vp-c-divider, #e2e2e3);
   color: var(--vp-c-text-2, #6b7280);
+}
+.fl-tile--example {
+  opacity: 0.62;
 }
 </style>
