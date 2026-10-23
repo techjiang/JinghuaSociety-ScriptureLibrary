@@ -14,11 +14,11 @@
    重复类名是为了提高选择器优先级，确保覆盖主题的 scoped 样式
    （主题规则形如 .vp-home-hero:not(.full) .hero-container[data-v-xxx]）。 */
 .vp-home .vp-home-hero:not(.full) .hero-container.hero-container {
-  padding-top: 12rem;
+  padding-top: 8rem;
 }
 
 .vp-home .vp-home-hero.vp-home-hero:not(.full) {
-  margin-bottom: -7rem;
+  margin-bottom: -3rem;
 }
 
 @media (max-width: 719px) {
