@@ -5,6 +5,8 @@ permalink: /resources/screenshot-tools/
 description: 截图标注、长截图、GIF 录屏——写文档做教程的产出工具
 ---
 
+<CategoryTag name="资源" link="/library/resources/" />
+
 # 截图与录屏工具
 
 写文档、报 bug、做教程、晒桌面 —— 截图录屏是程序员的高频产出。

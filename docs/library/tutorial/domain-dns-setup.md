@@ -5,6 +5,8 @@ permalink: /library/tutorial/domain-dns-setup/
 description: 从买域名到解析到 GitHub Pages，一篇文章走通全流程
 ---
 
+<CategoryTag name="教程" link="/library/tutorial/" />
+
 # 域名购买与 DNS 配置实操
 
 网站部署好了，现在给它一个「门牌号」。这篇走完整流程：

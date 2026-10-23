@@ -5,6 +5,8 @@ permalink: /library/tutorial/js-dom/
 description: 查元素、改内容、绑事件、事件委托——原生 JS 操作页面的基本功
 ---
 
+<CategoryTag name="教程" link="/library/tutorial/" />
+
 # DOM 操作与事件委托入门
 
 框架好用，但 DOM 是底。读 jQuery 时代的老代码、

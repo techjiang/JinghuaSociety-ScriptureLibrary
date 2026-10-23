@@ -4,6 +4,8 @@ createTime: 2026-10-21
 permalink: /library/tech/linux-commands/
 description: 文件、文本、进程、网络四大类常用命令，附组合技与踩坑提醒
 ---
+
+<CategoryTag name="技术" link="/library/tech/" />
 服务器大多是 Linux，前端也迟早要跟它打交道（部署、CI、容器）。
 这篇不按字母序罗列（那是 `man` 的活），按**使用场景**分类，
 只收我每天真在用的。macOS 也能用，毕竟都是 Unix 血脉。

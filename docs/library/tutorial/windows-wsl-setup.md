@@ -5,6 +5,8 @@ permalink: /library/tutorial/windows-wsl/
 description: WSL2 安装、Node 环境、文件互访与 VS Code 联动，Windows 前端开发正解
 ---
 
+<CategoryTag name="教程" link="/library/tutorial/" />
+
 # Windows 开发环境：WSL 实战配置
 
 Windows 写前端，老问题一堆：路径分隔符、换行符、

@@ -4,6 +4,8 @@ createTime: 2026-10-22
 permalink: /library/tutorial/restful-api/
 description: 资源建模、HTTP 方法语义、状态码、错误格式与分页，写给前后端都该懂的人
 ---
+
+<CategoryTag name="教程" link="/library/tutorial/" />
 前后端协作，接口是契约。契约设计得好，前后端各自安好；
 设计得烂，天天为「这个字段叫啥」「错误怎么返回」扯皮。
 这篇讲一套实用的 RESTful 设计规范，不是 RFC 复读，是踩坑总结。

@@ -5,6 +5,8 @@ permalink: /library/tech/request-lifecycle/
 description: 从敲下回车到看到像素，中间发生的十件事——全链路一图流
 ---
 
+<CategoryTag name="技术" link="/library/tech/" />
+
 # 一次网络请求的完整旅程
 
 在浏览器敲回车，到页面显示，中间只过了 200 毫秒 ——

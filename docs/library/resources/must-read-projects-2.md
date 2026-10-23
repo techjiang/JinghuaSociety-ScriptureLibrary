@@ -5,6 +5,8 @@ permalink: /resources/small-projects/
 description: 一万行以内的优质开源项目，一个周末能读完的工程范例
 ---
 
+<CategoryTag name="资源" link="/library/resources/" />
+
 # 值得读源码的小而美项目
 
 [上一篇](../must-read-projects.md) 讲「大项目按专题读」，

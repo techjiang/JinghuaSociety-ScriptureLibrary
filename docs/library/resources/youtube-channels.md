@@ -4,6 +4,8 @@ createTime: 2026-10-22
 permalink: /library/resources/youtube-channels/
 description: 前端、计算机基础、AI 与科普向频道，附「看不看字幕」的建议
 ---
+
+<CategoryTag name="资源" link="/library/resources/" />
 视频学技术的优势：**看得见过程**（调试、部署、现场排错），
 这是文字给不了的。这份收常看的，按方向分。
 （访问需要网络条件，你懂的建议备好。）

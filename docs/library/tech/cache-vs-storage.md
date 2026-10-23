@@ -5,6 +5,8 @@ permalink: /library/tech/cache-vs-storage/
 description: HTTP 缓存、Service Worker 缓存、Storage 各管一摊，别混用
 ---
 
+<CategoryTag name="技术" link="/library/tech/" />
+
 # 浏览器缓存与存储辨析
 
 「缓存」这个词在浏览器里有三个完全不同的东西：

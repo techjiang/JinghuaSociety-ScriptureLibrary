@@ -5,6 +5,8 @@ permalink: /library/daily/digital-detox-weekend/
 description: 一个程序员的断网周末实录——不碰屏幕 24 小时，发生了什么
 ---
 
+<CategoryTag name="日常" link="/library/daily/" />
+
 # 周末断网实验：把手机请出家门的一天
 
 「日常」这个分类，放的不是教程，是生活。

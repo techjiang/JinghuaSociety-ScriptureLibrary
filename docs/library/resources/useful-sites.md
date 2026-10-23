@@ -4,6 +4,8 @@ createTime: 2026-10-21
 permalink: /library/resources/useful-sites/
 description: 按用途分类的常逛网站，查文档、刷题、看资讯、找工具
 ---
+
+<CategoryTag name="资源" link="/library/resources/" />
 浏览器书签里的常客，按用途分类。标准同上：常打开、真好用。
 
 ## 一、查文档

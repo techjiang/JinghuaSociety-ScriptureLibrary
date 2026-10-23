@@ -4,6 +4,8 @@ createTime: 2026-10-21
 permalink: /library/tutorial/css-layout/
 description: 一维用 Flex，二维用 Grid，覆盖九成日常布局，附对齐速查表
 ---
+
+<CategoryTag name="教程" link="/library/tutorial/" />
 CSS 布局以前是个脏活：float 清除浮动、inline-block 的空格 bug、
 absolute 定位算到秃头。现在简单了 —— **Flex 管一维，Grid 管二维**，
 两个打遍天下。这篇把日常九成场景覆盖掉。

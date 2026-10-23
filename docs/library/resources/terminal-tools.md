@@ -5,6 +5,8 @@ permalink: /resources/terminal-tools/
 description: 终端模拟器、Shell 与增强工具，把黑窗口变成生产力
 ---
 
+<CategoryTag name="资源" link="/library/resources/" />
+
 # 终端工具推荐
 
 终端是程序员的「驾驶舱」。默认配置能凑合，但换套工具

@@ -4,6 +4,8 @@ createTime: 2026-10-21
 permalink: /library/tech/browser-render/
 description: 从 HTML 字节流到像素的完整旅程，讲清重排重绘，以及 CSS 该放哪
 ---
+
+<CategoryTag name="技术" link="/library/tech/" />
 每天打开无数网页，但「浏览器到底怎么把一堆字节变成像素」，
 很多人说不清。搞懂这条流水线，很多「玄学」问题
 （CSS 放头部还是尾部、动画为什么卡、改样式为什么慢）

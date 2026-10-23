@@ -5,6 +5,8 @@ permalink: /library/tutorial/https-certbot/
 description: Let's Encrypt 免费证书申请、自动续期与常见故障，一条命令搞定
 ---
 
+<CategoryTag name="教程" link="/library/tutorial/" />
+
 # 自己的服务器上 HTTPS：certbot 实操
 
 HTTPS 不是可选项。Let's Encrypt 提供免费证书，

@@ -5,6 +5,8 @@ permalink: /resources/note-tools/
 description: Obsidian、Notion、语雀、飞书——四种笔记哲学的取舍
 ---
 
+<CategoryTag name="资源" link="/library/resources/" />
+
 # 笔记软件横评
 
 笔记软件是「第二大床」（仅次于编辑器）。选错了，

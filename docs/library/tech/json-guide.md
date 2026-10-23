@@ -5,6 +5,8 @@ permalink: /library/tech/json/
 description: 语法、解析、序列化、大数陷阱与 JSON vs 对象，接口数据的日常
 ---
 
+<CategoryTag name="技术" link="/library/tech/" />
+
 # JSON 完全指南
 
 JSON 是前后端之间的「普通话」。天天用，但有几个坑

@@ -5,6 +5,8 @@ permalink: /library/tech/status-codes/
 description: 每个常用状态码该在什么场景返回，附接口设计中最常见的误用
 ---
 
+<CategoryTag name="技术" link="/library/tech/" />
+
 # HTTP 状态码使用指南
 
 状态码是接口的「第一语言」。返回对了，客户端（浏览器、App、

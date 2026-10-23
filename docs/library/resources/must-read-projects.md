@@ -4,6 +4,8 @@ createTime: 2026-10-22
 permalink: /library/resources/must-read-projects/
 description: 按难度分级的源码阅读清单，从 Vue 3 到 Nginx，附阅读方法
 ---
+
+<CategoryTag name="资源" link="/library/resources/" />
 读源码是程序员的「内功训练」。看十篇源码分析，
 不如自己顺着提交记录走一遍。这份按难度分级，
 每个都标了「学什么」和「怎么读」。

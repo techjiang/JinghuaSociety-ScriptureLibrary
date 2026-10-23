@@ -5,6 +5,8 @@ permalink: /resources/blog-platform-compare/
 description: 静态自建、SaaS 平台、社区专栏三条路线的成本与自由账本
 ---
 
+<CategoryTag name="资源" link="/library/resources/" />
+
 # 博客平台对比：自己搭还是住别人家
 
 想写博客，第一条岔路：**自己搭（静态生成器）** 还是

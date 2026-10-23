@@ -4,6 +4,8 @@ createTime: 2026-10-22
 permalink: /library/tech/browser-storage/
 description: Cookie/localStorage/sessionStorage/IndexedDB/Cache Storage 的对比与选型
 ---
+
+<CategoryTag name="技术" link="/library/tech/" />
 浏览器给了五种存数据的地方，很多项目只用 localStorage 一种。
 每种有自己的脾气：容量、生命周期、API、能不能被 Service Worker 碰。
 选错了，要么存不下，要么隐私出事。这篇横向对比加选型建议。

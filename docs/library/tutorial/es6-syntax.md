@@ -5,6 +5,8 @@ permalink: /library/tutorial/es6-syntax/
 description: 解构、展开、箭头函数、可选链、Promise、模块——每天必用的现代 JS
 ---
 
+<CategoryTag name="教程" link="/library/tutorial/" />
+
 # ES6+ 常用语法速成
 
 ES6（ES2015）已经十年了，之后的 ES2016-ES2023 又加了不少好用的。

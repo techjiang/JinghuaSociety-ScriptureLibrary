@@ -4,6 +4,8 @@ createTime: 2026-10-22
 permalink: /library/tutorial/js-async/
 description: Promise 链、async/await、并发控制与错误处理，附真实场景代码
 ---
+
+<CategoryTag name="教程" link="/library/tutorial/" />
 异步是 JS 的核心难题。请求接口、读文件、定时器 —— 全都不能「马上拿到」。
 写法从回调地狱演进到 async/await，但坑一个没少。这篇讲现代写法
 （Promise + async/await）和实战中最容易栽的跟头。

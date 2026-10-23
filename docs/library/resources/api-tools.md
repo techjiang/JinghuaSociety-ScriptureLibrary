@@ -5,6 +5,8 @@ permalink: /resources/api-tools/
 description: Postman、Apifox、Hoppscotch、curl 与 Bruno——接口调试怎么选
 ---
 
+<CategoryTag name="资源" link="/library/resources/" />
+
 # API 调试工具横评
 
 前后端联调、测试接口、写文档 —— 都需要 API 工具。

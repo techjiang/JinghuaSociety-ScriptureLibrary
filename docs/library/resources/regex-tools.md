@@ -5,6 +5,8 @@ permalink: /resources/regex-tools/
 description: regex101、Debuggex 与可视化方案——把正则从玄学变工程
 ---
 
+<CategoryTag name="资源" link="/library/resources/" />
+
 # 正则可视化与调试工具
 
 正则写的时候爽，三天后自己看不懂。这篇收「调试 + 可视化 +

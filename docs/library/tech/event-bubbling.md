@@ -5,6 +5,8 @@ permalink: /library/tech/event-bubbling/
 description: 事件流的三阶段、target 与 currentTarget、stopPropagation 的正确用法
 ---
 
+<CategoryTag name="技术" link="/library/tech/" />
+
 # 事件冒泡、捕获与委托
 
 点一个按钮，父容器的点击回调也触发了 —— 这就是**事件冒泡**。

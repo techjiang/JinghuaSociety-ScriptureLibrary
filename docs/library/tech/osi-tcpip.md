@@ -5,6 +5,8 @@ permalink: /library/tech/osi-tcpip/
 description: 两张分层地图，把网络知识各归其位，附排障对照表
 ---
 
+<CategoryTag name="技术" link="/library/tech/" />
+
 # OSI 七层与 TCP/IP 四层
 
 网络知识太散：DNS、ARP、TCP、HTTP、TLS…… 不分层学，

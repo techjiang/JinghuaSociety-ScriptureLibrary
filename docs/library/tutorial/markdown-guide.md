@@ -4,6 +4,8 @@ createTime: 2026-10-21
 permalink: /library/tutorial/markdown-guide/
 description: 常用语法速查加一套个人写作工作流，写给要写文档和博客的人
 ---
+
+<CategoryTag name="教程" link="/library/tutorial/" />
 Markdown 是现在写技术文档的通用语。好处是纯文本，任何编辑器都能打开，
 不用担心格式跑偏；学会常用语法半小时，但能顺顺当当写成一篇干净文章，
 还得讲究点工作流。这篇前半部分查语法，后半部分讲我自己的写法。

@@ -5,6 +5,8 @@ permalink: /resources/file-transfer/
 description: 局域网传输、临时网盘、P2P 分享——程序员的高效传文件方案
 ---
 
+<CategoryTag name="资源" link="/library/resources/" />
+
 # 文件传输与共享工具
 
 「微信传文件被压画质」「网盘要登录」「发个大文件给同事」

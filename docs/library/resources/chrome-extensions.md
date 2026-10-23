@@ -4,6 +4,8 @@ createTime: 2026-10-22
 permalink: /library/resources/chrome-extensions/
 description: 前端调试、效率工具与隐私保护，开发者真正会装的扩展清单
 ---
+
+<CategoryTag name="资源" link="/library/resources/" />
 Chrome 扩展装十个是上限，装三十个浏览器变老爷车。
 这份按「开发调试」和「日常效率」分，全是长期自用款。
 

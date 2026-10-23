@@ -4,6 +4,8 @@ createTime: 2026-10-21
 permalink: /library/tutorial/nginx-static-deploy/
 description: 从安装到配置缓存、Gzip、HTTPS，把手里的静态站点真正发上线
 ---
+
+<CategoryTag name="教程" link="/library/tutorial/" />
 `npm run docs:build` 出来的 `dist` 文件夹，拷到服务器上就能跑，
 但「能跑」和「跑得好」之间隔着不少事：缓存要配、Gzip 要开、
 单页应用的路由要兜底、HTTPS 要申请。这篇把这些一次讲完。

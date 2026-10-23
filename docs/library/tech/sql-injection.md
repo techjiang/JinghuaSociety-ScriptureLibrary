@@ -5,6 +5,8 @@ permalink: /library/tech/sql-injection/
 description: 一条查询怎么被拖全库，参数化查询为什么能防住，附检测清单
 ---
 
+<CategoryTag name="技术" link="/library/tech/" />
+
 # SQL 注入：原理与防护
 
 SQL 注入是 Web 安全史上的「经典款」：简单、致命、

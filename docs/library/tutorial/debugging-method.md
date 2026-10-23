@@ -5,6 +5,8 @@ permalink: /library/tutorial/debugging-method/
 description: 从 printf 到科学调试法，把「瞎试」变成「定位」的系统方法
 ---
 
+<CategoryTag name="教程" link="/library/tutorial/" />
+
 # 程序调试方法论
 
 新手和高手调试的差距，不在工具熟练度，在**方法论**。

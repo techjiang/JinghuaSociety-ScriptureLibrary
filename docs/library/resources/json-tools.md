@@ -5,6 +5,8 @@ permalink: /resources/json-tools/
 description: 格式化、可视化、转换、校验——和 JSON 纠缠的日常工具箱
 ---
 
+<CategoryTag name="资源" link="/library/resources/" />
+
 # JSON 工具集
 
 接口调试、数据处理、配置文件 —— 天天和 JSON 打交道。

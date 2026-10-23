@@ -5,6 +5,8 @@ permalink: /library/tutorial/api-fetch/
 description: 原生 fetch 的坑、axios 的优势与封装一个顺手的数据请求层
 ---
 
+<CategoryTag name="教程" link="/library/tutorial/" />
+
 # 前端发请求：fetch 与 axios
 
 前端要跟后端要数据，绕不开 HTTP 请求。浏览器自带 `fetch`，

@@ -4,6 +4,8 @@ createTime: 2026-10-22
 permalink: /library/tech/https-tls/
 description: 对称加密、非对称加密、证书链与 TLS 1.3 握手，讲清 HTTPS 为什么安全
 ---
+
+<CategoryTag name="技术" link="/library/tech/" />
 HTTPS = HTTP + TLS。大家都知道「HTTPS 安全」，但安全在哪、
 怎么建立的，很多人说不清。这篇从「不加密会怎样」出发，
 把 TLS 握手讲透。

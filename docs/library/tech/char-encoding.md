@@ -5,6 +5,8 @@ permalink: /library/tech/char-encoding/
 description: 乱码是怎么来的、UTF-8 为什么赢、前端后端的编码 checklist
 ---
 
+<CategoryTag name="技术" link="/library/tech/" />
+
 # 字符编码：ASCII、Unicode 与 UTF-8
 
 「网页上一堆 `锟斤拷`」—— 乱码是编码没对齐造成的。

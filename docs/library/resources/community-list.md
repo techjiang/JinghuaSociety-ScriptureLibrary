@@ -5,6 +5,8 @@ permalink: /resources/community-list/
 description: 国内外技术社区的分工与逛法，别只把社区当摸鱼场所
 ---
 
+<CategoryTag name="资源" link="/library/resources/" />
+
 # 技术社区与论坛推荐
 
 技术社区是「信息源 + 人脉 + 镜子」（看别人的问题，

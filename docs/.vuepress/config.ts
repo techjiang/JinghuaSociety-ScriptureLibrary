@@ -3,6 +3,8 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 import { rssPlugin } from './plugins/rss'
+import { seoPlugin } from './plugins/seo'
+import { updatesPlugin } from './plugins/updates'
 
 // 已绑定自定义域名 jinghuasociety-scripturelibrary.asoe.cn，
 // 站点在该域名「根路径」下提供服务，因此 base 固定为根路径 '/'。
@@ -20,13 +22,76 @@ export default defineUserConfig({
   description: '藏技术菁华，见字节山河',
 
   head: [
+    // ==================== 图标 ====================
     // 导航栏 logo 与标签页图标同源，保证完全同步
     // 注意：VuePress 不会给 head 里的 link href 自动加 base 前缀，
     // 构建时必须手动带上子路径，否则 Pages 下 favicon 404
     ['link', { rel: 'icon', href: isBuild ? `${BASE}images/logo.svg` : '/images/logo.svg', type: 'image/svg+xml' }],
+    ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
+
+    // ==================== 基础信息 ====================
     ['meta', { name: 'theme-color', content: '#c0392b' }],
     ['meta', { name: 'author', content: '精华社' }],
-    // RSS 自动发现：浏览器/阅读器检测到地址栏图标即可订阅
+    ['meta', { name: 'publisher', content: '精华社 · 藏经阁' }],
+    ['meta', { name: 'copyright', content: 'Copyright © 2026 精华社 · 藏经阁' }],
+    ['meta', { name: 'rating', content: 'general' }],
+    [
+      'meta',
+      {
+        name: 'keywords',
+        content:
+          '精华社,藏经阁,技术博客,编程教程,前端开发,后端开发,计算机网络,HTTP,TCP,TLS,MySQL,Redis,Linux,运维,开发者工具,资源推荐,编程随笔,生活日常,程序员,独立博客',
+      },
+    ],
+
+    // ==================== 搜索引擎抓取控制 ====================
+    // 全站默认收录并跟随；单个页面想不收录，可在该页 frontmatter 里用 head 覆盖为 noindex
+    [
+      'meta',
+      {
+        name: 'robots',
+        content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
+      },
+    ],
+    ['meta', { name: 'googlebot', content: 'index, follow' }],
+    ['meta', { name: 'bingbot', content: 'index, follow' }],
+    ['meta', { name: 'baiduspider', content: 'index, follow' }],
+    ['meta', { name: 'sogou spider', content: 'index, follow' }],
+    ['meta', { name: '360Spider', content: 'index, follow' }],
+    ['meta', { name: 'YandexBot', content: 'index, follow' }],
+
+    // ==================== 各搜索引擎站长平台验证 ====================
+    // 在对应平台添加站点后会拿到一段验证码，替换下面各项的 value 即可生效。
+    // Google Search Console →「HTML 标记」方式
+    ['meta', { name: 'google-site-verification', content: 'REPLACE_WITH_GOOGLE_VERIFICATION_CODE' }],
+    // Bing 站长工具 → meta 标记（原名 msvalidate.01）
+    ['meta', { name: 'msvalidate.01', content: 'REPLACE_WITH_BING_VERIFICATION_CODE' }],
+    // 百度搜索资源平台 → HTML 标签验证
+    ['meta', { name: 'baidu-site-verification', content: 'REPLACE_WITH_BAIDU_VERIFICATION_CODE' }],
+    // 搜狗站长平台
+    ['meta', { name: 'sogou_site_verification', content: 'REPLACE_WITH_SOGOU_VERIFICATION_CODE' }],
+    // 360 站长平台
+    ['meta', { name: '360-site-verification', content: 'REPLACE_WITH_360_VERIFICATION_CODE' }],
+    // 神马搜索（UC）
+    ['meta', { name: 'shenma-site-verification', content: 'REPLACE_WITH_SHENMA_VERIFICATION_CODE' }],
+    // 头条搜索
+    ['meta', { name: 'toutiao_site_verification', content: 'REPLACE_WITH_TOUTIAO_VERIFICATION_CODE' }],
+
+    // ==================== Open Graph（微信 / QQ / 微博 / Facebook 等）====================
+    // og:url / og:title / og:description 由 Plume 按 hostname 逐页生成，这里只补站点级字段
+    ['meta', { property: 'og:site_name', content: '精华社 · 藏经阁' }],
+    ['meta', { property: 'og:locale', content: 'zh_CN' }],
+    // og:image 由 seo.ts 插件逐页补齐（含 width/height/alt），此处仅作兜底
+
+    // ==================== Twitter / X Card ====================
+    // 只给卡片类型与封面；标题/描述回落到 og:title / og:description，避免两处不一致
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    [
+      'meta',
+      { name: 'twitter:image', content: 'https://jinghuasociety-scripturelibrary.asoe.cn/images/og-cover.png' },
+    ],
+
+    // ==================== RSS 自动发现 ====================
     [
       'link',
       {
@@ -38,12 +103,23 @@ export default defineUserConfig({
     ],
   ],
 
-  plugins: [rssPlugin],
+  plugins: [
+    rssPlugin,
+    seoPlugin,
+    updatesPlugin,
+  ],
 
   theme: plumeTheme({
     // ==================== 站点级配置 ====================
     // 站点正式域名（自定义域名）。canonical/og:url/sitemap/RSS 都用它。
     hostname: 'https://jinghuasociety-scripturelibrary.asoe.cn',
+
+    // Sitemap：Plume 内置 @vuepress/plugin-sitemap，hostname 自动取自上面的 hostname。
+    // 会生成 sitemap.xml + sitemap.xsl，并自动向 robots.txt 追加 Sitemap 行。
+    sitemap: {
+      changefreq: 'weekly',
+      excludePaths: ['/404.html', '/go/'],
+    },
 
     // 编译缓存，加快重复启动速度
     cache: 'filesystem',
@@ -100,7 +176,10 @@ export default defineUserConfig({
         text: '阁中阁',
         icon: 'material-symbols:groups-outline',
         items: [
+          { text: '动态', link: '/updates/' },
           { text: '名人堂', link: '/hall-of-fame/' },
+          { text: '荣誉榜', link: '/honor-roll/' },
+          { text: '历史公告', link: '/announcements/' },
           { text: '加入', link: '/join/' },
           { text: '成员', link: '/members/' },
         ],
@@ -118,11 +197,10 @@ export default defineUserConfig({
     // 默认所有页面展示；关闭后由 localStorage 记住（lifetime: 'once'）。
     // 想换文案时改 id 即可重新弹出。布局可选 top-left/top-right/bottom-left/bottom-right/center。
     bulletin: {
-      id: 'v2-20261022',
-      title: '📢 藏经阁全新升级',
-      content:
-        '新增「<b>日常</b>」分类与「<b>名人堂</b>」，欢迎来 ' +
-        '<a href="/join/">投稿</a>，一起把技术讲成人话。',
+      // 更换 id 可让公告对所有老访客重新弹出（localStorage 以 id 为记忆键）
+      id: 'v4-20261023-founding',
+      title: '公告',
+      content: '精华社 · 藏经阁 在2026年10月20日正式成立！',
       layout: 'top-right',
       border: true,
       lifetime: 'once',
@@ -213,6 +291,27 @@ export default defineUserConfig({
       copyright: 'Copyright © 2026 精华社 · 藏经阁',
     },
   }),
+
+  // ==================== 全局样式 ====================
+  // 首页 hero 增加顶部留白，避免大标题紧贴导航栏显得拥挤、紧迫
+  styles: `
+    .vp-home-hero {
+      padding-top: 6.5rem;
+      padding-bottom: 4.5rem;
+    }
+    @media (min-width: 960px) {
+      .vp-home-hero {
+        padding-top: 9rem;
+        padding-bottom: 6rem;
+      }
+    }
+    @media (max-width: 719px) {
+      .vp-home-hero {
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+      }
+    }
+  `,
 
   bundler: viteBundler({
     // vite 8 (rolldown) 的构建环境中无法自动探测 Node 的 process，

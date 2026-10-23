@@ -5,6 +5,8 @@ permalink: /library/tech/semantic-versioning/
 description: MAJOR.MINOR.PATCH 的含义、^ 与 ~ 的规则、lock 文件与升级策略
 ---
 
+<CategoryTag name="技术" link="/library/tech/" />
+
 # 语义化版本：1.2.3 里的纪律
 
 每个依赖都带个版本号 `1.2.3`。这三个数字不是随便编的 ——

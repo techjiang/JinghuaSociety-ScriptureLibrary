@@ -5,6 +5,8 @@ permalink: /library/tech/url-encoding/
 description: 为什么中文变 %E4%B8%AD、encodeURIComponent 用错出事、Base64 不是加密
 ---
 
+<CategoryTag name="技术" link="/library/tech/" />
+
 # URL 编码与 Base64
 
 两个「日常见但说不清」的编码话题。URL 编码是「怎么安全地把

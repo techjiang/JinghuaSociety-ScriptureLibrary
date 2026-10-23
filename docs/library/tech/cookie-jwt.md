@@ -4,6 +4,8 @@ createTime: 2026-10-22
 permalink: /library/tech/cookie-jwt/
 description: 三种保持登录状态的方案对比、安全设置与选型建议
 ---
+
+<CategoryTag name="技术" link="/library/tech/" />
 「保持登录」是所有 Web 应用的基本需求，实现却不止一条路。
 Cookie+Session 是老牌方案，JWT 是新贵，Token 满天飞。
 这篇把三条路讲清楚，顺便把坑挖出来。

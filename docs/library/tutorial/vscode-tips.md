@@ -4,6 +4,8 @@ createTime: 2026-10-22
 permalink: /library/tutorial/vscode-tips/
 description: 快捷键、多光标、命令面板、调试与设置同步，每天省半小时
 ---
+
+<CategoryTag name="教程" link="/library/tutorial/" />
 编辑器是程序员待得最久的地方。同样是 VS Code，有人用得行云流水，
 有人还在跟鼠标较劲。这篇挑**真正每天用**的技巧讲，不堆快捷键表。
 

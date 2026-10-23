@@ -5,6 +5,8 @@ permalink: /resources/diagram-tools/
 description: 架构图、流程图、时序图、手绘风——按场景选画图工具
 ---
 
+<CategoryTag name="资源" link="/library/resources/" />
+
 # 画图工具推荐
 
 技术人要画图：架构图、流程图、时序图、脑图。工具一堆，

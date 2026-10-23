@@ -4,6 +4,8 @@ createTime: 2026-10-22
 permalink: /library/tech/cdn/
 description: 边缘节点、回源、缓存刷新与安全防护，兼谈本站为什么暂时不用
 ---
+
+<CategoryTag name="技术" link="/library/tech/" />
 你在北京访问部署在美国的服务器，物理距离摆在那，
 光速都救不了延迟。但如果你访问的网站挂了 CDN，
 资源可能就从北京的节点出来，几十毫秒到手。

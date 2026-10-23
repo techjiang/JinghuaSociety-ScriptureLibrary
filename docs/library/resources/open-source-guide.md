@@ -5,6 +5,8 @@ permalink: /resources/open-source-guide/
 description: 找项目、提 issue、发 PR 的完整路径——给第一次参与者的行动指南
 ---
 
+<CategoryTag name="资源" link="/library/resources/" />
+
 # 如何参与开源：从第一次 PR 开始
 
 「想参与开源但不知道从哪开始」是最常见的困惑。

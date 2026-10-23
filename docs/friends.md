@@ -11,7 +11,6 @@ list:
 createTime: 2026/10/21 20:06:35
 ---
 
-## 虚位以待
 
 友链位正在征集。**藏经阁不只有技术** —— 技术、日常、生活随笔、
 工具资源类的站点都欢迎交换。要求就三条：
@@ -32,6 +31,7 @@ createTime: 2026/10/21 20:06:35
 地址：https://techjiang.github.io/JinghuaSociety-ScriptureLibrary/
 描述：藏技术菁华，见字节山河
 头像：https://jinghuasociety-scripturelibrary.asoe.cn/images/logo.svg
+RSS：https://jinghuasociety-scripturelibrary.asoe.cn/rss.xml
 SiteMap：https://jinghuasociety-scripturelibrary.asoe.cn/sitemap.xml
 ```
 

@@ -5,6 +5,8 @@ permalink: /resources/github-tips/
 description: 快捷键、搜索语法、Actions、gh CLI——把 GitHub 用成生产力
 ---
 
+<CategoryTag name="资源" link="/library/resources/" />
+
 # GitHub 使用技巧
 
 天天上 GitHub，90% 的人只用 10% 的功能。

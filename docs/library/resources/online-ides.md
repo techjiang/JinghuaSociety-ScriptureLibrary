@@ -5,6 +5,8 @@ permalink: /resources/online-ides/
 description: CodePen、StackBlitz、CodeSandbox 等——不装环境就能跑代码
 ---
 
+<CategoryTag name="资源" link="/library/resources/" />
+
 # 在线 IDE 与代码沙盒
 
 想快速试段代码、分享 demo、面试手撕、看别人的实现 ——

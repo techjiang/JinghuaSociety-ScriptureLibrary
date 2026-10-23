@@ -4,6 +4,8 @@ createTime: 2026-10-21
 permalink: /library/tech/http-cache/
 description: 强缓存、协商缓存、缓存位置，以及一套生产可用的缓存策略
 ---
+
+<CategoryTag name="技术" link="/library/tech/" />
 缓存是前端性能优化里性价比最高的一项：一次配置，全站受益。
 但它也是被误解最多的一项 —— 很多人分不清 `Cache-Control` 和 `ETag`
 谁管哪段，出了问题就只会「强制刷新一下」。

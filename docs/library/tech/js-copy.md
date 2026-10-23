@@ -5,6 +5,8 @@ permalink: /library/tech/js-copy/
 description: 引用陷阱、浅拷贝四种写法、深拷贝三种方案与选型
 ---
 
+<CategoryTag name="技术" link="/library/tech/" />
+
 # JavaScript 深浅拷贝
 
 「我明明复制了对象，改副本原对象也变了！」——每个 JS 开发者

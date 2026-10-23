@@ -4,6 +4,8 @@ createTime: 2026-10-21
 permalink: /library/tutorial/docker-start/
 description: 镜像、容器、Dockerfile 与 compose 入门，专治「我这明明能跑」
 ---
+
+<CategoryTag name="教程" link="/library/tutorial/" />
 「我这明明能跑啊！」—— 程序员史上最著名的谎言之一，而 Docker 就是
 这句谎言的终结者。它把你的程序和它依赖的一切（库、配置、运行时）
 打成一个包，换台机器照样跑。

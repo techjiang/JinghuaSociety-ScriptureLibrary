@@ -4,6 +4,8 @@ createTime: 2026-10-22
 permalink: /library/resources/image-assets/
 description: 免费图库、背景、插画与压缩工具，配一份图片使用规范
 ---
+
+<CategoryTag name="资源" link="/library/resources/" />
 网站要好看，图片是刚需；但随便百度图库下载的图，
 既有版权风险又有水印。这篇收「免费可商用」的图片源、
 插画素材和压缩工具，附一套使用规范。

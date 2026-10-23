@@ -6,7 +6,6 @@ sidebar: false
 description: 三种方式参与精华社 · 藏经阁：投稿、纠错、成为成员
 ---
 
-# 加入
 
 精华社 · 藏经阁不是一个人的阁。**三种参与方式，从轻到重，挑顺手的来。**
 
@@ -48,6 +47,15 @@ description: 三种方式参与精华社 · 藏经阁：投稿、纠错、成为
 ④ 站长 review：内容质量 + 事实核对 + 排版规范
 ⑤ 合并 → 自动部署上线 → 署你名字
 ```
+
+**一步到位的直达链接**（省得自己翻路径）：
+
+| 想干什么 | 点这里 |
+| --- | --- |
+| Fork 仓库 | [Fork `JinghuaSociety-ScriptureLibrary`](https://github.com/techjiang/JinghuaSociety-ScriptureLibrary/fork) |
+| 新建投稿文章 | [tech](https://github.com/techjiang/JinghuaSociety-ScriptureLibrary/new/main/docs/library/tech) · [tutorial](https://github.com/techjiang/JinghuaSociety-ScriptureLibrary/new/main/docs/library/tutorial) · [resources](https://github.com/techjiang/JinghuaSociety-ScriptureLibrary/new/main/docs/library/resources) · [daily](https://github.com/techjiang/JinghuaSociety-ScriptureLibrary/new/main/docs/library/daily) · [articles](https://github.com/techjiang/JinghuaSociety-ScriptureLibrary/new/main/docs/articles) |
+| 发起 Pull Request | [Open a Pull Request](https://github.com/techjiang/JinghuaSociety-ScriptureLibrary/compare) |
+| 提 Issue（纠错 / 提名 / 自我介绍） | [New Issue](https://github.com/techjiang/JinghuaSociety-ScriptureLibrary/issues/new/choose) |
 
 **文章模板**（复制即用）：
 
@@ -112,6 +120,10 @@ A：PR 一般 48 小时内看。超过三天没回复，Issue 里 @ 站长。
 
 ---
 
-准备好了？去 [GitHub 仓库](https://github.com/techjiang/JinghuaSociety-ScriptureLibrary) 提第一个 PR，
-或者先在 [Issues](https://github.com/techjiang/JinghuaSociety-ScriptureLibrary/issues) 里自我介绍。
+准备好了？
+
+- 提第一个 PR → [Open a Pull Request](https://github.com/techjiang/JinghuaSociety-ScriptureLibrary/compare)
+- 先自我介绍 → [New Issue](https://github.com/techjiang/JinghuaSociety-ScriptureLibrary/issues/new/choose)
+- 有站点想加入「精链」之环 → [精链 · FeaturedLink](/featured-link/)
+
 阁门开着，进来就是客。

@@ -4,6 +4,8 @@ createTime: 2026-10-21
 permalink: /library/tech/web-performance/
 description: 按性价比排序的性能优化手段，从白嫖级到工程级，附测量方法
 ---
+
+<CategoryTag name="技术" link="/library/tech/" />
 性能优化最大的坑是「凭感觉」：觉得图片大、觉得 JS 多，
 咔咔一顿改，也不知道到底快没快。这篇换个思路：
 先讲怎么**量**，再按**性价比**给手段，从「不花钱白嫖」到

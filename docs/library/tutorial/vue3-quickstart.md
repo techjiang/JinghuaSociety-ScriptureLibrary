@@ -5,6 +5,8 @@ permalink: /library/tutorial/vue3-quickstart/
 description: 半天学会 Vue 3 核心：模板语法、响应式、组件与 Composition API
 ---
 
+<CategoryTag name="教程" link="/library/tutorial/" />
+
 # Vue 3 快速上手
 
 Vue 是国内最流行的前端框架之一。官网文档很好，但信息量大。

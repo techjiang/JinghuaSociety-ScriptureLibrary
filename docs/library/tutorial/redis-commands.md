@@ -5,6 +5,8 @@ permalink: /library/tutorial/redis-commands/
 description: 按场景组织的 Redis 命令清单，配 Docker 一条命令练手
 ---
 
+<CategoryTag name="教程" link="/library/tutorial/" />
+
 # Redis 常用命令速查
 
 原理在[技术区的 Redis 入门](../../tech/redis-basics.md)讲过，

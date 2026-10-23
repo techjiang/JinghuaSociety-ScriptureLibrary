@@ -4,6 +4,8 @@ createTime: 2026-10-22
 permalink: /library/resources/books-backend/
 description: 语言、数据库、网络、系统与分布式，后端进阶的硬书单
 ---
+
+<CategoryTag name="资源" link="/library/resources/" />
 前端书单讲「怎么把页面做出来」，这份讲「页面背后的世界怎么运转」。
 后端和基础的底子，决定了你是「调包侠」还是「工程师」。
 同样原则：只收读过的。

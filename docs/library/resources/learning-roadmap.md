@@ -4,6 +4,8 @@ createTime: 2026-10-21
 permalink: /library/resources/learning-roadmap/
 description: 前端/后端学习路线，附亲测有效的免费课程与文档，不推荐付费课
 ---
+
+<CategoryTag name="资源" link="/library/resources/" />
 经常有人问「我想学编程，从哪开始」。这篇给两条路线（前端/后端），
 加一份**免费**就能学到就业水平的资源清单。不推荐付费课 ——
 免费的足够好，氪金买的往往是焦虑。

@@ -5,6 +5,8 @@ permalink: /resources/ebook-resources/
 description: 免费正版电子书、在线阅读与出版社官方渠道，做个省钱的读书人
 ---
 
+<CategoryTag name="资源" link="/library/resources/" />
+
 # 电子书与技术文档资源
 
 技术书不便宜，一本五六十。这篇收**合法免费或低价**的

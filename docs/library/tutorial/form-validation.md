@@ -5,6 +5,8 @@ permalink: /library/tutorial/form-validation/
 description: HTML5 原生验证、JS 自定义规则、提交策略——好表单的三层功夫
 ---
 
+<CategoryTag name="教程" link="/library/tutorial/" />
+
 # 表单验证实战
 
 表单是前端和用户「吵架」最多的地方：用户名格式、密码强度、

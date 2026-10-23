@@ -5,6 +5,8 @@ permalink: /library/tutorial/chrome-mobile-debug/
 description: Chrome DevTools 设备模拟、真机 remote debug 与常见移动端问题排查
 ---
 
+<CategoryTag name="教程" link="/library/tutorial/" />
+
 # 手机页面真机调试
 
 「我这电脑上好的啊」—— 移动端的经典事故。模拟器能验布局，

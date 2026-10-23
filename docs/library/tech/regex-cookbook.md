@@ -4,6 +4,8 @@ createTime: 2026-10-21
 permalink: /library/tech/regex-cookbook/
 description: 常用模式速查、分组替换技巧，外加一个性能大坑
 ---
+
+<CategoryTag name="技术" link="/library/tech/" />
 正则这工具，用的频率不高，但每次用都省大时间：一次校验、一次批量替换、
 一次日志解析，手写循环能写半小时，它一行搞定。问题是语法容易忘，
 这篇当菜谱，用到什么查什么。

@@ -5,6 +5,8 @@ permalink: /library/tutorial/nginx-reverse-proxy/
 description: 一个站点同时跑前端和 Node 服务，Nginx 当门房分流的完整配置
 ---
 
+<CategoryTag name="教程" link="/library/tutorial/" />
+
 # Nginx 反向代理入门
 
 「Nginx 部署静态站点」那篇讲静态托管，这篇讲另一半：

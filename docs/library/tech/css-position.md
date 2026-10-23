@@ -5,6 +5,8 @@ permalink: /library/tech/css-position/
 description: static/relative/absolute/fixed/sticky 五种定位的行为、场景与坑
 ---
 
+<CategoryTag name="技术" link="/library/tech/" />
+
 # CSS 定位完全指南
 
 定位（`position`）五个值，日常只用两三个，但每个都有

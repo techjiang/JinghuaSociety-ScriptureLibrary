@@ -5,6 +5,8 @@ permalink: /resources/clipboard-tools/
 description: 剪贴板历史、快捷启动、窗口管理——桌面效率的「隐形冠军」
 ---
 
+<CategoryTag name="资源" link="/library/resources/" />
+
 # 剪贴板与效率小工具
 
 有一类工具「装上没感觉，卸了才发现离不开」：

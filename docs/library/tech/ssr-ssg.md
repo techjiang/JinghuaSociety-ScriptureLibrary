@@ -4,6 +4,8 @@ createTime: 2026-10-22
 permalink: /library/tech/ssr-ssg/
 description: 三种渲染模式的原理、优劣与选型，附本站为什么选纯静态
 ---
+
+<CategoryTag name="技术" link="/library/tech/" />
 「首屏白屏怎么办」「SEO 不好怎么办」—— 这类问题的根源都是
 **页面在哪里渲染**：浏览器里（SPA）、服务器实时（SSR）、
 构建时（SSG）。选错了模式，后面全是补丁。这篇讲清三种和选型。

@@ -5,6 +5,8 @@ permalink: /resources/password-tools/
 description: 密码管理器、2FA、密码泄露检测——程序员的账号安全清单
 ---
 
+<CategoryTag name="资源" link="/library/resources/" />
+
 # 密码管理与账号安全
 
 程序员是「账号密集型职业」：GitHub、云平台、服务器、

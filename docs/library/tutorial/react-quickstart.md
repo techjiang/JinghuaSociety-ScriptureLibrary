@@ -5,6 +5,8 @@ permalink: /library/tutorial/react-quickstart/
 description: JSX、组件、useState/useEffect 与一个待办应用，半天入门 React
 ---
 
+<CategoryTag name="教程" link="/library/tutorial/" />
+
 # React 快速上手
 
 React 和 Vue 是国内前端框架的两极。Vue 像「渐进增强的框架」，

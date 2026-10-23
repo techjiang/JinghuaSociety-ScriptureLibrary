@@ -5,6 +5,8 @@ permalink: /library/tech/garbage-collection/
 description: 引用计数为什么被淘汰、可达性分析、内存泄漏的四种常见姿势
 ---
 
+<CategoryTag name="技术" link="/library/tech/" />
+
 # JavaScript 垃圾回收入门
 
 JS 自动管理内存：创建对象自动分配，不用了自动回收。

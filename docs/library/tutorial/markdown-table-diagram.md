@@ -5,6 +5,8 @@ permalink: /library/tutorial/markdown-table-diagram/
 description: 表格排版、对齐、转义与 Mermaid 流程图时序图，写文档的进阶手艺
 ---
 
+<CategoryTag name="教程" link="/library/tutorial/" />
+
 # Markdown 表格与 Mermaid 图
 
 [Markdown 写作指南](./markdown-guide.md) 讲基础语法，

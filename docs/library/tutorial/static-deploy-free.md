@@ -5,6 +5,8 @@ permalink: /library/tutorial/static-deploy-free/
 description: 四个主流免费静态托管怎么选，附本站的部署选择理由
 ---
 
+<CategoryTag name="教程" link="/library/tutorial/" />
+
 # 免费部署方案对比：Pages、Netlify、Vercel、Cloudflare
 
 网站做好了，放哪？四个免费主流：**GitHub Pages、Netlify、

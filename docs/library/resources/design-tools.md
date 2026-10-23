@@ -5,6 +5,8 @@ permalink: /resources/design-tools/
 description: Figma、即时设计、MasterGo 与开发者用得上的设计资源
 ---
 
+<CategoryTag name="资源" link="/library/resources/" />
+
 # 设计工具推荐
 
 程序员懂点设计工具，不是「转行做设计」，是

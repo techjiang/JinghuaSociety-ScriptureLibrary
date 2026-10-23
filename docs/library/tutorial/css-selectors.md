@@ -4,6 +4,8 @@ createTime: 2026-10-22
 permalink: /library/tutorial/css-selectors/
 description: 从基础选择器到 :has()，附优先级计算表和一份踩坑清单
 ---
+
+<CategoryTag name="教程" link="/library/tutorial/" />
 选择器是 CSS 的基本功。写得准，一行 CSS 搞定；写得糙，
 满屏 `!important` 打架。这篇按使用频率讲，最后给优先级计算表。
 

@@ -4,6 +4,8 @@ createTime: 2026-10-22
 permalink: /library/resources/free-fonts/
 description: 中文免费字体、英文字体站点与授权常识，别再乱用微软雅黑了
 ---
+
+<CategoryTag name="资源" link="/library/resources/" />
 「字体侵权律师函」是设计公司的经典噩梦。个人开发者也要留神：
 你网站用的字体，真的授权了吗？这篇收集中文免费字体、
 英文字体站，以及授权常识。

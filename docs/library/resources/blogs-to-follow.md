@@ -4,6 +4,8 @@ createTime: 2026-10-22
 permalink: /library/resources/blogs-to-follow/
 description: 国内外高质量个人技术博客，附 RSS 订阅建议
 ---
+
+<CategoryTag name="资源" link="/library/resources/" />
 公众号追热点、知乎看争论，但**深度技术内容还是在个人博客**。
 一个人几年如一日地写，本身就是质量筛选。这份收我订阅列表里的，
 中外混排。

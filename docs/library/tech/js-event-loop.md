@@ -4,6 +4,8 @@ createTime: 2026-10-21
 permalink: /library/tech/js-event-loop/
 description: 调用栈、任务队列、微任务，把 setTimeout 和 Promise 的执行顺序讲透
 ---
+
+<CategoryTag name="技术" link="/library/tech/" />
 面试常考题，但我不打算按面试套路讲。就从一个真实困惑出发：
 **下面这段代码，输出顺序是什么？**
 

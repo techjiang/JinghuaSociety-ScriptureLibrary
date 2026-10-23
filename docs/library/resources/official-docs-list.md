@@ -5,6 +5,8 @@ permalink: /resources/official-docs-list/
 description: 前端后端数据库运维的权威文档入口， bookmark 这一页就够
 ---
 
+<CategoryTag name="资源" link="/library/resources/" />
+
 # 常用官方文档索引
 
 遇到问题查什么？**官方文档 > 优质教程 > 博客 > AI**。

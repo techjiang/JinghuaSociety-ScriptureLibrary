@@ -4,6 +4,8 @@ createTime: 2026-10-21
 permalink: /library/tutorial/sql-basics/
 description: 只会增删改查也能干活——一篇够用的 SQL 速成，附练习环境
 ---
+
+<CategoryTag name="教程" link="/library/tutorial/" />
 不管前端后端，迟早要跟数据库打交道。SQL 这门语言，
 日常用到的就那几条。这篇按「使用频率」讲，
 十分钟能上手，够你写完毕业设计。

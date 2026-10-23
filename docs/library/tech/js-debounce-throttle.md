@@ -5,6 +5,8 @@ permalink: /library/tech/debounce-throttle/
 description: 输入搜索、滚动监听、按钮连点，两个模式的手写与选场景
 ---
 
+<CategoryTag name="技术" link="/library/tech/" />
+
 # 防抖与节流：高频事件的两把闸
 
 `input`、`scroll`、`resize`、`mousemove` 这些事件一秒能触发几十次。

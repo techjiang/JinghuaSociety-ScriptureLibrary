@@ -5,6 +5,8 @@ permalink: /resources/interview-questions/
 description: 按主题归类的真实高频题与答题要点，本站文章即是答案索引
 ---
 
+<CategoryTag name="资源" link="/library/resources/" />
+
 # 前端面试高频题库（2026）
 
 面试题散落各处，这篇按主题归类**真正常考的**，

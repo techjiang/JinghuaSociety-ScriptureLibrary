@@ -4,6 +4,8 @@ createTime: 2026-10-22
 permalink: /library/resources/icon-resources/
 description: Iconify、Material Symbols、Remix Icon 与 SVG 雪碧图，附本站用法
 ---
+
+<CategoryTag name="资源" link="/library/resources/" />
 图标是界面的调味料：没有能跑，用好提气质。问题是图标库太多、
 用法各异（字体/ SVG/组件），选错了要么加载慢要么定制难。
 这篇盘点主流方案，附本站的实际用法。

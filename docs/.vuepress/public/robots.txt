@@ -1,4 +1,35 @@
+# robots.txt —— https://jinghuasociety-scripturelibrary.asoe.cn/
+# 默认允许全部搜索引擎抓取；仅屏蔽无内容价值的跳转页 /go/
+
 User-agent: *
 Allow: /
+Disallow: /go/
 
-Sitemap: https://techjiang.github.io/JinghuaSociety-ScriptureLibrary/sitemap.xml
+# —— 国内搜索引擎（明确放行，确保收录）——
+User-agent: Baiduspider
+Allow: /
+Disallow: /go/
+
+User-agent: Sogou web spider
+Allow: /
+Disallow: /go/
+
+User-agent: 360Spider
+Allow: /
+Disallow: /go/
+
+User-agent: YisouSpider
+Allow: /
+Disallow: /go/
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+# —— 站点地图（由 @vuepress/plugin-sitemap 生成并同步此行）——
+Sitemap: https://jinghuasociety-scripturelibrary.asoe.cn/sitemap.xml

@@ -1,0 +1,21 @@
+{
+  "name": "精华社 · 藏经阁",
+  "short_name": "藏经阁",
+  "description": "藏技术菁华，见字节山河 —— 把计算机与互联网技术，讲成听得懂的人话。",
+  "lang": "zh-CN",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#c0392b",
+  "categories": ["education", "technology", "blog"],
+  "icons": [
+    {
+      "src": "/images/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

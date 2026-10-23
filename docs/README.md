@@ -50,6 +50,11 @@ config:
         details: 这不是一个人的阁。投稿、纠错、成为成员，三种参与方式。
         link: /join/
         linkText: 看怎么加入
+      - title: 动态
+        icon: material-symbols:history-rounded
+        details: 阁里最近更新了什么，自动汇总，按分类筛选，一眼看全。
+        link: /updates/
+        linkText: 看最近动态
       - title: 精链
         icon: material-symbols:link-rounded
         details: 一个精选独立站点之环。点一下，随机串门到另一个好站。加入需回链，环才转得起来。

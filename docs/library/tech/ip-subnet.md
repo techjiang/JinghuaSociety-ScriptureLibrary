@@ -5,6 +5,8 @@ permalink: /library/tech/ip-subnet/
 description: IPv4、私有地址、子网掩码与 CIDR——运维和部署的常识课
 ---
 
+<CategoryTag name="技术" link="/library/tech/" />
+
 # IP 地址与子网入门
 
 配防火墙、开安全组、看服务器文档，处处是 IP 和「/24」

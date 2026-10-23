@@ -5,6 +5,8 @@ permalink: /library/tech/js-typeof/
 description: typeof 的六个坑、instanceof、Object.prototype.toString 与显式转换规则
 ---
 
+<CategoryTag name="技术" link="/library/tech/" />
+
 # JS 类型判断与转换
 
 JS 的类型系统「 weakly typed 」——判断难、转换乱。

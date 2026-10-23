@@ -4,6 +4,8 @@ createTime: 2026-10-22
 permalink: /library/resources/color-tools/
 description: 配色生成器、渐变色、对比度检查与一套不会出错的配色方法
 ---
+
+<CategoryTag name="资源" link="/library/resources/" />
 程序员做界面，最大的审美坎就是配色。随便挑的颜色，
 「说不出的丑」。这篇给工具 + 给方法：工具解决「生成」，
 方法解决「不会错」。
