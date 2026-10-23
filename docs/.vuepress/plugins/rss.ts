@@ -51,7 +51,7 @@ export const rssPlugin: PluginFunction = () => ({
       `    <link>${HOSTNAME}/</link>\n` +
       `    <description>${esc(SITE_DESC)}</description>\n` +
       `    <language>zh-CN</language>\n` +
-      `    <atom:link href="${HOSTNAME}/feed.xml" rel="self" type="application/rss+xml" />\n` +
+      `    <atom:link href="${HOSTNAME}/rss.xml" rel="self" type="application/rss+xml" />\n` +
       items
         .map(
           (i) =>
@@ -67,7 +67,7 @@ export const rssPlugin: PluginFunction = () => ({
       `\n  </channel>\n</rss>\n`
 
     const dest = app.dir.dest()
-    fs.writeFileSync(path.join(dest, 'feed.xml'), xml, 'utf8')
-    console.log(`[rss] feed.xml generated with ${items.length} items`)
+    fs.writeFileSync(path.join(dest, 'rss.xml'), xml, 'utf8')
+    console.log(`[rss] rss.xml generated with ${items.length} items`)
   },
 })

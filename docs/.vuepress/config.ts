@@ -33,7 +33,7 @@ export default defineUserConfig({
         rel: 'alternate',
         type: 'application/rss+xml',
         title: '精华社 · 藏经阁 RSS',
-        href: isBuild ? `${BASE}feed.xml` : '/feed.xml',
+        href: isBuild ? `${BASE}rss.xml` : '/rss.xml',
       },
     ],
   ],
@@ -79,7 +79,7 @@ export default defineUserConfig({
         activeMatch: '^/library/',
       },
       {
-        text: '文章',
+        text: '精华',
         link: '/articles/',
         icon: 'material-symbols:edit-document-outline',
         activeMatch: '^/articles/',
@@ -123,7 +123,7 @@ export default defineUserConfig({
       content:
         '新增「<b>日常</b>」分类与「<b>名人堂</b>」，欢迎来 ' +
         '<a href="/join/">投稿</a>，一起把技术讲成人话。',
-      layout: 'bottom-right',
+      layout: 'top-right',
       border: true,
       lifetime: 'once',
     },
@@ -174,7 +174,7 @@ export default defineUserConfig({
       {
         type: 'post',
         dir: 'articles',
-        title: '文章',
+        title: '精华',
         link: '/articles/',
         autoFrontmatter: { permalink: true },
         postCover: 'right',
@@ -207,7 +207,9 @@ export default defineUserConfig({
     // message/copyright 均支持 HTML（主题 v-html 渲染）
     // 注意：HTML 里的站内链接要带 base 前缀，否则 Pages 子路径下 404
     footer: {
-      message: `<span class="jh-footer-slogan">藏技术菁华，见字节山河</span>`,
+      message:
+        `<span class="jh-footer-slogan">藏技术菁华，见字节山河</span>` +
+        ` · <a class="jh-footer-rss" href="/rss.xml">RSS 订阅</a>`,
       copyright: 'Copyright © 2026 精华社 · 藏经阁',
     },
   }),

@@ -8,8 +8,7 @@ docs/.vuepress/.cache
 
 # 构建产物
 dist
-dist-test
-dist-build
+dist-*
 
 # 日志与系统文件
 *.log

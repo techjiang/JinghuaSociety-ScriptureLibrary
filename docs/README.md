@@ -12,7 +12,7 @@ config:
         - text: 开始
           link: /library/
           theme: brand
-        - text: 文章
+        - text: 精华
           link: /articles/
           theme: alt
   - type: features
@@ -37,11 +37,11 @@ config:
         details: 生活向。通勤、断网、桌面、咖啡 —— 写代码的人，也得会生活。
         link: /library/daily/
         linkText: 进日常区
-      - title: 文章
+      - title: 精华
         icon: material-symbols:edit-document-outline
         details: 随笔、读书笔记、踩坑复盘。真人真事真感受。
         link: /articles/
-        linkText: 进文章区
+        linkText: 进精华区
       - title: 站内搜索
         icon: material-symbols:search-rounded
         details: 本地搜索引擎，断网也能查。敲几个字就能翻旧账。
@@ -50,6 +50,11 @@ config:
         details: 这不是一个人的阁。投稿、纠错、成为成员，三种参与方式。
         link: /join/
         linkText: 看怎么加入
+      - title: 精链
+        icon: material-symbols:link-rounded
+        details: 一个精选独立站点之环。点一下，随机串门到另一个好站。加入需回链，环才转得起来。
+        link: /featured-link/
+        linkText: 看看精链
   - type: image-text
     image: /images/practice.svg
     title: 这不是一个人的阁

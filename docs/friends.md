@@ -31,7 +31,8 @@ createTime: 2026/10/21 20:06:35
 名称：精华社 · 藏经阁
 地址：https://techjiang.github.io/JinghuaSociety-ScriptureLibrary/
 描述：藏技术菁华，见字节山河
-分类：技术 · 日常 · 资源 · 生活
+头像：https://jinghuasociety-scripturelibrary.asoe.cn/images/logo.svg
+SiteMap：https://jinghuasociety-scripturelibrary.asoe.cn/sitemap.xml
 ```
 
 > 注：友链**不接商业推广、培训机构与纯营销站**（详见
