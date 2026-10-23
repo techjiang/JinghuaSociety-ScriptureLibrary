@@ -1,0 +1,32 @@
+/* ============================================================
+   自定义全局样式（由 client.ts 引入）
+   VuePress 2 的 `styles` 配置项实际未被实现，故改用此方式。
+   ============================================================ */
+
+/* ---------- 首页顶部：大字块往下移 ----------
+   只把 hero 的「标题 / 副标题 / 标语 / 按钮」这一块往下移，
+   缓解紧贴导航栏的压迫感。
+
+   同时用负 margin-bottom 精确抵消 hero 因此增加的高度，
+   让下方的「特性卡片」保持在原来的位置，完全不受影响。
+   （本站 hero 未配置背景图，负 margin 不会造成任何遮挡。）
+
+   重复类名是为了提高选择器优先级，确保覆盖主题的 scoped 样式
+   （主题规则形如 .vp-home-hero:not(.full) .hero-container[data-v-xxx]）。 */
+.vp-home .vp-home-hero:not(.full) .hero-container.hero-container {
+  padding-top: 12rem;
+}
+
+.vp-home .vp-home-hero.vp-home-hero:not(.full) {
+  margin-bottom: -7rem;
+}
+
+@media (max-width: 719px) {
+  .vp-home .vp-home-hero:not(.full) .hero-container.hero-container {
+    padding-top: 7rem;
+  }
+
+  .vp-home .vp-home-hero.vp-home-hero:not(.full) {
+    margin-bottom: -2rem;
+  }
+}

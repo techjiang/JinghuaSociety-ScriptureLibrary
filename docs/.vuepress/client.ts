@@ -4,6 +4,8 @@ import FeaturedLinkList from './components/FeaturedLinkList.vue'
 import FeaturedLinkPanel from './components/FeaturedLinkPanel.vue'
 import UpdatesFeed from './components/UpdatesFeed.vue'
 import CategoryTag from './components/CategoryTag.vue'
+// 自定义全局样式（首页 hero 下移等）
+import './styles/custom.css'
 
 export default defineClientConfig({
   enhance({ app }) {

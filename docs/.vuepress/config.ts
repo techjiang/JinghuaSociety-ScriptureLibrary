@@ -292,27 +292,6 @@ export default defineUserConfig({
     },
   }),
 
-  // ==================== 全局样式 ====================
-  // 首页 hero 增加顶部留白，避免大标题紧贴导航栏显得拥挤、紧迫
-  styles: `
-    .vp-home-hero {
-      padding-top: 6.5rem;
-      padding-bottom: 4.5rem;
-    }
-    @media (min-width: 960px) {
-      .vp-home-hero {
-        padding-top: 9rem;
-        padding-bottom: 6rem;
-      }
-    }
-    @media (max-width: 719px) {
-      .vp-home-hero {
-        padding-top: 4rem;
-        padding-bottom: 3rem;
-      }
-    }
-  `,
-
   bundler: viteBundler({
     // vite 8 (rolldown) 的构建环境中无法自动探测 Node 的 process，
     // 导致 @vue/compiler-sfc 编译主题 SFC 的泛型 props 时报
