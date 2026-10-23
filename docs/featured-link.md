@@ -14,6 +14,13 @@ createTime: 2026/10/23 12:55:54
 
 <FeaturedLinkPanel />
 
+## 成员
+
+<FeaturedLinkList />
+
+> 名字下方的小方块就是各成员的站点图标；没有图标时回退显示站点名首字。
+> 标注「示例」的是占位 demo，提交 PR 后即可换成真实站点。
+
 ## 怎么用
 
 - 在本页点「**随机前往一个成员站点**」，或直接访问
@@ -99,10 +106,6 @@ createTime: 2026/10/23 12:55:54
 **直达链接**：[Fork 仓库](https://github.com/techjiang/JinghuaSociety-ScriptureLibrary/fork) · [编辑成员文件](https://github.com/techjiang/JinghuaSociety-ScriptureLibrary/edit/main/docs/.vuepress/featured-links.ts) · [Open a Pull Request](https://github.com/techjiang/JinghuaSociety-ScriptureLibrary/compare) · [New Issue](https://github.com/techjiang/JinghuaSociety-ScriptureLibrary/issues/new/choose)
 
 > 暂时不会用 PR？也可以发邮件到 `jinghua@example.com`，附上你的站点地址、简介与已放徽章的页面——但**回链依然要有**，否则不加。
-
-## 成员
-
-<FeaturedLinkList />
 
 ---
 
