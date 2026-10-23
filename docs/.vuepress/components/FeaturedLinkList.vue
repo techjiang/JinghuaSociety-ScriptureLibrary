@@ -154,6 +154,9 @@ const showImg = (s: FeaturedLinkSite) => !!s.icon && !brokenIcons.value.has(s.ic
   color: var(--vp-c-text-2, #6b7280);
 }
 .fl-tile--example {
-  opacity: 0.62;
+  opacity: 0.78;
+}
+.fl-tile--example .fl-tile__box {
+  border-style: dashed;
 }
 </style>
