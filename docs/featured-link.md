@@ -26,17 +26,19 @@ createTime: 2026/10/23 12:55:54
 - 在本页点「**随机前往一个成员站点**」，或直接访问
   [jinghuasociety-scripturelibrary.asoe.cn/go/](/go/)，即会跳转到环里的一个成员站点；
 - 在任意成员站点上点它们的「精链」徽章，效果相同；
-- 跳转路由默认是 `/go/`，**可改**：改 `docs/go.md` 的 `permalink`，并同步改下面徽章代码里的地址即可。
+- 跳转路由默认是 `/go/`，**可改**：改 `docs/go.md` 的 `permalink`，并同步改下面徽章代码里的地址即可；
+- 跳转前会**停留 6 秒**并显示倒计时进度条（顺便告诉访客要去哪儿、让他有机会反悔），
+  停留时长**可改**：编辑 `docs/.vuepress/components/FeaturedLinkGo.vue` 里的 `DELAY_SECONDS`；
+  页面上也有「立即前往」和「换一个站点」两个按钮。
 
 ## 徽章（挂上它，你就进了环）
 
 把下面任意一段 HTML 放到你的站点上（任意页面、侧边栏、页脚都行），它就加入了「精链」之环。
+**SVG 无限缩放不失真，PNG 兼容性最好，GIF 会动更抓眼**——按你的站点情况挑一个。
 
-徽章长这样：
+### 1. 标准横版（最常用）
 
 <img src="/images/featured-link-badge.svg" alt="精链 FeaturedLink" height="34" />
-
-**标准尺寸**
 
 ```html
 <a href="https://jinghuasociety-scripturelibrary.asoe.cn/go/" target="_blank" rel="noopener" title="精链 FeaturedLink">
@@ -44,21 +46,70 @@ createTime: 2026/10/23 12:55:54
 </a>
 ```
 
-**小尺寸（适合侧边栏）**
+> 想用 PNG：把 `featured-link-badge.svg` 换成 `featured-link-badge.png`（其余不变）。
+
+### 2. 小尺寸（适合侧边栏 / 紧凑位）
+
+<img src="/images/featured-link-badge-small.svg" alt="精链 FeaturedLink" height="28" />
 
 ```html
 <a href="https://jinghuasociety-scripturelibrary.asoe.cn/go/" target="_blank" rel="noopener" title="精链 FeaturedLink">
-  <img src="https://jinghuasociety-scripturelibrary.asoe.cn/images/featured-link-badge.svg" alt="精链 FeaturedLink" height="24" />
+  <img src="https://jinghuasociety-scripturelibrary.asoe.cn/images/featured-link-badge-small.svg" alt="精链 FeaturedLink" height="28" />
 </a>
 ```
 
-**纯文字链接（不想用图片时）**
+### 3. 方形（适合头像位 / 图标墙）
+
+<img src="/images/featured-link-badge-square.svg" alt="精链 FeaturedLink" width="72" height="72" />
+
+```html
+<a href="https://jinghuasociety-scripturelibrary.asoe.cn/go/" target="_blank" rel="noopener" title="精链 FeaturedLink">
+  <img src="https://jinghuasociety-scripturelibrary.asoe.cn/images/featured-link-badge-square.svg" alt="精链 FeaturedLink" width="72" height="72" />
+</a>
+```
+
+### 4. 反白版（适合深色背景的站点）
+
+<img src="/images/featured-link-badge-inverse.svg" alt="精链 FeaturedLink" height="34" style="background:#1f2937;padding:6px;border-radius:8px" />
+
+```html
+<a href="https://jinghuasociety-scripturelibrary.asoe.cn/go/" target="_blank" rel="noopener" title="精链 FeaturedLink">
+  <img src="https://jinghuasociety-scripturelibrary.asoe.cn/images/featured-link-badge-inverse.svg" alt="精链 FeaturedLink" height="34" />
+</a>
+```
+
+### 5. 动图版（白光扫过，更抓眼）
+
+<img src="/images/featured-link-badge-animated.gif" alt="精链 FeaturedLink" height="34" />
+
+```html
+<a href="https://jinghuasociety-scripturelibrary.asoe.cn/go/" target="_blank" rel="noopener" title="精链 FeaturedLink">
+  <img src="https://jinghuasociety-scripturelibrary.asoe.cn/images/featured-link-badge-animated.gif" alt="精链 FeaturedLink" height="34" />
+</a>
+```
+
+> 想要矢量动图（可缩放、体积极小）？用 `featured-link-badge-animated.svg`，写法同上。
+> 注意：动图请**直接外链本站地址**，不要保存到本地——本地副本不会随徽章更新。
+
+### 6. 纯文字链接（不想用图片时）
 
 ```html
 <a href="https://jinghuasociety-scripturelibrary.asoe.cn/go/" target="_blank" rel="noopener">精链 · FeaturedLink</a>
 ```
 
-徽章图片地址：`https://jinghuasociety-scripturelibrary.asoe.cn/images/featured-link-badge.svg`（可自行保存到本地引用）。
+### 可用文件一览
+
+| 文件 | 尺寸 | 格式 |
+| --- | --- | --- |
+| `featured-link-badge.svg` / `.png` | 156×34（PNG 为 2 倍图 312×68） | 矢量 / 位图 |
+| `featured-link-badge-small.svg` / `.png` | 128×28（PNG 256×56） | 矢量 / 位图 |
+| `featured-link-badge-inverse.svg` / `.png` | 156×34（PNG 312×68） | 反白 |
+| `featured-link-badge-square.svg` / `.png` | 72×72（PNG 144×144） | 方形 |
+| `featured-link-badge-square-lg.svg` / `.png` | 120×120（PNG 240×240） | 方形大 |
+| `featured-link-badge-animated.svg` / `.gif` | 156×34（GIF 312×68） | 动图 |
+| `featured-link-badge-animated-small.svg` | 128×28 | 动图小 |
+
+统一前缀：`https://jinghuasociety-scripturelibrary.asoe.cn/images/`
 
 ## 加入精链（硬性规定）
 

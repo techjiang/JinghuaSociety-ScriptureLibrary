@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="精链 FeaturedLink (square)">
+  <rect width="120" height="120" rx="22" fill="#c0392b"/>
+  <rect x="2" y="2" width="116" height="116" rx="20" fill="none" stroke="#ffffff" stroke-opacity="0.4" stroke-width="1.5"/>
+  <text x="60" y="65.76" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="48" font-weight="800" fill="#ffffff">精链</text>
+  <text x="60" y="94.5" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" font-weight="600" fill="#ffffff" fill-opacity="0.85" letter-spacing="0.5">FeaturedLink</text>
+</svg>
