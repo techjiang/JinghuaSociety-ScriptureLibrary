@@ -7,8 +7,6 @@ description: 一万行以内的优质开源项目，一个周末能读完的工�
 
 <CategoryTag name="资源" link="/library/resources/" />
 
-# 值得读源码的小而美项目
-
 [上一篇](../must-read-projects.md) 讲「大项目按专题读」，
 这篇反过来：**一万行以内、一个周末能读完的精品**。
 读小车，才能看见整辆车。

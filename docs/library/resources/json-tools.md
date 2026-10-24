@@ -7,8 +7,6 @@ description: 格式化、可视化、转换、校验——和 JSON 纠缠的日�
 
 <CategoryTag name="资源" link="/library/resources/" />
 
-# JSON 工具集
-
 接口调试、数据处理、配置文件 —— 天天和 JSON 打交道。
 这堆收「真的会反复打开」的 JSON 工具，按用途分。
 

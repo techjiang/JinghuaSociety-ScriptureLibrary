@@ -7,8 +7,6 @@ description: 输入搜索、滚动监听、按钮连点，两个模式的手写�
 
 <CategoryTag name="技术" link="/library/tech/" />
 
-# 防抖与节流：高频事件的两把闸
-
 `input`、`scroll`、`resize`、`mousemove` 这些事件一秒能触发几十次。
 每次都发请求/算布局，页面直接卡死。**防抖和节流就是控制频率的两把闸**，
 面试常考，实战天天用。

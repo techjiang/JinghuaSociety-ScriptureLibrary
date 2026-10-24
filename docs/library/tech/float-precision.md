@@ -7,8 +7,6 @@ description: IEEE 754 浮点数的二进制本质、经典误差案例与金额�
 
 <CategoryTag name="技术" link="/library/tech/" />
 
-# 0.1 + 0.2 为什么不等于 0.3
-
 每个 JS 开发者都遇到过：
 
 ```js

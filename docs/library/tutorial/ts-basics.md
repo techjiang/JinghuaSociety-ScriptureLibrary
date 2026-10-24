@@ -7,8 +7,6 @@ description: 类型注解、接口、泛型入门与迁移策略，不搞类型�
 
 <CategoryTag name="教程" link="/library/tutorial/" />
 
-# TypeScript 入门：给 JavaScript 加上类型
-
 TS 现在是前端标配。但「要不要上 TS」「怎么上手」仍有争论。
 这篇面向「会 JS、没用过 TS」的人：讲最常用的部分，不搞类型体操，
 最后说什么时候**别**用 TS。

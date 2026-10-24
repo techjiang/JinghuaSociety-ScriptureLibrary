@@ -17,7 +17,7 @@ const exampleCount = computed(() => featuredLinks.length - realCount.value)
     </div>
     <div class="fl-panel__actions">
       <a class="fl-btn fl-btn--brand" href="/go/">🎲 随机前往一个成员站点</a>
-      <a class="fl-btn fl-btn--alt" href="#加入精链硬性规定">➕ 看加入规定</a>
+      <a class="fl-btn fl-btn--alt" href="/featured-link/">➕ 加入精链</a>
     </div>
   </div>
 </template>

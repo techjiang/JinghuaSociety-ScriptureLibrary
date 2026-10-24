@@ -7,8 +7,6 @@ description: 前端后端数据库运维的权威文档入口， bookmark 这一
 
 <CategoryTag name="资源" link="/library/resources/" />
 
-# 常用官方文档索引
-
 遇到问题查什么？**官方文档 > 优质教程 > 博客 > AI**。
 这份收高频技术的官方文档入口，按领域分。建议收藏本页，
 当「文档门户」用。

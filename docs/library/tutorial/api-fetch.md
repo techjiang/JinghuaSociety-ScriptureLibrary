@@ -7,8 +7,6 @@ description: 原生 fetch 的坑、axios 的优势与封装一个顺手的数据
 
 <CategoryTag name="教程" link="/library/tutorial/" />
 
-# 前端发请求：fetch 与 axios
-
 前端要跟后端要数据，绕不开 HTTP 请求。浏览器自带 `fetch`，
 社区还有 `axios`。用哪个？坑在哪？怎么封装？
 这篇按实际开发顺序讲。

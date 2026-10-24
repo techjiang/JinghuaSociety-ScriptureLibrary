@@ -7,8 +7,6 @@ description: JSX、组件、useState/useEffect 与一个待办应用，半天入
 
 <CategoryTag name="教程" link="/library/tutorial/" />
 
-# React 快速上手
-
 React 和 Vue 是国内前端框架的两极。Vue 像「渐进增强的框架」，
 React 更像「用 JS 写 UI 的库」——心智模型不一样。
 这篇给会 JS 的人：半天上手，能写项目。

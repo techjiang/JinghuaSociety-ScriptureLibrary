@@ -7,8 +7,6 @@ description: 四个主流免费静态托管怎么选，附本站的部署选择�
 
 <CategoryTag name="教程" link="/library/tutorial/" />
 
-# 免费部署方案对比：Pages、Netlify、Vercel、Cloudflare
-
 网站做好了，放哪？四个免费主流：**GitHub Pages、Netlify、
 Vercel、Cloudflare Pages**。个人项目全免费，但各有脾气。
 这篇横向对比，帮你（和未来的我）少纠结。

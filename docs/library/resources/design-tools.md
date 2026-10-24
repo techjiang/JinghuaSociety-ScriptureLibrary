@@ -7,8 +7,6 @@ description: Figma、即时设计、MasterGo 与开发者用得上的设计资�
 
 <CategoryTag name="资源" link="/library/resources/" />
 
-# 设计工具推荐
-
 程序员懂点设计工具，不是「转行做设计」，是
 **少和设计师吵架**：看得懂标注、拿得到色值、
 改得了小图。这篇讲 UI 设计工具 + 开发常用的设计资源。

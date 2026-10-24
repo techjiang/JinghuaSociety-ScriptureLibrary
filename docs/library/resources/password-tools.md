@@ -7,8 +7,6 @@ description: 密码管理器、2FA、密码泄露检测——程序员的账号�
 
 <CategoryTag name="资源" link="/library/resources/" />
 
-# 密码管理与账号安全
-
 程序员是「账号密集型职业」：GitHub、云平台、服务器、
 几十个 SaaS。密码管理混乱 = 定时炸弹。这篇讲
 **密码管理器 + 2FA + 检测**三件套。

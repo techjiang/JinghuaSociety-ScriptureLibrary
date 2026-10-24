@@ -7,8 +7,6 @@ description: Obsidian、Notion、语雀、飞书——四种笔记哲学的取�
 
 <CategoryTag name="资源" link="/library/resources/" />
 
-# 笔记软件横评
-
 笔记软件是「第二大床」（仅次于编辑器）。选错了，
 知识管理变成「软件评测」。这篇按**数据哲学**分四类，
 帮你按需求选，而不是按热度。

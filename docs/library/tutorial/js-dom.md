@@ -7,8 +7,6 @@ description: 查元素、改内容、绑事件、事件委托——原生 JS 操
 
 <CategoryTag name="教程" link="/library/tutorial/" />
 
-# DOM 操作与事件委托入门
-
 框架好用，但 DOM 是底。读 jQuery 时代的老代码、
 调试前端问题、写油猴脚本 —— 都得会原生 DOM 操作。
 而且它真不难，一篇够用。

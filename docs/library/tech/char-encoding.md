@@ -7,8 +7,6 @@ description: 乱码是怎么来的、UTF-8 为什么赢、前端后端的编码 
 
 <CategoryTag name="技术" link="/library/tech/" />
 
-# 字符编码：ASCII、Unicode 与 UTF-8
-
 「网页上一堆 `锟斤拷`」—— 乱码是编码没对齐造成的。
 原理一天能讲清，但不知道原理的人会反复踩。
 这篇把 ASCII → Unicode → UTF-8 的演进讲明白，

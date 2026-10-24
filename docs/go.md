@@ -1,10 +1,10 @@
 ---
 permalink: /go/
-sidebar: false
 navbar: false
-title: 精链 · FeaturedLink
-sitemap: false
-createTime: 2026/10/23 12:55:54
+sidebar: false
+title: 正在跳转 · 精链
+pageClass: fl-go-page
+createTime: 2026/10/23 17:26:15
 ---
 
 <FeaturedLinkGo />

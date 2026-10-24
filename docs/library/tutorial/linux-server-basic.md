@@ -7,8 +7,6 @@ description: SSH 登录、文件操作、用户权限、systemd 服务——买�
 
 <CategoryTag name="教程" link="/library/tutorial/" />
 
-# Linux 服务器基本操作
-
 买了第一台云服务器，面对黑终端发懵？这篇讲「活下去」必需的：
 连上去、传文件、装软件、起服务、看日志。命令不多，但都是天天用的。
 

@@ -7,8 +7,6 @@ description: Postman、Apifox、Hoppscotch、curl 与 Bruno——接口调试怎
 
 <CategoryTag name="资源" link="/library/resources/" />
 
-# API 调试工具横评
-
 前后端联调、测试接口、写文档 —— 都需要 API 工具。
 Postman 老牌但越来越重，国产 Apifox 一体化，
 轻量党 Hoppscotch/Bruno。这篇横评，按需求选。

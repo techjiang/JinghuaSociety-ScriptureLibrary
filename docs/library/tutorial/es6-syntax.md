@@ -7,8 +7,6 @@ description: 解构、展开、箭头函数、可选链、Promise、模块——
 
 <CategoryTag name="教程" link="/library/tutorial/" />
 
-# ES6+ 常用语法速成
-
 ES6（ES2015）已经十年了，之后的 ES2016-ES2023 又加了不少好用的。
 这篇只收**每天都在用**的，冷门特性（Proxy、Reflect、Generator）
 一句带过。会 ES5 的人，这篇是迁移手册。

@@ -7,8 +7,6 @@ description: 找项目、提 issue、发 PR 的完整路径——给第一次参
 
 <CategoryTag name="资源" link="/library/resources/" />
 
-# 如何参与开源：从第一次 PR 开始
-
 「想参与开源但不知道从哪开始」是最常见的困惑。
 这篇把路径铺平：找什么项目、怎么迈第一步、
 PR 之后发生什么。**目标：这周内完成第一次贡献。**

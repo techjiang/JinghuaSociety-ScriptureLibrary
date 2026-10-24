@@ -7,8 +7,6 @@ description: 两张分层地图，把网络知识各归其位，附排障对照�
 
 <CategoryTag name="技术" link="/library/tech/" />
 
-# OSI 七层与 TCP/IP 四层
-
 网络知识太散：DNS、ARP、TCP、HTTP、TLS…… 不分层学，
 永远是一团浆糊。OSI 七层和 TCP/IP 四层是两张「地图」，
 把每个协议摆到自己的层上。这篇给你地图 + 用法。

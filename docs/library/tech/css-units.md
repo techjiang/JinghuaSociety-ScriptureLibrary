@@ -7,8 +7,6 @@ description: px/em/rem/vw/vh/%/ch 的行为差异与选型，响应式与无障�
 
 <CategoryTag name="技术" link="/library/tech/" />
 
-# CSS 单位全解
-
 CSS 单位十几种，日常用五种。选错单位的后果：
 响应式崩、用户调大字号没反应、滚动条忽现忽没。
 这篇讲清每个单位的「相对于什么」，给选型表。

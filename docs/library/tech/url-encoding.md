@@ -7,8 +7,6 @@ description: 为什么中文变 %E4%B8%AD、encodeURIComponent 用错出事、Ba
 
 <CategoryTag name="技术" link="/library/tech/" />
 
-# URL 编码与 Base64
-
 两个「日常见但说不清」的编码话题。URL 编码是「怎么安全地把
 任意字符塞进 URL」，Base64 是「怎么把二进制塞进文本」。
 搞混它们（比如以为 Base64 能保护数据）会出安全笑话。

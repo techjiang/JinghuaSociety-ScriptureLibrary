@@ -7,8 +7,6 @@ description: 引用计数为什么被淘汰、可达性分析、内存泄漏的�
 
 <CategoryTag name="技术" link="/library/tech/" />
 
-# JavaScript 垃圾回收入门
-
 JS 自动管理内存：创建对象自动分配，不用了自动回收。
 所以很多人一辈子不关心 GC —— 直到页面越来越卡、
 Node 服务 OOM。这篇讲清原理和最常见的泄漏姿势。

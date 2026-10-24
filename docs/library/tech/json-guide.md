@@ -7,8 +7,6 @@ description: 语法、解析、序列化、大数陷阱与 JSON vs 对象，接�
 
 <CategoryTag name="技术" link="/library/tech/" />
 
-# JSON 完全指南
-
 JSON 是前后端之间的「普通话」。天天用，但有几个坑
 不知道什么时候踩。这篇讲语法、API、和那些「见鬼了」的问题。
 

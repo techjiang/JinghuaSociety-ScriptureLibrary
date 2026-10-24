@@ -7,8 +7,6 @@ description: MAJOR.MINOR.PATCH 的含义、^ 与 ~ 的规则、lock 文件与升
 
 <CategoryTag name="技术" link="/library/tech/" />
 
-# 语义化版本：1.2.3 里的纪律
-
 每个依赖都带个版本号 `1.2.3`。这三个数字不是随便编的 ——
 **语义化版本（SemVer）是一套契约**：看版本号就知道升级会不会炸。
 这篇讲这套契约，以及 npm 生态怎么围绕它运转。

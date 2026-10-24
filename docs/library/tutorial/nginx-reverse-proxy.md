@@ -7,8 +7,6 @@ description: 一个站点同时跑前端和 Node 服务，Nginx 当门房分流�
 
 <CategoryTag name="教程" link="/library/tutorial/" />
 
-# Nginx 反向代理入门
-
 「Nginx 部署静态站点」那篇讲静态托管，这篇讲另一半：
 **Node/Python/Java 服务怎么用 Nginx 暴露出去**。
 这也是「前后端分离」部署的标准姿势。

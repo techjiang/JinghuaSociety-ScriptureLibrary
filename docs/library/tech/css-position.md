@@ -7,8 +7,6 @@ description: static/relative/absolute/fixed/sticky 五种定位的行为、场�
 
 <CategoryTag name="技术" link="/library/tech/" />
 
-# CSS 定位完全指南
-
 定位（`position`）五个值，日常只用两三个，但每个都有
 「不设nan」的坑。这篇把五个讲清，配使用场景和翻车现场。
 

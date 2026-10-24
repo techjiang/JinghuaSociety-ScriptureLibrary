@@ -7,8 +7,6 @@ description: CodePen、StackBlitz、CodeSandbox 等——不装环境就能跑�
 
 <CategoryTag name="资源" link="/library/resources/" />
 
-# 在线 IDE 与代码沙盒
-
 想快速试段代码、分享 demo、面试手撕、看别人的实现 ——
 在线 IDE 不用装环境，打开浏览器就写。这份按场景收。
 

@@ -7,8 +7,6 @@ description: WSL2 安装、Node 环境、文件互访与 VS Code 联动，Window
 
 <CategoryTag name="教程" link="/library/tutorial/" />
 
-# Windows 开发环境：WSL 实战配置
-
 Windows 写前端，老问题一堆：路径分隔符、换行符、
 `node-gyp` 编译失败、shell 脚本跑不了……**正解是 WSL**
 （Windows Subsystem for Linux）：在 Windows 里跑真 Linux，

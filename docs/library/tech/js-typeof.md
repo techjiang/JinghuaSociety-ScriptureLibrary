@@ -7,8 +7,6 @@ description: typeof 的六个坑、instanceof、Object.prototype.toString 与显
 
 <CategoryTag name="技术" link="/library/tech/" />
 
-# JS 类型判断与转换
-
 JS 的类型系统「 weakly typed 」——判断难、转换乱。
 这篇收拢日常真会遇到的：typeof 的坑、精确判断的方法、
 `==` 转换表，以及「1 + '1'」为什么是 '11'。

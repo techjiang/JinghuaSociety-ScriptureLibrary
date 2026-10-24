@@ -7,8 +7,6 @@ description: 标准盒模型 vs IE 盒模型、margin 合并与 BFC，把 CSS �
 
 <CategoryTag name="技术" link="/library/tech/" />
 
-# 盒模型与 BFC
-
 CSS 里两个「传说中的难点」：盒模型和 BFC。其实都不难，
 难在没人讲清楚。这篇一次搞定，顺便解释一堆「为什么
 我的样式不生效」的玄学。

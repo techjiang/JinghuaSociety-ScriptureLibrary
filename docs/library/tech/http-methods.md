@@ -7,8 +7,6 @@ description: GET/POST/PUT/PATCH/DELETE 的语义边界、幂等是什么、为�
 
 <CategoryTag name="技术" link="/library/tech/" />
 
-# HTTP 方法与幂等性
-
 方法（Method）是 HTTP 请求的「动词」。动词用错，
 不只是「不规范」—— 缓存、重试、爬虫全会误解你。
 这篇讲清语义边界和那个面试必考的**幂等性**。

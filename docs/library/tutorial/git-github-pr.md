@@ -7,8 +7,6 @@ description: 从 fork 到 PR 合并的完整流程，附本站投稿的真实操
 
 <CategoryTag name="教程" link="/library/tutorial/" />
 
-# GitHub 协作实操：Fork、Clone 与 Pull Request
-
 [Git 快速上手](./git-quickstart.md) 讲的是本地操作，这篇讲「怎么在 GitHub 上
 跟别人协作」。学会了就能给开源项目提 PR —— 也包括给本站投稿。
 

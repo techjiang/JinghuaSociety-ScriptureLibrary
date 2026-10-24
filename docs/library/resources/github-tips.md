@@ -7,8 +7,6 @@ description: 快捷键、搜索语法、Actions、gh CLI——把 GitHub 用成�
 
 <CategoryTag name="资源" link="/library/resources/" />
 
-# GitHub 使用技巧
-
 天天上 GitHub，90% 的人只用 10% 的功能。
 这篇收「用了回不去」的技巧：快捷键、搜索语法、
 命令行工具、Actions。

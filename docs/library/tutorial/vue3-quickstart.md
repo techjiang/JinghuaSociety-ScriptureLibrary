@@ -7,8 +7,6 @@ description: 半天学会 Vue 3 核心：模板语法、响应式、组件与 Co
 
 <CategoryTag name="教程" link="/library/tutorial/" />
 
-# Vue 3 快速上手
-
 Vue 是国内最流行的前端框架之一。官网文档很好，但信息量大。
 这篇是「最小可用路径」：半天学会核心，能写项目，
 细节再回文档补。

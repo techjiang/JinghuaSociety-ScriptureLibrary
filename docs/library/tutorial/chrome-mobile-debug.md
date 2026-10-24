@@ -7,8 +7,6 @@ description: Chrome DevTools 设备模拟、真机 remote debug 与常见移动�
 
 <CategoryTag name="教程" link="/library/tutorial/" />
 
-# 手机页面真机调试
-
 「我这电脑上好的啊」—— 移动端的经典事故。模拟器能验布局，
 但真机的触摸、滚动、软键盘、性能，只有真机能测。
 这篇讲两条路：**DevTools 模拟（快）和真机调试（真）**。

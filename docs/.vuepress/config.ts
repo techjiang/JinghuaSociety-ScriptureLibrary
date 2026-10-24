@@ -167,6 +167,16 @@ export default defineUserConfig({
         activeMatch: '^/links/',
       },
       {
+        text: '精链',
+        icon: 'material-symbols:hub-outline',
+        activeMatch: '^(/go/|/featured-link)',
+        items: [
+          { text: '启动', link: '/go/', icon: 'material-symbols:rocket-launch-outline' },
+          { text: '加入', link: '/featured-link/', icon: 'material-symbols:add-link-outline' },
+          { text: '成员', link: '/featured-link/members/', icon: 'material-symbols:groups-outline' },
+        ],
+      },
+      {
         text: '关于',
         link: '/about/',
         icon: 'material-symbols:info-outline',
@@ -180,8 +190,8 @@ export default defineUserConfig({
           { text: '名人堂', link: '/hall-of-fame/' },
           { text: '荣誉榜', link: '/honor-roll/' },
           { text: '历史公告', link: '/announcements/' },
-          { text: '加入', link: '/join/' },
-          { text: '成员', link: '/members/' },
+          { text: '投稿', link: '/join/' },
+          { text: '成员名单', link: '/members/' },
         ],
       },
     ],

@@ -7,8 +7,6 @@ description: 八种最常见页面布局的现代写法，复制就能用
 
 <CategoryTag name="教程" link="/library/tutorial/" />
 
-# CSS 布局模式速查：从居中到圣杯
-
 每天写的布局其实就那几种。这篇收集**八种最高频的布局模式**，
 每种给「现代写法（Flex/Grid）」的完整代码。复制、改改、用。
 

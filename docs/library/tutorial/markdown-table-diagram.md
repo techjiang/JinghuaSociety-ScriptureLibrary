@@ -7,8 +7,6 @@ description: 表格排版、对齐、转义与 Mermaid 流程图时序图，写�
 
 <CategoryTag name="教程" link="/library/tutorial/" />
 
-# Markdown 表格与 Mermaid 图
-
 [Markdown 写作指南](./markdown-guide.md) 讲基础语法，
 这篇讲两个「文档颜值担当」：**表格**和**Mermaid 图**。
 技术文档里，一张清晰的表胜过三段话，一张流程图胜过五段话。

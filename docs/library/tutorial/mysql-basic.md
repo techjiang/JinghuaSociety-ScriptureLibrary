@@ -7,8 +7,6 @@ description: 建库建表、增删改查、常用函数与导入导出，一个�
 
 <CategoryTag name="教程" link="/library/tutorial/" />
 
-# MySQL 基础操作速成
-
 后端绕不开数据库，MySQL 是必修课。这篇按「使用顺序」讲：
 先跑起来，再建库建表，然后 CRUD，最后常用技巧。
 目标是**能干活**，不是 DBA。
