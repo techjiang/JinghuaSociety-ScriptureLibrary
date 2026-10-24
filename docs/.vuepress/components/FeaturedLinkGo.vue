@@ -130,14 +130,16 @@ onBeforeUnmount(() => {
 
 <style scoped>
 .fl-go {
-  min-height: 66vh;
+  min-height: 100vh;
+  min-height: 100svh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
   gap: 10px;
-  padding: 48px 20px;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 .fl-go__badge {
   display: inline-block;

@@ -58,8 +58,9 @@ config:
       - title: 精链
         icon: material-symbols:link-rounded
         details: 一个精选独立站点之环。点一下，随机串门到另一个好站。加入需回链，环才转得起来。
-        link: /featured-link/
-        linkText: 看看精链
+        link: https://jinghuasociety-scripturelibrary.asoe.cn/go/
+        target: _blank
+        linkText: 随机串门
   - type: image-text
     image: /images/practice.svg
     title: 这不是一个人的阁
