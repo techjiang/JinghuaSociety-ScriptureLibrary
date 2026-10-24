@@ -130,8 +130,13 @@ onBeforeUnmount(() => {
 
 <style scoped>
 .fl-go {
-  min-height: 100vh;
-  min-height: 100svh;
+  /* 全屏固定覆盖层：脱离文档流，相对视口定位，
+     彻底无视主题在宽屏下“文档+右侧大纲”的 flex/grid 布局，
+     保证在任何窗口宽度下都严格居中。 */
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: var(--vp-c-bg, #fff);
   display: flex;
   flex-direction: column;
   align-items: center;
