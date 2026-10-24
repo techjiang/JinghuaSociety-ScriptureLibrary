@@ -17,8 +17,11 @@ const progress = ref(0)
 let timer: number | undefined
 
 const pickOne = () => {
-  const real = featuredLinks.filter((s) => !s.example)
-  const pool = real.length ? real : featuredLinks
+  // 候选池只保留「真实且非自身」的成员：
+  // 永远排除示例占位，也永远排除「本站自身」，
+  // 避免访客在站点 A 点“精链”后又被跳回 A 的死循环。
+  // 当环里还没有其它成员时返回 null，由上层进入“招募首批成员”状态。
+  const pool = featuredLinks.filter((s) => !s.example && !s.self)
   if (!pool.length) {
     empty.value = true
     return null
@@ -55,6 +58,18 @@ const reroll = () => {
 }
 
 onMounted(() => {
+  // /go 是中转跳转页，不应被搜索引擎收录（避免把中转页当成正文页索引）。
+  // 主题默认已输出 robots=index,follow，这里直接覆盖为 noindex。
+  const m = document.querySelector('meta[name="robots"]')
+  if (m) {
+    m.content = 'noindex, nofollow'
+  } else {
+    const meta = document.createElement('meta')
+    meta.name = 'robots'
+    meta.content = 'noindex, nofollow'
+    document.head.appendChild(meta)
+  }
+
   const pick = pickOne()
   if (!pick) {
     empty.value = true

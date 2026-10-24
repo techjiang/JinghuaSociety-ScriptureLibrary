@@ -35,6 +35,12 @@ export interface FeaturedLinkSite {
    * /go 随机跳转时会自动跳过示例成员。
    */
   example?: boolean
+  /**
+   * 是否为「环」的发起/当前站点自身。/go 随机跳转时会自动跳过自身，
+   * 避免出现“点了精链又跳回自己站点”的死循环；
+   * 当除自身外没有其它成员时，/go 会进入“招募首批成员”状态。
+   */
+  self?: boolean
 }
 
 export const featuredLinks: FeaturedLinkSite[] = [
@@ -44,5 +50,6 @@ export const featuredLinks: FeaturedLinkSite[] = [
     desc: '藏技术菁华，见字节山河。把计算机与互联网技术，讲成人话。',
     category: '技术',
     icon: 'https://jinghuasociety-scripturelibrary.asoe.cn/images/logo.svg',
+    self: true,
   },
 ]
