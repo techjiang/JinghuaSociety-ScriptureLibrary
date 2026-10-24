@@ -46,7 +46,7 @@ export interface FeaturedLinkSite {
 export const featuredLinks: FeaturedLinkSite[] = [
   {
     name: '精华社 · 藏经阁',
-    url: 'https://techjiang.github.io/JinghuaSociety-ScriptureLibrary/',
+    url: 'https://jinghuasociety-scripturelibrary.asoe.cn/',
     desc: '藏技术菁华，见字节山河。把计算机与互联网技术，讲成人话。',
     category: '技术',
     icon: 'https://jinghuasociety-scripturelibrary.asoe.cn/images/logo.svg',
