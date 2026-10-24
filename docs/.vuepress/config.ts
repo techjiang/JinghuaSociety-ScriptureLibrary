@@ -190,7 +190,7 @@ export default defineUserConfig({
           { text: '名人堂', link: '/hall-of-fame/' },
           { text: '荣誉榜', link: '/honor-roll/' },
           { text: '历史公告', link: '/announcements/' },
-          { text: '投稿', link: '/join/' },
+          { text: '加入', link: '/join/' },
           { text: '成员名单', link: '/members/' },
         ],
       },

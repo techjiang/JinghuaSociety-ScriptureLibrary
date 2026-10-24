@@ -71,7 +71,10 @@
 .fl-go-page .vp-doc-title,
 .fl-go-page .vp-doc-meta,
 .fl-go-page .aside,
-.fl-go-page .vp-doc-aside {
+.fl-go-page .vp-doc-aside,
+/* 右上角“公告”弹窗是 position:fixed 的传送门元素，并不在 .fl-go-page 之内，
+   后代选择器匹配不到；用 body:has() 实现「仅在 /go 过渡页隐藏」 */
+body:has(.fl-go-page) .vp-bulletin {
   display: none !important;
 }
 
