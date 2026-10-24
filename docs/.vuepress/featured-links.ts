@@ -40,30 +40,9 @@ export interface FeaturedLinkSite {
 export const featuredLinks: FeaturedLinkSite[] = [
   {
     name: '精华社 · 藏经阁',
-    url: 'https://jinghuasociety-scripturelibrary.asoe.cn/',
+    url: 'https://techjiang.github.io/JinghuaSociety-ScriptureLibrary/',
     desc: '藏技术菁华，见字节山河。把计算机与互联网技术，讲成人话。',
     category: '技术',
-    icon: '/images/logo.svg',
-  },
-  {
-    name: '阿竹的小站',
-    url: 'https://example.com/a',
-    desc: '（示例成员，提交 PR 时请替换为真实站点，或删除本条）',
-    category: '示例',
-    example: true,
-  },
-  {
-    name: '山海志',
-    url: 'https://example.com/b',
-    desc: '（示例成员，提交 PR 时请替换为真实站点，或删除本条）',
-    category: '示例',
-    example: true,
-  },
-  {
-    name: '码农日记',
-    url: 'https://example.com/c',
-    desc: '（示例成员，提交 PR 时请替换为真实站点，或删除本条）',
-    category: '示例',
-    example: true,
+    icon: 'https://jinghuasociety-scripturelibrary.asoe.cn/images/logo.svg',
   },
 ]

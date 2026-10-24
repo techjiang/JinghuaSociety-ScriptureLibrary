@@ -7,29 +7,26 @@ description: 有朋自远方来，不亦乐乎！藏经阁的友站与「精链�
 cols: 4
 list:
   - name: 精华社 · 藏经阁
-    link: https://jinghuasociety-scripturelibrary.asoe.cn/
-    avatar: /images/logo.svg
+    link: https://techjiang.github.io/JinghuaSociety-ScriptureLibrary/
+    avatar: https://jinghuasociety-scripturelibrary.asoe.cn/images/logo.svg
     desc: 藏技术菁华，见字节山河。把计算机与互联网技术，讲成人话。
-  - name: 阿竹的小站
-    link: https://example.com/a
-    avatar: /images/friends/azhu.svg
-    desc: （示例友链，替换成你的真实友站）
-  - name: 山海志
-    link: https://example.com/b
-    avatar: /images/friends/shanhai.svg
-    desc: （示例友链，替换成你的真实友站）
-  - name: 码农日记
-    link: https://example.com/c
-    avatar: /images/friends/manong.svg
-    desc: （示例友链，替换成你的真实友站）
-createTime: 2026/10/22 13:38:04
+createTime: 2026/10/24 14:41:57
 ---
 
 友链与「精链」是两套东西，但都讲一个理：**彼此挂链，环才转得起来**。
 
-- **友链**：老派博客圈的玩法——你链我、我链你，双向确认。下面是藏经阁交换的友站。
+- **友链**：老派博客圈的玩法——你链我、我链你，双向确认。
 - **精链（FeaturedLink）**：一个精选独立站点之环，点一下随机串门到另一个好站。想加入看
   [加入精链](/featured-link/)；成员墙在 [精链成员](/featured-link/members/)。
+
+## 本站
+
+- **名称**：精华社 · 藏经阁
+- **地址**：<https://techjiang.github.io/JinghuaSociety-ScriptureLibrary/>
+- **描述**：藏技术菁华，见字节山河
+- **头像**：<https://jinghuasociety-scripturelibrary.asoe.cn/images/logo.svg>
+- **RSS**：<https://jinghuasociety-scripturelibrary.asoe.cn/rss.xml>
+- **SiteMap**：<https://jinghuasociety-scripturelibrary.asoe.cn/sitemap.xml>
 
 ## 友链要求
 
@@ -42,5 +39,5 @@ createTime: 2026/10/22 13:38:04
 掌柜看到了就加。
 
 > 注：友链**不接商业推广、培训机构与纯营销站**（详见 [投稿红线](/join/)）。内容干净、人写得认真，我们就换。
->
-> 列表里带「示例友链」字样的是占位，等你手上有真实友站替换即可；也欢迎你把自己的站发来。
+
+目前友链暂以本站自荐为主，欢迎你的站点来串门——发来信息，掌柜立刻挂上。

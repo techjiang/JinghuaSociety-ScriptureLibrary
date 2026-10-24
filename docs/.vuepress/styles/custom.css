@@ -62,23 +62,35 @@
 }
 
 /* ============================================================
-   /go 跳转页：去掉「文章感」，做成独立全屏过渡页
-   （隐藏文档标题、字数/阅读时长/创建时间等元信息）
+   /go 跳转页：彻底去掉「文章感」，做成独立全屏过渡页
+   - 隐藏文档标题 / 元信息（创建时间、阅读时长等）
+   - 隐藏右侧大纲 aside（否则会像带侧栏的文章，内容被挤到一边）
+   - 清零给导航栏预留的 48px 上内边距，让卡片真正居中
+   用 !important 确保压过主题带 data-v 作用域的同类规则。
    ============================================================ */
 .fl-go-page .vp-doc-title,
-.fl-go-page .vp-doc-meta {
-  display: none;
+.fl-go-page .vp-doc-meta,
+.fl-go-page .aside,
+.fl-go-page .vp-doc-aside {
+  display: none !important;
+}
+
+.fl-go-page .vp-doc-container.has-aside {
+  padding-top: 0 !important;
+}
+
+/* 去掉 doc + aside 的 flex 布局，让文档占满整行，倒计时卡片才能居中 */
+.fl-go-page .container {
+  display: block !important;
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .fl-go-page .vp-doc {
-  max-width: none;
-  padding: 0;
-}
-
-/* navbar:false 后，文档容器仍保留了给导航栏留的 48px 上内边距，会让内容整体下移；
-   对 go 页清零，让倒计时卡片真正居中 */
-.fl-go-page .vp-doc-container.has-aside {
-  padding-top: 0;
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin: 0 auto !important;
 }
 
 /* ============================================================
