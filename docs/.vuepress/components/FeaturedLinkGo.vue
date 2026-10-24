@@ -17,16 +17,17 @@ const progress = ref(0)
 let timer: number | undefined
 
 const pickOne = () => {
-  // 候选池只保留「真实且非自身」的成员：
-  // 永远排除示例占位，也永远排除「本站自身」，
-  // 避免访客在站点 A 点“精链”后又被跳回 A 的死循环。
-  // 当环里还没有其它成员时返回 null，由上层进入“招募首批成员”状态。
-  const pool = featuredLinks.filter((s) => !s.example && !s.self)
-  if (!pool.length) {
+  // 候选池：优先跳到「非自身」的真实成员，避免点“精链”又跳回自己站点；
+  // 但当环里除自身外没有其它成员时，回退到自身——
+  // 维持“过渡卡 → 6 秒后跳回本站”的可跑流程，而不是卡在招募占位态。
+  const real = featuredLinks.filter((s) => !s.example)
+  const nonSelf = real.filter((s) => !s.self)
+  const candidates = nonSelf.length ? nonSelf : real
+  if (!candidates.length) {
     empty.value = true
     return null
   }
-  const pick = pool[Math.floor(Math.random() * pool.length)]
+  const pick = candidates[Math.floor(Math.random() * candidates.length)]
   return { name: pick.name, url: pick.url }
 }
 
