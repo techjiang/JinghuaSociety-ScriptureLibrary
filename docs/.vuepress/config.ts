@@ -208,12 +208,13 @@ export default defineUserConfig({
     // 想换文案时改 id 即可重新弹出。布局可选 top-left/top-right/bottom-left/bottom-right/center。
     bulletin: {
       // 更换 id 可让公告对所有老访客重新弹出（localStorage 以 id 为记忆键）
-      id: 'v4-20261023-founding',
+      id: 'v5-20261024-founding',
       title: '公告',
       content: '精华社 · 藏经阁 在2026年10月20日正式成立！',
       layout: 'top-right',
       border: true,
-      lifetime: 'once',
+      // 'always'：成立公告常驻显示，关掉后刷新仍会重新弹出，不再“闪一下就消失”
+      lifetime: 'always',
     },
     bulletinLabel: '公告',
     closeLabel: '关闭',
