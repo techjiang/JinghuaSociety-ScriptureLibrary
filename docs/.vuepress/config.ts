@@ -5,6 +5,7 @@ import { plumeTheme } from 'vuepress-theme-plume'
 import { rssPlugin } from './plugins/rss'
 import { seoPlugin } from './plugins/seo'
 import { updatesPlugin } from './plugins/updates'
+import { sitemapCleanPlugin } from './plugins/sitemap-clean'
 
 // 已绑定自定义域名 eslibrary.asoe.cn，
 // 站点在该域名「根路径」下提供服务，因此 base 固定为根路径 '/'。
@@ -107,6 +108,7 @@ export default defineUserConfig({
     rssPlugin,
     seoPlugin,
     updatesPlugin,
+    sitemapCleanPlugin,
   ],
 
   theme: plumeTheme({
