@@ -6,7 +6,7 @@ import { rssPlugin } from './plugins/rss'
 import { seoPlugin } from './plugins/seo'
 import { updatesPlugin } from './plugins/updates'
 
-// 已绑定自定义域名 jinghuasociety-scripturelibrary.asoe.cn，
+// 已绑定自定义域名 eslibrary.asoe.cn，
 // 站点在该域名「根路径」下提供服务，因此 base 固定为根路径 '/'。
 // （自定义域名下不能再使用 /JinghuaSociety-ScriptureLibrary/ 子路径，
 //  否则所有 CSS/JS/图片资源都会 404，整站白屏。）
@@ -88,7 +88,7 @@ export default defineUserConfig({
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     [
       'meta',
-      { name: 'twitter:image', content: 'https://jinghuasociety-scripturelibrary.asoe.cn/images/og-cover.png' },
+      { name: 'twitter:image', content: 'https://eslibrary.asoe.cn/images/og-cover.png' },
     ],
 
     // ==================== RSS 自动发现 ====================
@@ -112,7 +112,7 @@ export default defineUserConfig({
   theme: plumeTheme({
     // ==================== 站点级配置 ====================
     // 站点正式域名（自定义域名）。canonical/og:url/sitemap/RSS 都用它。
-    hostname: 'https://jinghuasociety-scripturelibrary.asoe.cn',
+    hostname: 'https://eslibrary.asoe.cn',
 
     // Sitemap：Plume 内置 @vuepress/plugin-sitemap，hostname 自动取自上面的 hostname。
     // 会生成 sitemap.xml + sitemap.xsl，并自动向 robots.txt 追加 Sitemap 行。

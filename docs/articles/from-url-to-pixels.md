@@ -121,7 +121,7 @@ Client                                 Server
 
 ```http
 GET /articles/from-url-to-pixels/ HTTP/2
-Host: jinghuasociety-scripturelibrary.asoe.cn
+Host: eslibrary.asoe.cn
 User-Agent: Mozilla/5.0 ...
 Accept: text/html,application/xhtml+xml,...
 Accept-Encoding: br, gzip

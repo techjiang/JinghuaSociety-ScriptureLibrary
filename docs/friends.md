@@ -7,8 +7,8 @@ description: 有朋自远方来，不亦乐乎！藏经阁的友站与「精链�
 cols: 4
 list:
   - name: 精华社 · 藏经阁
-    link: https://jinghuasociety-scripturelibrary.asoe.cn/
-    avatar: https://jinghuasociety-scripturelibrary.asoe.cn/images/logo.svg
+    link: https://eslibrary.asoe.cn/
+    avatar: https://eslibrary.asoe.cn/images/logo.svg
     desc: 藏技术菁华，见字节山河。把计算机与互联网技术，讲成人话。
 createTime: 2026/10/24 14:41:57
 ---
@@ -22,11 +22,11 @@ createTime: 2026/10/24 14:41:57
 ## 本站
 
 - **名称**：精华社 · 藏经阁
-- **地址**：<https://jinghuasociety-scripturelibrary.asoe.cn/>
+- **地址**：<https://eslibrary.asoe.cn/>
 - **描述**：藏技术菁华，见字节山河
-- **头像**：<https://jinghuasociety-scripturelibrary.asoe.cn/images/logo.svg>
-- **RSS**：<https://jinghuasociety-scripturelibrary.asoe.cn/rss.xml>
-- **SiteMap**：<https://jinghuasociety-scripturelibrary.asoe.cn/sitemap.xml>
+- **头像**：<https://eslibrary.asoe.cn/images/logo.svg>
+- **RSS**：<https://eslibrary.asoe.cn/rss.xml>
+- **SiteMap**：<https://eslibrary.asoe.cn/sitemap.xml>
 
 ## 友链要求
 

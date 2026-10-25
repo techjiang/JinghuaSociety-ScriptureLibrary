@@ -1,4 +1,4 @@
-# robots.txt —— https://jinghuasociety-scripturelibrary.asoe.cn/
+# robots.txt —— https://eslibrary.asoe.cn/
 # 默认允许全部搜索引擎抓取；仅屏蔽无内容价值的跳转页 /go/
 
 User-agent: *
@@ -32,4 +32,4 @@ User-agent: Googlebot
 Allow: /
 
 # —— 站点地图（由 @vuepress/plugin-sitemap 生成并同步此行）——
-Sitemap: https://jinghuasociety-scripturelibrary.asoe.cn/sitemap.xml
+Sitemap: https://eslibrary.asoe.cn/sitemap.xml

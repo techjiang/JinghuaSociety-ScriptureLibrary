@@ -14,7 +14,7 @@ import type { PluginFunction } from '@vuepress/core'
  *     让搜索引擎在结果里显示站点名、Logo、发布时间等富媒体摘要。
  */
 
-const HOSTNAME = 'https://jinghuasociety-scripturelibrary.asoe.cn'
+const HOSTNAME = 'https://eslibrary.asoe.cn'
 const SITE_NAME = '精华社 · 藏经阁'
 const OG_IMAGE = `${HOSTNAME}/images/og-cover.png`
 

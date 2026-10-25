@@ -5,7 +5,7 @@
  *
  * 想加入？两步：
  *   1) 在你的站点上先放好「精链」徽章（见 /featured-link/ 页的 HTML 片段，
- *      徽章指向 https://jinghuasociety-scripturelibrary.asoe.cn/go/）；
+ *      徽章指向 https://eslibrary.asoe.cn/go/）；
  *   2) 在此数组追加一条你的站点信息，提交 Pull Request 即可。
  *
  * 硬性规定：加入精链，必须也添加精链的友情链接（即挂上精链徽章）。
@@ -46,10 +46,10 @@ export interface FeaturedLinkSite {
 export const featuredLinks: FeaturedLinkSite[] = [
   {
     name: '精华社 · 藏经阁',
-    url: 'https://jinghuasociety-scripturelibrary.asoe.cn/',
+    url: 'https://eslibrary.asoe.cn/',
     desc: '藏技术菁华，见字节山河。把计算机与互联网技术，讲成人话。',
     category: '技术',
-    icon: 'https://jinghuasociety-scripturelibrary.asoe.cn/images/logo.svg',
+    icon: 'https://eslibrary.asoe.cn/images/logo.svg',
     self: true,
   },
 ]

@@ -10,7 +10,7 @@ import type { PluginFunction } from '@vuepress/core'
  * 而 md 页面里的说明、置顶公告等仍由管理者自由编辑。
  */
 
-const HOSTNAME = 'https://jinghuasociety-scripturelibrary.asoe.cn'
+const HOSTNAME = 'https://eslibrary.asoe.cn'
 
 interface UpdateItem {
   title: string

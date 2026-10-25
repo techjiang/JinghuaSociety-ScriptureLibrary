@@ -19,7 +19,7 @@ description: 加入精链（FeaturedLink）的要求与流程 —— 必须先�
 > 翻译成大白话：**你链我，我链你——缺一不可。** 这是「精链」的硬性规定：
 >
 > - 你的站点须放置下面的「精链」徽章，或至少有一条指向
->   `https://jinghuasociety-scripturelibrary.asoe.cn/go/` 的友链；
+>   `https://eslibrary.asoe.cn/go/` 的友链；
 > - **未在你的站点上添加「精链」回链的，不予收录。**
 >
 > **为什么这么硬？** 因为「精链」是一个**环**。只有彼此都挂上对方的链接，访客才能一家接一家地串下去；
@@ -47,8 +47,8 @@ description: 加入精链（FeaturedLink）的要求与流程 —— 必须先�
 <img src="/images/featured-link-badge.svg" alt="精链 FeaturedLink" height="34" />
 
 ```html
-<a href="https://jinghuasociety-scripturelibrary.asoe.cn/go/" target="_blank" rel="noopener" title="精链 FeaturedLink">
-  <img src="https://jinghuasociety-scripturelibrary.asoe.cn/images/featured-link-badge.svg" alt="精链 FeaturedLink" height="34" />
+<a href="https://eslibrary.asoe.cn/go/" target="_blank" rel="noopener" title="精链 FeaturedLink">
+  <img src="https://eslibrary.asoe.cn/images/featured-link-badge.svg" alt="精链 FeaturedLink" height="34" />
 </a>
 ```
 
@@ -59,8 +59,8 @@ description: 加入精链（FeaturedLink）的要求与流程 —— 必须先�
 <img src="/images/featured-link-badge-small.svg" alt="精链 FeaturedLink" height="28" />
 
 ```html
-<a href="https://jinghuasociety-scripturelibrary.asoe.cn/go/" target="_blank" rel="noopener" title="精链 FeaturedLink">
-  <img src="https://jinghuasociety-scripturelibrary.asoe.cn/images/featured-link-badge-small.svg" alt="精链 FeaturedLink" height="28" />
+<a href="https://eslibrary.asoe.cn/go/" target="_blank" rel="noopener" title="精链 FeaturedLink">
+  <img src="https://eslibrary.asoe.cn/images/featured-link-badge-small.svg" alt="精链 FeaturedLink" height="28" />
 </a>
 ```
 
@@ -69,8 +69,8 @@ description: 加入精链（FeaturedLink）的要求与流程 —— 必须先�
 <img src="/images/featured-link-badge-square.svg" alt="精链 FeaturedLink" width="72" height="72" />
 
 ```html
-<a href="https://jinghuasociety-scripturelibrary.asoe.cn/go/" target="_blank" rel="noopener" title="精链 FeaturedLink">
-  <img src="https://jinghuasociety-scripturelibrary.asoe.cn/images/featured-link-badge-square.svg" alt="精链 FeaturedLink" width="72" height="72" />
+<a href="https://eslibrary.asoe.cn/go/" target="_blank" rel="noopener" title="精链 FeaturedLink">
+  <img src="https://eslibrary.asoe.cn/images/featured-link-badge-square.svg" alt="精链 FeaturedLink" width="72" height="72" />
 </a>
 ```
 
@@ -79,8 +79,8 @@ description: 加入精链（FeaturedLink）的要求与流程 —— 必须先�
 <img src="/images/featured-link-badge-inverse.svg" alt="精链 FeaturedLink" height="34" style="background:#1f2937;padding:6px;border-radius:8px" />
 
 ```html
-<a href="https://jinghuasociety-scripturelibrary.asoe.cn/go/" target="_blank" rel="noopener" title="精链 FeaturedLink">
-  <img src="https://jinghuasociety-scripturelibrary.asoe.cn/images/featured-link-badge-inverse.svg" alt="精链 FeaturedLink" height="34" />
+<a href="https://eslibrary.asoe.cn/go/" target="_blank" rel="noopener" title="精链 FeaturedLink">
+  <img src="https://eslibrary.asoe.cn/images/featured-link-badge-inverse.svg" alt="精链 FeaturedLink" height="34" />
 </a>
 ```
 
@@ -89,8 +89,8 @@ description: 加入精链（FeaturedLink）的要求与流程 —— 必须先�
 <img src="/images/featured-link-badge-animated.gif" alt="精链 FeaturedLink" height="34" />
 
 ```html
-<a href="https://jinghuasociety-scripturelibrary.asoe.cn/go/" target="_blank" rel="noopener" title="精链 FeaturedLink">
-  <img src="https://jinghuasociety-scripturelibrary.asoe.cn/images/featured-link-badge-animated.gif" alt="精链 FeaturedLink" height="34" />
+<a href="https://eslibrary.asoe.cn/go/" target="_blank" rel="noopener" title="精链 FeaturedLink">
+  <img src="https://eslibrary.asoe.cn/images/featured-link-badge-animated.gif" alt="精链 FeaturedLink" height="34" />
 </a>
 ```
 
@@ -100,7 +100,7 @@ description: 加入精链（FeaturedLink）的要求与流程 —— 必须先�
 ### 6. 纯文字链接（不想用图片时）
 
 ```html
-<a href="https://jinghuasociety-scripturelibrary.asoe.cn/go/" target="_blank" rel="noopener">精链 · FeaturedLink</a>
+<a href="https://eslibrary.asoe.cn/go/" target="_blank" rel="noopener">精链 · FeaturedLink</a>
 ```
 
 ### 可用文件一览
@@ -115,7 +115,7 @@ description: 加入精链（FeaturedLink）的要求与流程 —— 必须先�
 | `featured-link-badge-animated.svg` / `.gif` | 156×34（GIF 312×68） | 动图 |
 | `featured-link-badge-animated-small.svg` | 128×28 | 动图小 |
 
-统一前缀：`https://jinghuasociety-scripturelibrary.asoe.cn/images/`
+统一前缀：`https://eslibrary.asoe.cn/images/`
 
 ## 怎么提交（PR 加入）
 
